@@ -12,7 +12,7 @@ This is a collection of my small mods for Anno 1800, bringing fixes, UI changes 
 ***These Mods are savegame-compatible. Save to install/uninstall mid playthrough.*** 
 
 ## German Description/Deutsche Beschreibung: 
-[Hier](https://drive.google.com/file/d/1XuLAhn64quZtXhRGoY9ycfVPHxAzi_4x/view?usp=sharing) findet Ihr die deutsche Beschreibung der Mod mit allen Inhalten und Changelogs.
+[Hier](https://drive.google.com/file/d/1FAUadHbn3lXhXMEaWPyXYUnrstWxBBqR/view?usp=sharing) findet Ihr die deutsche Beschreibung der Mod mit allen Inhalten und Changelogs.
 
 ## Changelog
 
