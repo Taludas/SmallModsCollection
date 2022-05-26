@@ -1,0 +1,78 @@
+{
+  "Version": "1.0",
+  "ModID": "Taludas_HighlifeIntegration",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Fix",
+    "English": "Fix",
+    "French": "Fix",
+    "German": "Fix",
+    "Italian": "Fix",
+    "Japanese": "Fix",
+    "Korean": "Fix",
+    "Polish": "Fix",
+    "Russian": "Fix",
+    "Spanish": "Fix",
+    "Taiwanese": "Fix"
+  },
+  "ModName": {
+    "Chinese": "Highlife Goods Fix for Tourist Season",
+    "English": "Highlife Goods Fix for Tourist Season",
+    "French": "Highlife Goods Fix for Tourist Season",
+    "German": "Highlife Goods Fix for Tourist Season",
+    "Italian": "Highlife Goods Fix for Tourist Season",
+    "Japanese": "Highlife Goods Fix for Tourist Season",
+    "Korean": "Highlife Goods Fix for Tourist Season",
+    "Polish": "Highlife Goods Fix for Tourist Season",
+    "Russian": "Highlife Goods Fix for Tourist Season",
+    "Spanish": "Highlife Goods Fix for Tourist Season",
+    "Taiwanese": "Highlife Goods Fix for Tourist Season"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "This mod adjusts some of the highlife goods and features for better integration with tourist season and other DLC.",
+    "French": null,
+    "German": "Diese Mod passt einige der Highlife-Waren und -Features an, um sie besser in das Touristen-DLC und andere DLCs zu integrieren.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"Highlife",
+      "Dependant": "required"
+    },
+    {
+      "DLC":"Tourism",
+      "Dependant": "required"
+    },
+    {
+      "DLC":"Botanica",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/SmallModsCollection",
+  "Image": null
+}
