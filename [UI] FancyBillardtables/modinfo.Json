@@ -1,0 +1,70 @@
+{
+  "Version": "1.0",
+  "ModID": "Taludas_BillardtablesIcon",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "UI",
+    "English": "UI",
+    "French": "UI",
+    "German": "UI",
+    "Italian": "UI",
+    "Japanese": "UI",
+    "Korean": "UI",
+    "Polish": "UI",
+    "Russian": "UI",
+    "Spanish": "UI",
+    "Taiwanese": "UI"
+  },
+  "ModName": {
+    "Chinese": "Fancy Billardtables Icon",
+    "English": "Fancy Billardtables Icon",
+    "French": "Fancy Billardtables Icon",
+    "German": "Fancy Billardtables Icon",
+    "Italian": "Fancy Billardtables Icon",
+    "Japanese": "Fancy Billardtables Icon",
+    "Korean": "Fancy Billardtables Icon",
+    "Polish": "Fancy Billardtables Icon",
+    "Russian": "Fancy Billardtables Icon",
+    "Spanish": "Fancy Billardtables Icon",
+    "Taiwanese": "Fancy Billardtables Icon"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Replaces the Icon for Billard Tables with on more suited for a sturdy and heavy Billard Table.",
+    "French": null,
+    "German": "Ersetzt das Icon für Billardtische durch ein Icon, das eher für einen stabilen und schweren Billardtisch geeignet ist.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"Highlife",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/SmallModsCollection",
+  "Image": null
+}

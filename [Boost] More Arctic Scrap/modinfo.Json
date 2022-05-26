@@ -1,0 +1,70 @@
+{
+  "Version": "1.0",
+  "ModID": "Taludas_MoreArcticScrap",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Boost",
+    "English": "Boost",
+    "French": "Boost",
+    "German": "Boost",
+    "Italian": "Boost",
+    "Japanese": "Boost",
+    "Korean": "Boost",
+    "Polish": "Boost",
+    "Russian": "Boost",
+    "Spanish": "Boost",
+    "Taiwanese": "Boost"
+  },
+  "ModName": {
+    "Chinese": "More Arctic Scrap",
+    "English": "More Arctic Scrap",
+    "French": "More Arctic Scrap",
+    "German": "More Arctic Scrap",
+    "Italian": "More Arctic Scrap",
+    "Japanese": "More Arctic Scrap",
+    "Korean": "More Arctic Scrap",
+    "Polish": "More Arctic Scrap",
+    "Russian": "More Arctic Scrap",
+    "Spanish": "More Arctic Scrap",
+    "Taiwanese": "More Arctic Scrap"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "This little mod makes scrap grinding in the Arctic more easy. It increases the maxium scrap amount from a crate to 15.",
+    "French": null,
+    "German": "Diese kleine Mod macht das Schrottsammeln in der Arktis einfacher. Er erhöht die maximale Schrottmenge aus einer Kiste auf 15.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"ThePassage",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/SmallModsCollection",
+  "Image": null
+}

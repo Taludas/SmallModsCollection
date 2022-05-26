@@ -72,7 +72,7 @@ Just a little mod to get rid off the ugly anarchistic Mercier flags that pop up 
 ### Remove Ketemas Comments
 ![banner](https://user-images.githubusercontent.com/64583643/170460836-537ed4cb-ba84-415d-a3d0-afa9152f2a7c.png)
 
-Tired of Emperor Ketema commenting on all things you do? Increasing hours for your workers, building water pumps, researching great discoveries, your city going up in flames? No more, I virtually shut his mouth so that you can be a cruel multi-million insdustrial and exploit the workforce of your people properly.
+Tired of Emperor Ketema commenting on all things you do? Increasing hours for your workers, building water pumps, researching great discoveries, your city going up in flames? No more, I virtually shut his mouth so that you can be a cruel multi-million industrial and exploit the workforce of your people properly.
 
 ### Alternative Mercier Loudspeakers
 ![banner](https://user-images.githubusercontent.com/64583643/170460843-5c8c864d-399d-4ce3-9ec5-5070ab1a02e1.png)

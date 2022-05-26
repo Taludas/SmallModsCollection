@@ -1,0 +1,70 @@
+{
+  "Version": "1.0",
+  "ModID": "Taludas_NoMercierBuildingDecorations",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Misc",
+    "English": "Misc",
+    "French": "Misc",
+    "German": "Misc",
+    "Italian": "Misc",
+    "Japanese": "Misc",
+    "Korean": "Misc",
+    "Polish": "Misc",
+    "Russian": "Misc",
+    "Spanish": "Misc",
+    "Taiwanese": "Misc"
+  },
+  "ModName": {
+    "Chinese": "No Mercier Building Decorations",
+    "English": "No Mercier Building Decorations",
+    "French": "No Mercier Building Decorations",
+    "German": "No Mercier Building Decorations",
+    "Italian": "No Mercier Building Decorations",
+    "Japanese": "No Mercier Building Decorations",
+    "Korean": "No Mercier Building Decorations",
+    "Polish": "No Mercier Building Decorations",
+    "Russian": "No Mercier Building Decorations",
+    "Spanish": "No Mercier Building Decorations",
+    "Taiwanese": "No Mercier Building Decorations"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "A little mod to get rid off the ugly anarchistic Mercier flags that pop up all over your residences and factories if they are influenced by a anarchistic Mercier Item.",
+    "French": null,
+    "German": "Eine kleine Mod, um die hässlichen anarchistischen Mercier-Flaggen loszuwerden, die überall in euren Residenzen und Fabriken auftauchen, wenn sie von einem anarchistischen Mercier-Gegenstand beeinflusst werden.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"Anarchist",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/SmallModsCollection",
+  "Image": null
+}
