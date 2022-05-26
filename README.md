@@ -39,6 +39,26 @@ Furthermore, I reduced the internal storage of all orchards from 10 to 4 to redu
 
 This small mod fixes the notorious bug with the floating plains of celluloid in the chemical factory for celluloid which Ubi continues to ignore or just won't fix, so I did it myself.
 
+## Adjustments for HighLife Goods
+![banner](https://user-images.githubusercontent.com/64583643/170511084-4ffd1cde-6662-4b77-939d-f81f2d132bae.png)
+
+This mod is not really made by request, but by an idea from [Wiesl](https://discussions.ubisoft.com/user/wuslwiz?lang=de) in the Ubisoft Discussion Forum. His [post](https://discussions.ubisoft.com/topic/106390/wunschliste-fuer-gu13-und-gu14/61?lang=de&page=4) inspired me to adjust some of the highlife goods and features for better integration with tourist season and other DLC.  
+
+<details>
+    <summary>Detailed changes</summary>
+
+* add Cognac to Beer Festival Buff
+* add Cognac to Harvest Festival
+* add Cognac to City Carneval
+* add Cognac to Anarchy Festival
+* add Cognac Production Chain to all alcohol production chains
+* redesigned Buffs for cafe, bar and Iron Tower recipes to include cognac and biscuits and even the amount of buffed goods
+* add Cognac to Armagnac Bottles
+* add Cognac Manufactury to all drink productions
+* add Biscuit Assembly Line to all food productions
+* add all Orchards to Origin of Mankind of and Miombo Woodlands set buffs
+</details>
+
 ### Fertiliser Silo in Enbesa costs Wanza and Mudbricks
 ![banner](https://user-images.githubusercontent.com/64583643/170460813-9bb44b65-bc87-4692-aba3-4782c06102d5.png)
 
