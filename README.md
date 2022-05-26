@@ -45,7 +45,7 @@ This small mod fixes the notorious bug with the floating plains of celluloid in 
 This mod is not really made by request, but by an idea from [Wiesl](https://discussions.ubisoft.com/user/wuslwiz?lang=de) in the Ubisoft Discussion Forum. His [post](https://discussions.ubisoft.com/topic/106390/wunschliste-fuer-gu13-und-gu14/61?lang=de&page=4) inspired me to adjust some of the highlife goods and features for better integration with tourist season and other DLC.  
 
 <details>
-    <summary>Detailed changes</summary>
+    <summary>Detailed changes:</summary>
 
 * add Cognac to Beer Festival Buff
 * add Cognac to Harvest Festival
