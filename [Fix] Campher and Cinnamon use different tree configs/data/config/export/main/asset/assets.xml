@@ -148,7 +148,7 @@
   </ModOp>
 
   <!-- # Trigger new cinnamon tree -->
-  <ModOp Type="AddNextSibling" GUID="130224">
+  <ModOp Type="addNextSibling" GUID="130224">
     <Asset>
       <Template>Trigger</Template>
       <Values>
@@ -262,7 +262,7 @@
     </Item>
   </ModOp>
 
-  <ModOp Type="addnextSibling" GUID="130248">
+  <ModOp Type="addNextSibling" GUID="130248">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -305,7 +305,7 @@
 		</Asset>
 	</ModOp>
 
-  <ModOp Type="addnextSibling" GUID="130248">
+  <ModOp Type="addNextSibling" GUID="130248">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -347,5 +347,10 @@
 			</Values>
 		</Asset>
 	</ModOp>
+
+  <!-- #Reduce Internal Storage for Orchards to vanilla value of other farms -->
+  <ModOp Type="replace" GUID="133004,133030,133031,133496,134614,135085,135088" Path="/Values/FactoryBase/FactoryOutputs/Item/StorageAmount">
+    <StorageAmount>4</StorageAmount>
+  </ModOp>
 
 </ModOps>
