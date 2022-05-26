@@ -1,0 +1,22 @@
+<ModOps>
+
+    <ModOp Type="add" GUID="111929" Path="/Values/Object/Variations">
+        <Item>
+            <Filename>data/graphics/loudspeaker_no_cloth/dm_propaganda_tower_01_no_cloth.cfg</Filename>
+        </Item>
+        <Item>
+            <Filename>data/graphics/loudspeaker_player_logo/dm_propaganda_tower_01_logo.cfg</Filename>
+        </Item>
+        <Item>
+            <Filename>data/graphics/loudspeaker_player_logo_2/dm_propaganda_tower_01_logo_2.cfg</Filename>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="111929" Path="/Values/Mesh">
+        <Mesh>
+            <LogoMode>CorporationLogoFromPlayer</LogoMode>
+            <SetCompanyLogo>1</SetCompanyLogo>
+        </Mesh>
+    </ModOp>
+
+</ModOps>

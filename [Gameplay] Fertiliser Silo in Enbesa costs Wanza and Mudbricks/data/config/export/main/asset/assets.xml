@@ -1,0 +1,20 @@
+<ModOps>
+
+    <ModOp Type="replace" GUID="25242" Path="/Values/Cost/Costs">
+        <Costs>
+            <Item>
+                <Ingredient>1010017</Ingredient>
+                <Amount>1000</Amount>
+            </Item>
+            <Item>
+                <Ingredient>114356</Ingredient>
+                <Amount>20</Amount>
+            </Item>
+            <Item>
+                <Ingredient>114402</Ingredient>
+                <Amount>10</Amount>
+            </Item>
+        </Costs>
+    </ModOp>
+    
+</ModOps>
