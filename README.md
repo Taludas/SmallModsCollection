@@ -19,7 +19,7 @@ You can find a gallery of images from my mod [here](https://drive.google.com/dri
 
 ## Changelog
 <details>
-    <summary>Patch Notes Version 1.1.0</summary>
+    <summary>Patch Notes Version 1.1</summary>
 
 * Removed the Mod "Fertiliser Silo in Enbesa costs Wanza and Mudbricks" since the fix was finally included in GU15.
 </details>
@@ -69,7 +69,7 @@ This mod is not really made by request, but by an idea from [Wiesl](https://disc
 
 ### ~~Fertiliser Silo in Enbesa costs Wanza and Mudbricks~~
 
-~~This small mod changes the building costs of the Fertiliser Silos in Enbesa from Timber and Bricks to use Wanza Wood and Mudbricks.~~
+~~This small mod changes the building costs of the Fertiliser Silos in Enbesa from Timber and Bricks to use Wanza Wood and Mudbricks.~~ NO LONGER NECESSARY SINCE GU15 FIXED THIS!
 
 ### Particularly Pull-y Pulley Craftable at N8
 ![banner](https://user-images.githubusercontent.com/64583643/170460819-67337fa8-ddc2-4c0f-a385-592cd29dd8f7.png)
