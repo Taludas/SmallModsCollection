@@ -18,6 +18,11 @@ This is a collection of my small mods for Anno 1800, bringing fixes, UI changes 
 You can find a gallery of images from my mod [here](https://drive.google.com/drive/folders/1lDerhMP6z4F2VB1GfAsk8_H0W80ljscE?usp=sharing).
 
 ## Changelog
+<details>
+    <summary>Patch Notes Version 1.1.0</summary>
+
+* Removed the Mod "Fertiliser Silo in Enbesa costs Wanza and Mudbricks" since the fix was finally included in GU15.
+</details>
 
 ## Mod Description with main feature overview
 **Please remember to always check the Changelog to see the new or changed features.**
@@ -62,10 +67,9 @@ This mod is not really made by request, but by an idea from [Wiesl](https://disc
 * add all Orchards to Origin of Mankind of and Miombo Woodlands set buffs
 </details>
 
-### Fertiliser Silo in Enbesa costs Wanza and Mudbricks
-![banner](https://user-images.githubusercontent.com/64583643/170460813-9bb44b65-bc87-4692-aba3-4782c06102d5.png)
+### ~~Fertiliser Silo in Enbesa costs Wanza and Mudbricks~~
 
-This small mod changes the building costs of the Fertiliser Silos in Enbesa from Timber and Bricks to use Wanza Wood and Mudbricks.
+~~This small mod changes the building costs of the Fertiliser Silos in Enbesa from Timber and Bricks to use Wanza Wood and Mudbricks.~~
 
 ### Particularly Pull-y Pulley Craftable at N8
 ![banner](https://user-images.githubusercontent.com/64583643/170460819-67337fa8-ddc2-4c0f-a385-592cd29dd8f7.png)
