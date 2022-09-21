@@ -34,6 +34,8 @@ This little mod makes scrap grinding in the Arctic more easy. It increases the m
 
 Note that the "new" crates need some time to spawn, so don't worry if your first crates have normal amounts of scrap in them.
 
+-----
+
 ### Campher and Cinnamon Orchards use different tree configs
 ![banner](https://user-images.githubusercontent.com/64583643/170460782-5995be0a-3672-4431-b0a0-f081168736fe.png)
 
@@ -42,10 +44,14 @@ This mod fixes not only the oversight, that camphor and cinnamon orchards use th
 In addition, the orchards are now located in a separate construction category inside the Jornalero build menu to reduce the entries for better overall visibility.
 Furthermore, I reduced the internal storage of all orchards from 10 to 4 to reduce the enormous range they have in vanilla which creates all sorts of logistical problems.
 
+-----
+
 ### Fix floating Celluloid Planes for Chemical Plant in NW
 ![banner](https://user-images.githubusercontent.com/64583643/170460797-7c2b5775-cf50-44bd-93f0-c3feb8e8cc51.png)
 
 This small mod fixes the notorious bug with the floating plains of celluloid in the chemical factory for celluloid which Ubi continues to ignore or just won't fix, so I did it myself.
+
+-----
 
 ## Adjustments for HighLife Goods
 ![banner](https://user-images.githubusercontent.com/64583643/170511084-4ffd1cde-6662-4b77-939d-f81f2d132bae.png)
@@ -67,9 +73,13 @@ This mod is not really made by request, but by an idea from [Wiesl](https://disc
 * add all Orchards to Origin of Mankind of and Miombo Woodlands set buffs
 </details>
 
+-----
+
 ### ~~Fertiliser Silo in Enbesa costs Wanza and Mudbricks~~
 
 ~~This small mod changes the building costs of the Fertiliser Silos in Enbesa from Timber and Bricks to use Wanza Wood and Mudbricks.~~ NO LONGER NECESSARY SINCE GU15 FIXED THIS!
+
+-----
 
 ### Particularly Pull-y Pulley Craftable at N8
 ![banner](https://user-images.githubusercontent.com/64583643/170460819-67337fa8-ddc2-4c0f-a385-592cd29dd8f7.png)
@@ -91,15 +101,21 @@ It comes at quite a hefty cost though! So be prepared!
 
 The crafting recipe is unlocked upon completing the main storyline of the arctic session (so when you get your first pulley).
 
+-----
+
 ### No anarchistic Mercier Building Decorations
 ![banner](https://user-images.githubusercontent.com/64583643/170460827-9c8ba2d6-efc0-498e-8cf0-106daece1fbb.png)
 
 Just a little mod to get rid off the ugly anarchistic Mercier flags that pop up all over your residences and factories if they are influenced by a anarchistic Mercier Item like the Sophisms, Pietro Proud or the Printing Press so that you can enjoy an unobstructed view onto your city.
 
+-----
+
 ### Remove Ketemas Comments
 ![banner](https://user-images.githubusercontent.com/64583643/170460836-537ed4cb-ba84-415d-a3d0-afa9152f2a7c.png)
 
 Tired of Emperor Ketema commenting on all things you do? Increasing hours for your workers, building water pumps, researching great discoveries, your city going up in flames? No more, I virtually shut his mouth so that you can be a cruel multi-million industrial and exploit the workforce of your people properly.
+
+-----
 
 ### Alternative Mercier Loudspeakers
 ![banner](https://user-images.githubusercontent.com/64583643/170460843-5c8c864d-399d-4ce3-9ec5-5070ab1a02e1.png)
@@ -113,6 +129,8 @@ Cycle through the variations of the original Loudspeaker ornament with your indi
 
 Needs the Uplay reward unlocked to be able to build the loudspeaker ornament.
 
+-----
+
 ### Drugstore and Furniture Store Icon Colour Swap
 ![banner](https://user-images.githubusercontent.com/64583643/170460854-c50aa254-46d1-43f0-ad12-301d92f81f21.png)
 
@@ -120,12 +138,16 @@ Ever wondered why the icon background colour of the shopping arcades doesn't fit
 
 Second feature is the coulour change of the 6 flags hanging on the long side of the buildings to true player colour. Before they were mixed up because there was an other colour underneath the player colour layer.
 
+-----
+
 ### Fancy Billardtable Icon
 ![banner](https://user-images.githubusercontent.com/64583643/170460874-a68b7f1a-4a88-4e67-ae48-dc040e95c06d.png)
 
 You enjoy it thinking about Investors having to hump up a new billard table to their appartement in the skyscraper every day? Then this mod is just for you. Replaces the Icon for Billard Tables with on more suited for a sturdy and heavy Billard Table.
 
 In my opinion, the Billard Table Icon from the Highlife DLC is a little underwhelming. If you have played at a tournament graded table once, you will see that these legs are to small and not sturdy enough to be a good quality billard table. Since there is an alternative Icon file in the game assets, which looks way better in my opinion, I wrote this little mod to just replace the icon. Nothing else was changed gamplay wise!
+
+-----
 
 ### Items Stack
 ![banner](https://user-images.githubusercontent.com/64583643/170460882-da35e857-8992-4fac-9663-1e49279d011b.png)
