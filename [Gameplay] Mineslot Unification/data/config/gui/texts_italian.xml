@@ -1,0 +1,64 @@
+<ModOps>
+  <ModOp Path="/TextExport/Texts" Type="add">
+    <Text>
+      <GUID>101061</GUID>
+      <Text>Opencast Resource Deposit</Text>
+    </Text>
+    <Text>
+      <GUID>100417</GUID>
+      <Text>Opencast Resource Deposit</Text>
+    </Text>
+    <Text>
+      <GUID>127629</GUID>
+      <Text>Move Opencast Resource Deposit</Text>
+    </Text>
+    <Text>
+      <GUID>130537</GUID>
+      <Text>Select any unused opencast resource deposit to use it.</Text>
+    </Text>
+    <Text>
+      <GUID>125502</GUID>
+      <Text>Click to relocate the opencast resource deposit.</Text>
+    </Text>
+    <Text>
+      <GUID>127780</GUID>
+      <Text>Can be used to relocate opencast resource deposits.</Text>
+    </Text>
+    <Text>
+      <GUID>124839</GUID>
+      <Text>Move Opencast Resource Deposit</Text>
+    </Text>
+    <Text>
+      <GUID>500477</GUID>
+      <Text>Opencast Resource Deposit</Text>
+    </Text>
+    <Text>
+      <GUID>12655</GUID>
+      <Text>Build an opencast mine to extract resources from this deposit.</Text>
+    </Text>
+    <Text>
+      <GUID>1000029</GUID>
+      <Text>Mineral Resource Deposit</Text>
+    </Text>
+    <Text>
+      <GUID>1010501</GUID>
+      <Text>Mineral Resource Deposit</Text>
+    </Text>
+    <Text>
+      <GUID>500476</GUID>
+      <Text>Mineral Resource Deposit</Text>
+    </Text>
+    <Text>
+      <GUID>116038</GUID>
+      <Text>Mineral Resource Deposit</Text>
+    </Text>
+    <Text>
+      <GUID>500481</GUID>
+      <Text>Mineral Resource Deposit</Text>
+    </Text>
+    <Text>
+      <GUID>1010507</GUID>
+      <Text>Mineral Resource Deposit</Text>
+    </Text>
+  </ModOp>
+</ModOps>

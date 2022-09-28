@@ -1,0 +1,65 @@
+{
+  "Version": "1.0",
+  "ModID": "Taludas_MineSlotUnification",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Gameplay",
+    "English": "Gameplay",
+    "French": "Gameplay",
+    "German": "Gameplay",
+    "Italian": "Gameplay",
+    "Japanese": "Gameplay",
+    "Korean": "Gameplay",
+    "Polish": "Gameplay",
+    "Russian": "Gameplay",
+    "Spanish": "Gameplay",
+    "Taiwanese": "Gameplay"
+  },
+  "ModName": {
+    "Chinese": "MineSlot Unification",
+    "English": "MineSlot Unification",
+    "French": "MineSlot Unification",
+    "German": "MineSlot Unification",
+    "Italian": "MineSlot Unification",
+    "Japanese": "MineSlot Unification",
+    "Korean": "MineSlot Unification",
+    "Polish": "MineSlot Unification",
+    "Russian": "MineSlot Unification",
+    "Spanish": "MineSlot Unification",
+    "Taiwanese": "MineSlot Unification"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Every mine is buildable on every slot!",
+    "French": null,
+    "German": "Jede Mine ist nun auf jedem Slot baubar!",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": null,
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/WholesomeHaciendaHaul",
+  "Image": null
+}

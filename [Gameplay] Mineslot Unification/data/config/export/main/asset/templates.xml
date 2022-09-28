@@ -1,0 +1,32 @@
+<ModOps>
+
+    <ModOp Type="replace" Path="//Template[Name='Region']/Properties/Region/SlotBuildings">
+        <SlotBuildings>
+            <Coal>
+              <Building>0</Building>
+            </Coal>
+            <Iron>
+              <Building>0</Building>
+            </Iron>
+            <Clay>
+              <Building>0</Building>
+            </Clay>
+            <Tin>
+              <Building>0</Building>
+            </Tin>
+            <Copper>
+              <Building>0</Building>
+            </Copper>
+            <Cement>
+              <Building>0</Building>
+            </Cement>
+            <Unused>
+              <Building>0</Building>
+            </Unused>
+            <GoldOre>
+              <Building>0</Building>
+            </GoldOre>
+        </SlotBuildings>
+    </ModOp>
+
+</ModOps>

@@ -1,0 +1,606 @@
+<ModOps>
+
+  <!-- #New Build Blocker for Opencast mining -->
+
+  <ModOp Type="replace" GUID="101061,100417" Path="/Values/Object/Variations">
+    <Variations>
+      <Item>
+        <Filename>data/modgraphics/models/blocker_opencast_mine/blocker_opencast_mine.cfg</Filename>
+      </Item>
+    </Variations>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="101061,100417" Path="/Values/Standard/IconFilename">
+    <IconFilename>data/ui/2kimages/main/3dicons/consumables/icon_ore_finder_1.png</IconFilename>
+  </ModOp>
+
+  <!-- #Remove Build Button for Standard Mines on Mine and opencast mine slots in OW -> Edited Templates for compatibility -->
+
+  <!-- #Remove Build Button for Standard Mines on Mine and opencast mine slots in NW -->
+  <ModOp Type="remove" GUID="5000001" Path="/Values/Region/SlotBuildings"></ModOp>
+
+  <!-- #New universal Mine Slot OW for all mines from Iron Slot -->
+
+  <ModOp Type="replace" GUID="1000029,1010501" Path="/Values/Standard/IconFilename">
+    <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="1000029" Path="/Values/RandomMapObject/Replacements">
+    <Replacements>
+      <Item>
+        <NewAsset>1010501</NewAsset>
+      </Item>
+      <Item>
+        <NewAsset>1010507</NewAsset>
+      </Item>
+    </Replacements>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="1010304,1010307,1010308,1010309" Path="/Values/Slot/SlotType">
+    <SlotType>Iron</SlotType>
+  </ModOp>
+
+  <!-- Trigger to convert all mine slots to iron -->
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002315</GUID>
+          <Name>Trigger: Change Coal slots to Iron</Name>
+        </Standard>
+        <Locked />
+        <Trigger>
+          <TriggerCondition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionSetObjectGUID</Template>
+                <Values>
+                  <Action />
+                  <ActionSetObjectGUID>
+                    <NewGUID>1010501</NewGUID>
+                  </ActionSetObjectGUID>
+                  <ObjectFilter>
+                    <ObjectGUID>1010500</ObjectGUID>
+                  </ObjectFilter>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionResetTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionResetTrigger />
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <UsedBySecondParties>0</UsedBySecondParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002316</GUID>
+          <Name>Trigger: Change Copper slots to Iron</Name>
+        </Standard>
+        <Locked />
+        <Trigger>
+          <TriggerCondition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionSetObjectGUID</Template>
+                <Values>
+                  <Action />
+                  <ActionSetObjectGUID>
+                    <NewGUID>1010501</NewGUID>
+                  </ActionSetObjectGUID>
+                  <ObjectFilter>
+                    <ObjectGUID>1010504</ObjectGUID>
+                  </ObjectFilter>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionResetTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionResetTrigger />
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <UsedBySecondParties>0</UsedBySecondParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002317</GUID>
+          <Name>Trigger: Change Lime slots to Iron</Name>
+        </Standard>
+        <Locked />
+        <Trigger>
+          <TriggerCondition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionSetObjectGUID</Template>
+                <Values>
+                  <Action />
+                  <ActionSetObjectGUID>
+                    <NewGUID>1010501</NewGUID>
+                  </ActionSetObjectGUID>
+                  <ObjectFilter>
+                    <ObjectGUID>1010505</ObjectGUID>
+                  </ObjectFilter>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionResetTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionResetTrigger />
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <UsedBySecondParties>0</UsedBySecondParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="130248">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002318</GUID>
+          <Name>Trigger: Change Zink slots to Iron</Name>
+        </Standard>
+        <Locked />
+        <Trigger>
+          <TriggerCondition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition />
+              <ConditionAlwaysTrue />
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionSetObjectGUID</Template>
+                <Values>
+                  <Action />
+                  <ActionSetObjectGUID>
+                    <NewGUID>1010501</NewGUID>
+                  </ActionSetObjectGUID>
+                  <ObjectFilter>
+                    <ObjectGUID>1010503</ObjectGUID>
+                  </ObjectFilter>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionResetTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionResetTrigger />
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>1</AutoRegisterTrigger>
+          <UsedBySecondParties>0</UsedBySecondParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+
+
+
+  <!-- #Mining Slot NW to standard icon -->
+  <ModOp Type="replace" GUID="1010507" Path="/Values/Standard/IconFilename">
+    <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
+  </ModOp>
+
+  <!-- #More mining slots in NW -->
+  <ModOp Type="replace" GUID="2002538" Path="/Values/MapGenerator/MineSlotCountPerResourceAmount/Low/Region/Colony01">
+    <Colony01>
+      <IslandSize>
+        <Small>
+          <Min>2</Min>
+          <Max>4</Max>
+        </Small>
+        <Medium>
+          <Min>3</Min>
+          <Max>5</Max>
+        </Medium>
+        <Large>
+          <Min>4</Min>
+          <Max>7</Max>
+        </Large>
+      </IslandSize>
+    </Colony01>
+  </ModOp>
+  <ModOp Type="replace" GUID="2002538" Path="/Values/MapGenerator/MineSlotCountPerResourceAmount/Medium/Region/Colony01">
+    <Colony01>
+      <IslandSize>
+        <Small>
+          <Min>3</Min>
+          <Max>5</Max>
+        </Small>
+        <Medium>
+          <Min>4</Min>
+          <Max>6</Max>
+        </Medium>
+        <Large>
+          <Min>5</Min>
+          <Max>8</Max>
+        </Large>
+      </IslandSize>
+    </Colony01>
+  </ModOp>
+  <ModOp Type="replace" GUID="2002538" Path="/Values/MapGenerator/MineSlotCountPerResourceAmount/High/Region/Colony01">
+    <Colony01>
+      <IslandSize>
+        <Small>
+          <Min>4</Min>
+          <Max>6</Max>
+        </Small>
+        <Medium>
+          <Min>5</Min>
+          <Max>8</Max>
+        </Medium>
+        <Large>
+          <Min>6</Min>
+          <Max>9</Max>
+        </Large>
+      </IslandSize>
+    </Colony01>
+  </ModOp>
+
+  <!-- #Mining Slot Arctic to standard icon -->
+  <ModOp Type="replace" GUID="116038" Path="/Values/Standard/IconFilename">
+    <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
+  </ModOp>
+
+  <!-- #More Mining Slots Arctic -->
+  <ModOp Type="replace" GUID="2002538" Path="/Values/MapGenerator/MineSlotCountPerResourceAmount/Low/Region/Arctic">
+    <Arctic>
+      <IslandSize>
+        <Small>
+          <Max>1</Max>
+        </Small>
+        <Medium>
+          <Min>1</Min>
+          <Max>2</Max>
+        </Medium>
+        <Large>
+          <Min>2</Min>
+          <Max>3</Max>
+        </Large>
+      </IslandSize>
+    </Arctic>
+  </ModOp>
+  <ModOp Type="replace" GUID="2002538" Path="/Values/MapGenerator/MineSlotCountPerResourceAmount/Medium/Region/Arctic">
+    <Arctic>
+      <IslandSize>
+        <Small>
+          <Max>2</Max>
+        </Small>
+        <Medium>
+          <Min>2</Min>
+          <Max>3</Max>
+        </Medium>
+        <Large>
+          <Min>2</Min>
+          <Max>4</Max>
+        </Large>
+      </IslandSize>
+    </Arctic>
+  </ModOp>
+  <ModOp Type="replace" GUID="2002538" Path="/Values/MapGenerator/MineSlotCountPerResourceAmount/High/Region/Arctic">
+    <Arctic>
+      <IslandSize>
+        <Small>
+          <Min>2</Min>
+          <Max>2</Max>
+        </Small>
+        <Medium>
+          <Min>3</Min>
+          <Max>3</Max>
+        </Medium>
+        <Large>
+          <Min>3</Min>
+          <Max>4</Max>
+        </Large>
+      </IslandSize>
+    </Arctic>
+  </ModOp>
+
+  <!-- #remove bauxite and helium deposits in NW -->
+  <ModOp Type="remove" GUID="1372"></ModOp>
+  <ModOp Type="remove" GUID="1375"></ModOp>
+
+  <!-- #replace Bauxite and Helium Mines with version for Gold Slots -->
+  <ModOp Type="replace" GUID="1308" Path="/Values/Object/Variations">
+    <Variations>
+      <Item>
+        <Filename>data/modgraphics/models/mining_colony01_02_bigblocker/mining_colony01_02_bigblocker.cfg</Filename>
+      </Item>
+    </Variations>
+  </ModOp>
+  <ModOp Type="replace" GUID="1308" Path="/Values/Slot">
+    <Slot>
+      <SlotType>GoldOre</SlotType>
+      <WorkArea>1309</WorkArea>
+    </Slot>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="1353" Path="/Values/Object/Variations">
+    <Variations>
+      <Item>
+        <Filename>data/modgraphics/models/mining_colony01_03_bigblocker/mining_colony01_03_bigblocker.cfg</Filename>
+      </Item>
+    </Variations>
+  </ModOp>
+  <ModOp Type="replace" GUID="1353" Path="/Values/Slot">
+    <Slot>
+      <SlotType>GoldOre</SlotType>
+      <WorkArea>1354</WorkArea>
+    </Slot>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="102988" Path="/Values/Objectives/WinConditions/Item[2]">
+    <Item>
+      <Objective>
+        <Template>StatusQuoObjective</Template>
+        <Values>
+          <ConditionQuestObjective>
+            <TextCombinedContextValue>12714</TextCombinedContextValue>
+            <FakeMinimapPings>
+              <Objects>
+                <Item>
+                  <FakeMinimapObjects>
+                    <Template>ObjectFilter</Template>
+                    <Values>
+                      <ObjectFilter>
+                        <ObjectGUID>1010507</ObjectGUID>
+                      </ObjectFilter>
+                    </Values>
+                  </FakeMinimapObjects>
+                  <SignsAndFeedback>
+                    <Template>ConditionObjectiveSignsAndFeedback</Template>
+                    <Values>
+                      <ConditionObjectiveSignsAndFeedback>
+                        <Infolayer>0</Infolayer>
+                        <MinimapToken>0</MinimapToken>
+                        <ShowMinimapToken>0</ShowMinimapToken>
+                      </ConditionObjectiveSignsAndFeedback>
+                    </Values>
+                  </SignsAndFeedback>
+                </Item>
+              </Objects>
+            </FakeMinimapPings>
+            <JumpToVisibility>ShowOnlyFakePings</JumpToVisibility>
+          </ConditionQuestObjective>
+          <ConditionPlayerCounter>
+            <Context>1308</Context>
+            <CounterAmount>1</CounterAmount>
+            <CounterScope>Session</CounterScope>
+            <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
+            <CounterScopeContext>180025</CounterScopeContext>
+          </ConditionPlayerCounter>
+          <ConditionQuestStatusQuo />
+          <ConditionPropsExecutionPlaceSettings>
+            <ExecutionPlaceConfirmOnReached>0</ExecutionPlaceConfirmOnReached>
+          </ConditionPropsExecutionPlaceSettings>
+        </Values>
+      </Objective>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="103167" Path="/Values/Objectives/WinConditions/Item">
+    <Item>
+      <VectorElement>
+        <InheritedIndex>0</InheritedIndex>
+        <InheritanceMapV2>
+          <Entry>
+            <TemplateName>TutorialQuest</TemplateName>
+            <Index>0</Index>
+          </Entry>
+        </InheritanceMapV2>
+      </VectorElement>
+      <Objective>
+        <Template>TutorialObjective</Template>
+        <Values>
+          <ConditionQuestObjective />
+          <ConditionQuestTutorial>
+            <InteractionFlow>
+              <Item>
+                <TutorialInteraction>
+                  <Template>ConditionTutorialInteraction</Template>
+                  <Values>
+                    <Condition />
+                    <ConditionTutorialInteraction>
+                      <HintType>Object</HintType>
+                      <TutorialConditionType>Selected</TutorialConditionType>
+                      <HintEndCondition>Selection</HintEndCondition>
+                      <HintAnchor>Bottom</HintAnchor>
+                      <HintText>103169</HintText>
+                      <RefGuid>4</RefGuid>
+                      <ObjectFilter>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                          <ObjectFilter>
+                            <ObjectGUID>1010507</ObjectGUID>
+                            <ObjectivePrebuiltObjectUseVisibilityAutomatism>0</ObjectivePrebuiltObjectUseVisibilityAutomatism>
+                            <IncludeEditorObjects>1</IncludeEditorObjects>
+                          </ObjectFilter>
+                        </Values>
+                      </ObjectFilter>
+                      <UseSpecificPortrait>1</UseSpecificPortrait>
+                      <SpecificPortraitProfile>1362</SpecificPortraitProfile>
+                    </ConditionTutorialInteraction>
+                  </Values>
+                </TutorialInteraction>
+              </Item>
+            </InteractionFlow>
+          </ConditionQuestTutorial>
+        </Values>
+      </Objective>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="103005" Path="/Values/Objectives/WinConditions/Item[1]">
+    <Item>
+      <Objective>
+        <Template>StatusQuoObjective</Template>
+        <Values>
+          <ConditionQuestObjective>
+            <TextCombinedContextValue>12714</TextCombinedContextValue>
+            <FakeMinimapPings>
+              <Objects>
+                <Item>
+                  <FakeMinimapObjects>
+                    <Template>ObjectFilter</Template>
+                    <Values>
+                      <ObjectFilter>
+                        <ObjectGUID>1010507</ObjectGUID>
+                      </ObjectFilter>
+                    </Values>
+                  </FakeMinimapObjects>
+                  <SignsAndFeedback>
+                    <Template>ConditionObjectiveSignsAndFeedback</Template>
+                    <Values>
+                      <ConditionObjectiveSignsAndFeedback>
+                        <Infolayer>0</Infolayer>
+                        <MinimapToken>0</MinimapToken>
+                        <ShowMinimapToken>0</ShowMinimapToken>
+                      </ConditionObjectiveSignsAndFeedback>
+                    </Values>
+                  </SignsAndFeedback>
+                </Item>
+              </Objects>
+            </FakeMinimapPings>
+            <JumpToVisibility>ShowOnlyFakePings</JumpToVisibility>
+          </ConditionQuestObjective>
+          <ConditionPlayerCounter>
+            <Context>1353</Context>
+            <CounterAmount>1</CounterAmount>
+            <CounterScope>Session</CounterScope>
+            <CounterScopeUseCurrentContext>0</CounterScopeUseCurrentContext>
+            <CounterScopeContext>180025</CounterScopeContext>
+          </ConditionPlayerCounter>
+          <ConditionQuestStatusQuo />
+          <ConditionPropsExecutionPlaceSettings>
+            <ExecutionPlaceConfirmOnReached>0</ExecutionPlaceConfirmOnReached>
+          </ConditionPropsExecutionPlaceSettings>
+        </Values>
+      </Objective>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="103187" Path="/Values/Objectives/WinConditions/Item">
+    <Item>
+      <VectorElement>
+        <InheritedIndex>0</InheritedIndex>
+        <InheritanceMapV2>
+          <Entry>
+            <TemplateName>TutorialQuest</TemplateName>
+            <Index>0</Index>
+          </Entry>
+        </InheritanceMapV2>
+      </VectorElement>
+      <Objective>
+        <Template>TutorialObjective</Template>
+        <Values>
+          <ConditionQuestObjective />
+          <ConditionQuestTutorial>
+            <InteractionFlow>
+              <Item>
+                <TutorialInteraction>
+                  <Template>ConditionTutorialInteraction</Template>
+                  <Values>
+                    <Condition />
+                    <ConditionTutorialInteraction>
+                      <HintType>Object</HintType>
+                      <TutorialConditionType>Selected</TutorialConditionType>
+                      <HintEndCondition>Selection</HintEndCondition>
+                      <HintAnchor>Bottom</HintAnchor>
+                      <HintText>103189</HintText>
+                      <RefGuid>4</RefGuid>
+                      <ObjectFilter>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                          <ObjectFilter>
+                            <ObjectGUID>1010507</ObjectGUID>
+                            <ObjectivePrebuiltObjectUseVisibilityAutomatism>0</ObjectivePrebuiltObjectUseVisibilityAutomatism>
+                            <IncludeEditorObjects>1</IncludeEditorObjects>
+                          </ObjectFilter>
+                        </Values>
+                      </ObjectFilter>
+                      <UseSpecificPortrait>1</UseSpecificPortrait>
+                      <SpecificPortraitProfile>1362</SpecificPortraitProfile>
+                    </ConditionTutorialInteraction>
+                  </Values>
+                </TutorialInteraction>
+              </Item>
+            </InteractionFlow>
+          </ConditionQuestTutorial>
+        </Values>
+      </Objective>
+    </Item>
+  </ModOp>
+
+</ModOps>
