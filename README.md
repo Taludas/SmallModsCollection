@@ -161,3 +161,16 @@ You can now stack every item in the game apart from Quest Items (which are usual
 
 With this mod enabled you could potentially exploit the expedition feature of the game, since every item inside the holds of your ship counts towards the success propability of the selected expedition. So you could just load a stack of 6 legendary items and never have problems with the "minigame" again. But as you could have stacked ActionItems like the pirate flags before and no one has done that, I believe in you all, that you use this feature wisely and maturely to only not get crazy over buying items at Eli.
 </details>
+
+-----
+
+### Mine Slot Unification
+![Banner](https://user-images.githubusercontent.com/64583643/192851935-eda188f4-2cd9-41a8-976a-3445e1ba52f4.png)
+
+This little mod allows you to build every mine on any slot available. There is one uniform slot for all mines. Therefore you can no longer build mines directly from clicking on the slot. You have to find the mine in the build menu first! 
+
+Same goes for clay pits. There is now one slot called Opencast Ressource Deposit on which all opencast mines will fit.
+
+Bauxite and Helium slots from DLC11 have been removed. You can now build them on the new uniform mine slot anywhere in the new world. To compensate, mine slots in NW have been given a slight boost in numbers.
+
+**WARNING:** The activation of this mod in a savegame means, that this savegame now relays on the presence of the mod. If you remove mid playthrough, all mine slots will become iron or gold depending on the region and all opencast ressource mines become clay slots. The mines may no longer fit the slot, so you cannot build them any longer. So watch out! If you want to remove the mod, load a savegame from before loading this mod for the first time! Make a save before with a clear name so you can always remember it!
