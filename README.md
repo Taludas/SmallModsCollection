@@ -175,6 +175,8 @@ Bauxite and Helium slots from DLC11 have been removed. You can now build them on
 
 **WARNING:** The activation of this mod in a savegame means, that this savegame now relays on the presence of the mod. If you remove mid playthrough, all mine slots will become iron or gold depending on the region and all opencast ressource mines become clay slots. The mines may no longer fit the slot, so you cannot build them any longer. So watch out! If you want to remove the mod, load a savegame from before loading this mod for the first time! Make a save before with a clear name so you can always remember it!
 
+-----
+
 ### Halloween Ornaments Pack
 ![banner](https://user-images.githubusercontent.com/64583643/198899116-f9480ac0-d546-44f6-80aa-bbd4866a737d.png)
 
@@ -184,7 +186,9 @@ A haunting new new season awaits for our residents!
 
 This mod adds 14 ornamental pieces and a few extra skins for some buildings!
 
-What does it include:
+<details>
+    <summary>What does it include:</summary>
+
 * 2x2 tree with graveyard
 * 1x1 tree variant
 * 1x1 tree variant
@@ -203,5 +207,6 @@ What does it include:
 * 1 skin for the marketplace ( use brush to in order to shift between skins)
 * 1 skin for the church (shift V)
 * 1 skin for the hospital (shift V)
+</details>
 
 Made as a team effort by Ricky and Taludas!
