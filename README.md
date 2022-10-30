@@ -186,6 +186,7 @@ A haunting new new season awaits for our residents!
 
 This mod adds 14 ornamental pieces and a few extra skins for some buildings!
 
+
 <details>
     <summary>What does it include:</summary>
 
@@ -208,5 +209,7 @@ This mod adds 14 ornamental pieces and a few extra skins for some buildings!
 * 1 skin for the church (shift V)
 * 1 skin for the hospital (shift V)
 </details>
+
+If you want a first hand look at the new ornaments in game, click [here](https://www.nexusmods.com/anno1800/mods/445/?tab=images)
 
 Made as a team effort by Ricky and Taludas!
