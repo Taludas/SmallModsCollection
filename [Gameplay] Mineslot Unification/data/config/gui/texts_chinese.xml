@@ -60,5 +60,33 @@
       <GUID>1010507</GUID>
       <Text>Mineral Resource Deposit</Text>
     </Text>
+    <Text>
+      <GUID>1372</GUID>
+      <Text>Mineral Resource Deposit</Text>
+    </Text>
+    <Text>
+      <GUID>1373</GUID>
+      <Text>Mineral Resource Deposit</Text>
+    </Text>
+    <Text>
+      <GUID>1375</GUID>
+      <Text>Mineral Resource Deposit</Text>
+    </Text>
+    <Text>
+      <GUID>1374</GUID>
+      <Text>Mineral Resource Deposit</Text>
+    </Text>
+    <Text>
+      <GUID>1386</GUID>
+      <Text>Mineral Resource Deposit</Text>
+    </Text>
+    <Text>
+      <GUID>1387</GUID>
+      <Text>Mineral Resource Deposit</Text>
+    </Text>
+    <Text>
+      <GUID>7381</GUID>
+      <Text>Mineral Resource Deposit</Text>
+    </Text>
   </ModOp>
 </ModOps>

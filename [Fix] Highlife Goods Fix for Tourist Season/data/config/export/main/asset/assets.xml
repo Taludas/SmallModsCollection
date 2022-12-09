@@ -1,8 +1,12 @@
 <ModOps>
-    <!-- #add Cognac to Beer festival Buff -->
+    <!-- #add Cognac and Mezcal to Beer festival Buff -->
     <ModOp Type="add" GUID="141896" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
         <Item>
             <ProvidedNeed>135234</ProvidedNeed>
+            <AmountInPercent>-100</AmountInPercent>
+        </Item>
+        <Item>
+            <ProvidedNeed>6600</ProvidedNeed>
             <AmountInPercent>-100</AmountInPercent>
         </Item>
     </ModOp>
@@ -33,27 +37,40 @@
         </Item>
     </ModOp>
 
-    <!-- #add Cognac to HarvestFestival -->
+    <!-- #add Cognac and Mezcal to HarvestFestival -->
     <ModOp Type="add" GUID="142430" Path="/Values/FactoryUpgrade/AdditionalOutput">
         <Item>
             <Product>135234</Product>
             <AdditionalOutputCycle>12</AdditionalOutputCycle>
             <Amount>1</Amount>
         </Item>
+        <Item>
+            <Product>6600</Product>
+            <AdditionalOutputCycle>13</AdditionalOutputCycle>
+            <Amount>1</Amount>
+        </Item>
     </ModOp>
 
-    <!-- #add Cognac to CityCarneval -->
+    <!-- #add Cognac and Mezcal to CityCarneval -->
     <ModOp Type="add" GUID="142433" Path="/Values/PopulationUpgrade/InputBenefitModifier">
         <Item>
             <Product>135234</Product>
             <AdditionalMoney>5</AdditionalMoney>
         </Item>
+        <Item>
+            <Product>6600</Product>
+            <AdditionalMoney>5</AdditionalMoney>
+        </Item>
     </ModOp>
 
-    <!-- #add Cognac to AnarchyFestival -->
+    <!-- #add Cognac and Mezcal to AnarchyFestival -->
     <ModOp Type="add" GUID="111831" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
         <Item>
             <ProvidedNeed>135234</ProvidedNeed>
+            <AmountInPercent>-100</AmountInPercent>
+        </Item>
+        <Item>
+            <ProvidedNeed>6600</ProvidedNeed>
             <AmountInPercent>-100</AmountInPercent>
         </Item>
     </ModOp>
@@ -405,10 +422,14 @@
     </ModOp>
 
 
-    <!-- #Armagnac Bottles with cognac -->
+    <!-- #Armagnac Bottles with cognac and Mezcal -->
     <ModOp Type="add" GUID="192020" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
         <Item>
             <ProvidedNeed>135234</ProvidedNeed>
+            <AmountInPercent>-100</AmountInPercent>
+        </Item>
+        <Item>
+            <ProvidedNeed>6600</ProvidedNeed>
             <AmountInPercent>-100</AmountInPercent>
         </Item>
     </ModOp>

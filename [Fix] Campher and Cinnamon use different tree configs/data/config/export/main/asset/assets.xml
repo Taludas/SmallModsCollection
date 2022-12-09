@@ -198,7 +198,7 @@
     </Asset>
   </ModOp>
 
-  <!-- # ConstructionCategory Orchards NW -->
+  <!-- # ConstructionCategory Orchards NW -> unnecessary with GU16
   <ModOp Type="addNextSibling" GUID="25178">
     <Asset>
       <Template>ConstructionCategory</Template>
@@ -238,31 +238,19 @@
         <Locked />
       </Values>
     </Asset>
-  </ModOp>
+  </ModOp> -->
 
-  <ModOp Type="remove" GUID="25000193" Path="/Values/ConstructionCategory/BuildingList/Item[Building='133004']"></ModOp>
-  <ModOp Type="remove" GUID="25000193" Path="/Values/ConstructionCategory/BuildingList/Item[Building='133030']"></ModOp>
-  <ModOp Type="remove" GUID="25000193" Path="/Values/ConstructionCategory/BuildingList/Item[Building='133031']"></ModOp>
-  <ModOp Type="remove" GUID="25000193" Path="/Values/ConstructionCategory/BuildingList/Item[Building='134614']"></ModOp>
-
-  <ModOp Type="addNextSibling" GUID="25000193" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010333']">
+  <ModOp Type="replace" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building='133004']">
     <Item>
-      <Building>1999002251</Building>
+      <Building>7425</Building>
     </Item>
   </ModOp>
 
-  <ModOp Type="remove" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building='133004']"></ModOp>
   <ModOp Type="remove" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building='133030']"></ModOp>
   <ModOp Type="remove" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building='133031']"></ModOp>
   <ModOp Type="remove" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building='134614']"></ModOp>
 
-  <ModOp Type="addNextSibling" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building='1010333']">
-    <Item>
-      <Building>1999002251</Building>
-    </Item>
-  </ModOp>
-
-  <ModOp Type="addNextSibling" GUID="130248">
+  <!-- <ModOp Type="addNextSibling" GUID="130248">
 		<Asset>
 			<Template>Trigger</Template>
 			<Values>
@@ -346,7 +334,7 @@
 				<TriggerSetup/>
 			</Values>
 		</Asset>
-	</ModOp>
+	</ModOp> -->
 
   <!-- #Reduce Internal Storage for Orchards to vanilla value of other farms -->
   <ModOp Type="replace" GUID="133004,133030,133031,133496,134614,135085,135088" Path="/Values/FactoryBase/FactoryOutputs/Item/StorageAmount">

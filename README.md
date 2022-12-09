@@ -4,10 +4,10 @@ This is a collection of my small mods for Anno 1800, bringing fixes, UI changes 
 
 ## How to use
 
-- Be sure how to use either the [Anno Mod Manager](https://www.nexusmods.com/anno1800/mods/35) or the [Anno Mod Loader](https://github.com/xforce/anno1800-mod-loader) directly.
+- Be sure how to use either the [iModYourAnno Anno Mod Manager](https://github.com/anno-mods/iModYourAnno) or the [Anno Mod Loader](https://github.com/xforce/anno1800-mod-loader) directly.
 - Make sure you always have the latest version of the Anno Mod Loader installed.
 - download the mod archieve from [GitHub releases](https://github.com/Taludas/SmallModsCollection/releases)
-- select the relevant mods and drag them to your 1800 Mod Folder or use the AMM to install.
+- select the relevant mods and drag them to your 1800 Mod Folder or use the iModYourAnno Anno Mod Manager to install.
 
 ***These Mods are savegame-compatible. Save to install/uninstall mid playthrough.*** 
 
@@ -18,6 +18,28 @@ This is a collection of my small mods for Anno 1800, bringing fixes, UI changes 
 You can find a gallery of images from my mod [here](https://drive.google.com/drive/folders/1lDerhMP6z4F2VB1GfAsk8_H0W80ljscE?usp=sharing).
 
 ## Changelog
+<details>
+    <summary>Patch Notes Version 1.4</summary>
+
+* Removed the Mod "Celluloid Planes floating" since the fix was finally included in GU16.
+* Adjusted the Mod "Highlife Goods Fix for Tourist Season" for addition of Mezcal in DLC12.
+* Adjust the Mod "Campher and Cinnamon use different tree configs" to the new orchard construction category with GU16.
+* Adjust the Mod "Mineslot Unification" to the new slots introduced by DLC12, so that new slots are considered as well. Minor clipping on some slots for some mine slot/workarea models may occur. If you have loaded the expansion of the NW already, slots will be "converted" to look uniform, but still have different GUIDs. Therefore if you select one slot, they don't highlight unisono, but still individual. If you start a new game or use a pre GU16 save, this issue will not be present.
+* Adjusted the Mod "Halloween Decorations" to use the new Church skin tab with the Ornamental DLC "Old Town".
+</details>
+
+<details>
+    <summary>Patch Notes Version 1.3</summary>
+
+* Added the Mod "Halloween Decorations" with many spooky Ornaments fitting to bring you in a good mood for Halloween Festival.
+</details>
+
+<details>
+    <summary>Patch Notes Version 1.2</summary>
+
+* Added the Mod "Mineslot Unification", which lets you build every mine on every slot. 
+</details>
+
 <details>
     <summary>Patch Notes Version 1.1</summary>
 
@@ -46,10 +68,10 @@ Furthermore, I reduced the internal storage of all orchards from 10 to 4 to redu
 
 -----
 
-### Fix floating Celluloid Planes for Chemical Plant in NW
+### ~~Fix floating Celluloid Planes for Chemical Plant in NW~~
 ![banner](https://user-images.githubusercontent.com/64583643/170460797-7c2b5775-cf50-44bd-93f0-c3feb8e8cc51.png)
 
-This small mod fixes the notorious bug with the floating plains of celluloid in the chemical factory for celluloid which Ubi continues to ignore or just won't fix, so I did it myself.
+~~This small mod fixes the notorious bug with the floating plains of celluloid in the chemical factory for celluloid which Ubi continues to ignore or just won't fix, so I did it myself.~~ NO LONGER NECESSARY SINCE GU16 FIXED THIS!
 
 -----
 
@@ -61,13 +83,13 @@ This mod is not really made by request, but by an idea from [Wiesl](https://disc
 <details>
     <summary>Detailed changes:</summary>
 
-* add Cognac to Beer Festival Buff
-* add Cognac to Harvest Festival
-* add Cognac to City Carneval
-* add Cognac to Anarchy Festival
+* add Cognac and Mezcal to Beer Festival Buff
+* add Cognac and Mezcal to Harvest Festival
+* add Cognac and Mezcal to City Carneval
+* add Cognac and Mezcal to Anarchy Festival
 * add Cognac Production Chain to all alcohol production chains
 * redesigned Buffs for cafe, bar and Iron Tower recipes to include cognac and biscuits and even the amount of buffed goods
-* add Cognac to Armagnac Bottles
+* add Cognac and Mezcal to Armagnac Bottles
 * add Cognac Manufactury to all drink productions
 * add Biscuit Assembly Line to all food productions
 * add all Orchards to Origin of Mankind of and Miombo Woodlands set buffs

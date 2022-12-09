@@ -1,5 +1,5 @@
 {
-  "Version": "1.0",
+  "Version": "1.1",
   "ModID": "Taludas_HighlifeIntegration",
   "IncompatibleIds": null,
   "ModDependencies": null,
@@ -17,23 +17,23 @@
     "Taiwanese": "Fix"
   },
   "ModName": {
-    "Chinese": "Highlife Goods Fix for Tourist Season",
-    "English": "Highlife Goods Fix for Tourist Season",
-    "French": "Highlife Goods Fix for Tourist Season",
-    "German": "Highlife Goods Fix for Tourist Season",
-    "Italian": "Highlife Goods Fix for Tourist Season",
-    "Japanese": "Highlife Goods Fix for Tourist Season",
-    "Korean": "Highlife Goods Fix for Tourist Season",
-    "Polish": "Highlife Goods Fix for Tourist Season",
-    "Russian": "Highlife Goods Fix for Tourist Season",
-    "Spanish": "Highlife Goods Fix for Tourist Season",
-    "Taiwanese": "Highlife Goods Fix for Tourist Season"
+    "Chinese": "Highlife and NWR Goods Fix for Tourist Season",
+    "English": "Highlife and NWR Goods Fix for Tourist Season",
+    "French": "Highlife and NWR Goods Fix for Tourist Season",
+    "German": "Highlife and NWR Goods Fix for Tourist Season",
+    "Italian": "Highlife and NWR Goods Fix for Tourist Season",
+    "Japanese": "Highlife and NWR Goods Fix for Tourist Season",
+    "Korean": "Highlife and NWR Goods Fix for Tourist Season",
+    "Polish": "Highlife and NWR Goods Fix for Tourist Season",
+    "Russian": "Highlife and NWR Goods Fix for Tourist Season",
+    "Spanish": "Highlife and NWR Goods Fix for Tourist Season",
+    "Taiwanese": "Highlife and NWR Goods Fix for Tourist Season"
   },
   "Description": {
     "Chinese": null,
-    "English": "This mod adjusts some of the highlife goods and features for better integration with tourist season and other DLC.",
+    "English": "This mod adjusts some of the highlife and NWR goods and features for better integration with tourist season and other DLC.",
     "French": null,
-    "German": "Diese Mod passt einige der Highlife-Waren und -Features an, um sie besser in das Touristen-DLC und andere DLCs zu integrieren.",
+    "German": "Diese Mod passt einige der Highlife und NWR-Waren und -Features an, um sie besser in das Touristen-DLC und andere DLCs zu integrieren.",
     "Italian": null,
     "Japanese": null,
     "Korean": null,
@@ -68,8 +68,12 @@
       "Dependant": "required"
     },
     {
-      "DLC":"Botanica",
-      "Dependant": "required"
+      "DLC":"LandOfLions",
+      "Dependant": "partly"
+    },
+    {
+      "DLC":"NewWorldRising",
+      "Dependant": "partly"
     }
   ],
   "CreatorName": "Taludas",

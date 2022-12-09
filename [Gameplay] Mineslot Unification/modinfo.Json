@@ -1,5 +1,5 @@
 {
-  "Version": "1.0",
+  "Version": "1.1",
   "ModID": "Taludas_MineSlotUnification",
   "IncompatibleIds": null,
   "ModDependencies": null,
@@ -60,6 +60,6 @@
   ],
   "DLCDependencies": null,
   "CreatorName": "Taludas",
-  "CreatorContact": "https://github.com/Taludas/WholesomeHaciendaHaul",
+  "CreatorContact": "https://github.com/Taludas/SmallModsCollection",
   "Image": null
 }

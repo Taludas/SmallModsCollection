@@ -253,7 +253,7 @@
     <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
   </ModOp>
 
-  <!-- #More mining slots in NW -->
+  <!-- #More mining slots in NW
   <ModOp Type="replace" GUID="2002538" Path="/Values/MapGenerator/MineSlotCountPerResourceAmount/Low/Region/Colony01">
     <Colony01>
       <IslandSize>
@@ -307,7 +307,7 @@
         </Large>
       </IslandSize>
     </Colony01>
-  </ModOp>
+  </ModOp> -->
 
   <!-- #Mining Slot Arctic to standard icon -->
   <ModOp Type="replace" GUID="116038" Path="/Values/Standard/IconFilename">
@@ -368,11 +368,86 @@
     </Arctic>
   </ModOp>
 
-  <!-- #remove bauxite and helium deposits in NW -->
-  <ModOp Type="remove" GUID="1372"></ModOp>
-  <ModOp Type="remove" GUID="1375"></ModOp>
+  <!-- #change season 4 deposits to be replaced with gold slots in NW -->
+  <ModOp Type="replace" GUID="614" Path="/Values/RandomMapObject/DLCSlotReplacements/Item[Replacement = '1372']">
+    <Item>
+      <DLC>24962</DLC>
+      <OrDLC>24963</OrDLC>
+      <Replacement>1010507</Replacement>
+      <WeightPerDifficulty>
+        <Low>
+          <Weight>2</Weight>
+        </Low>
+        <Medium>
+          <Weight>2</Weight>
+        </Medium>
+        <High>
+          <Weight>2</Weight>
+        </High>
+      </WeightPerDifficulty>
+    </Item>
+  </ModOp>
+  <ModOp Type="replace" GUID="614" Path="/Values/RandomMapObject/DLCSlotReplacements/Item[Replacement = '1375']">
+    <Item>
+      <DLC>24962</DLC>
+      <Replacement>1010507</Replacement>
+      <WeightPerDifficulty>
+        <Low>
+          <Weight>1</Weight>
+        </Low>
+        <Medium>
+          <Weight>1</Weight>
+        </Medium>
+        <High>
+          <Weight>1</Weight>
+        </High>
+      </WeightPerDifficulty>
+    </Item>
+  </ModOp>
+  <ModOp Type="replace" GUID="614" Path="/Values/RandomMapObject/DLCSlotReplacements/Item[Replacement = '1386']">
+    <Item>
+      <DLC>24963</DLC>
+      <Replacement>1010507</Replacement>
+      <WeightPerDifficulty>
+        <Low>
+          <Weight>1</Weight>
+        </Low>
+        <Medium>
+          <Weight>1</Weight>
+        </Medium>
+        <High>
+          <Weight>1</Weight>
+        </High>
+      </WeightPerDifficulty>
+    </Item>
+  </ModOp>
+  <ModOp Type="replace" GUID="614" Path="/Values/RandomMapObject/DLCSlotReplacements/Item[Replacement = '1387']">
+    <Item>
+      <DLC>24963</DLC>
+      <Replacement>1010507</Replacement>
+      <WeightPerDifficulty>
+        <Low>
+          <Weight>1</Weight>
+        </Low>
+        <Medium>
+          <Weight>1</Weight>
+        </Medium>
+        <High>
+          <Weight>1</Weight>
+        </High>
+      </WeightPerDifficulty>
+    </Item>
+  </ModOp>
 
-  <!-- #replace Bauxite and Helium Mines with version for Gold Slots -->
+  <ModOp Type="replace" GUID="1372,1375,1386,1387" Path="/Values/Slot/SlotType">
+    <SlotType>GoldOre</SlotType>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="1372,1375,1386,1387" Path="/Values/Standard/IconFilename">
+    <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
+  </ModOp>
+
+  <!-- #replace Season 4 Mines with version for Gold Slots -->
   <ModOp Type="replace" GUID="1308" Path="/Values/Object/Variations">
     <Variations>
       <Item>
@@ -398,6 +473,27 @@
     <Slot>
       <SlotType>GoldOre</SlotType>
       <WorkArea>1354</WorkArea>
+    </Slot>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="1388" Path="/Values/Slot">
+    <Slot>
+      <SlotType>GoldOre</SlotType>
+      <WorkArea>1389</WorkArea>
+    </Slot>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="1390" Path="/Values/Object/Variations">
+    <Variations>
+      <Item>
+        <Filename>data/modgraphics/models/mining_colony01_04_bigblocker/mining_colony01_04_bigblocker.cfg</Filename>
+      </Item>
+    </Variations>
+  </ModOp>
+  <ModOp Type="replace" GUID="1390" Path="/Values/Slot">
+    <Slot>
+      <SlotType>GoldOre</SlotType>
+      <WorkArea>1391</WorkArea>
     </Slot>
   </ModOp>
 

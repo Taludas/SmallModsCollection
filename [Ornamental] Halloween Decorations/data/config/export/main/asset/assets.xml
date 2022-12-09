@@ -1464,7 +1464,7 @@
                     <SkinDescription>1999002364</SkinDescription>
                     <SkinVariations>
                         <Item>
-                            <FileName>data/modgraphics/halloween/halloween_MARKETPLACE/halloween_marketplace1.cfg</FileName>
+                            <FileName>data/modgraphics/halloween/halloween_marketplace/halloween_marketplace1.cfg</FileName>
                         </Item>
                     </SkinVariations>
                 </Skin>
@@ -1474,15 +1474,34 @@
         </Asset>
     </ModOp>
 
-    <ModOp Type="add" GUID="1010359" Path="/Values/Building">
-        <AllowChangeVariation>1</AllowChangeVariation>
-        <BuildModeStartVariation>0</BuildModeStartVariation>
-    </ModOp>
-    
-    <ModOp Type="add" GUID="1010359" Path="/Values/Object/Variations">
+    <ModOp Type="add" GUID="1010359" Path="/Values/Object/Skins/SkinList">
         <Item>
-            <Filename>data/modgraphics/buildings/public/service_04/eerychurchvariation1.cfg</Filename>
+            <SkinAssetGuid>1999002365</SkinAssetGuid>
         </Item>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="755">
+        <Asset>
+            <Template>Skin</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002365</GUID>
+                    <Name>Skin Church Halloween</Name>
+                    <IconFilename>data/modgraphics/ui/halloween_church.png</IconFilename>
+                </Standard>
+                <Skin>
+                    <SkinName>1999002366</SkinName>
+                    <SkinDescription>1999002367</SkinDescription>
+                    <SkinVariations>
+                        <Item>
+                            <FileName>data/modgraphics/buildings/public/service_04/eerychurchvariation1.cfg</FileName>
+                        </Item>
+                    </SkinVariations>
+                </Skin>
+                <Locked />
+                <Text />
+            </Values>
+        </Asset>
     </ModOp>
 
     <ModOp Type="add" GUID="1010464" Path="/Values/Building">
@@ -1558,7 +1577,7 @@
         </Asset>
     </ModOp>
 
-    <ModOp Type="addNextSibling" GUID="25000189,25000197,25000193,500951" Path="/Values/ConstructionCategory/BuildingList/Item[Building ='529']">
+    <ModOp Type="add" GUID="500151,500055,500070,500068" Path="/Values/ConstructionCategory/BuildingList">
         <Item>
             <Building>1999002370</Building>
         </Item>
@@ -1627,9 +1646,6 @@
                                             <Item>
                                                 <Asset>1999002362</Asset>
                                             </Item>
-                                            <Item>
-                                                <Asset>1999002367</Asset>
-                                            </Item>
                                         </UnhideAssets>
                                     </ActionUnlockAsset>
                                 </Values>
@@ -1681,9 +1697,6 @@
                                             <Item>
                                                 <Asset>1999002362</Asset>
                                             </Item>
-                                            <Item>
-                                                <Asset>1999002367</Asset>
-                                            </Item>
                                         </UnlockAssets>
                                     </ActionUnlockAsset>
                                 </Values>
@@ -1696,5 +1709,58 @@
         </Asset>
     </ModOp>
 
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999002368</GUID>
+                    <Name>Trigger Halloween Church Skin</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnhideAssets>
+                                            <Item>
+                                                <Asset>1999002365</Asset>
+                                            </Item>
+                                        </UnhideAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionUnlockAsset</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionUnlockAsset>
+                                        <UnlockAssets>
+                                            <Item>
+                                                <Asset>1999002365</Asset>
+                                            </Item>
+                                        </UnlockAssets>
+                                    </ActionUnlockAsset>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
 
 </ModOps>
