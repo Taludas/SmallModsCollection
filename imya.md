@@ -2,49 +2,10 @@
 
 This is a collection of my small mods for Anno 1800, bringing fixes, UI changes and QoL Updates to the game.
 
-## How to use
-
-- Be sure how to use either the [iModYourAnno Anno Mod Manager](https://github.com/anno-mods/iModYourAnno) or the [Anno Mod Loader](https://github.com/xforce/anno1800-mod-loader) directly.
-- Make sure you always have the latest version of the Anno Mod Loader installed.
-- download the mod archieve from [GitHub releases](https://github.com/Taludas/SmallModsCollection/releases)
-- select the relevant mods and drag them to your 1800 Mod Folder or use the iModYourAnno Anno Mod Manager to install.
-
 ***These Mods are savegame-compatible. Save to install/uninstall mid playthrough.*** 
-
-## German Description/Deutsche Beschreibung: 
-[Hier](https://drive.google.com/file/d/1FAUadHbn3lXhXMEaWPyXYUnrstWxBBqR/view?usp=sharing) findet Ihr die deutsche Beschreibung der Mod mit allen Inhalten und Changelogs.
 
 ## Mod Images
 You can find a gallery of images from my mod [here](https://drive.google.com/drive/folders/1lDerhMP6z4F2VB1GfAsk8_H0W80ljscE?usp=sharing).
-
-## Changelog
-<details>
-    <summary>Patch Notes Version 1.4</summary>
-
-* Removed the Mod "Celluloid Planes floating" since the fix was finally included in GU16.
-* Adjusted the Mod "Highlife Goods Fix for Tourist Season" for addition of Mezcal in DLC12.
-* Adjust the Mod "Campher and Cinnamon use different tree configs" to the new orchard construction category with GU16.
-* Adjust the Mod "Mineslot Unification" to the new slots introduced by DLC12, so that new slots are considered as well. Minor clipping on some slots for some mine slot/workarea models may occur. If you have loaded the expansion of the NW already, slots will be "converted" to look uniform, but still have different GUIDs. Therefore if you select one slot, they don't highlight unisono, but still individual. If you start a new game or use a pre GU16 save, this issue will not be present.
-* Adjusted the Mod "Halloween Decorations" to use the new Church skin tab with the Ornamental DLC "Old Town".
-</details>
-
-<details>
-    <summary>Patch Notes Version 1.3</summary>
-
-* Added the Mod "Halloween Decorations" with many spooky Ornaments fitting to bring you in a good mood for Halloween Festival.
-</details>
-
-<details>
-    <summary>Patch Notes Version 1.2</summary>
-
-* Added the Mod "Mineslot Unification", which lets you build every mine on every slot. 
-</details>
-
-<details>
-    <summary>Patch Notes Version 1.1</summary>
-
-* Removed the Mod "Fertiliser Silo in Enbesa costs Wanza and Mudbricks" since the fix was finally included in GU15.
-</details>
 
 ## Mod Description with main feature overview
 **Please remember to always check the Changelog to see the new or changed features.**
@@ -78,22 +39,7 @@ Furthermore, I reduced the internal storage of all orchards from 10 to 4 to redu
 ## Adjustments for HighLife Goods
 ![banner](https://user-images.githubusercontent.com/64583643/170511084-4ffd1cde-6662-4b77-939d-f81f2d132bae.png)
 
-This mod is not really made by request, but by an idea from [Wiesl](https://discussions.ubisoft.com/user/wuslwiz?lang=de) in the Ubisoft Discussion Forum. His [post](https://discussions.ubisoft.com/topic/106390/wunschliste-fuer-gu13-und-gu14/61?lang=de&page=4) inspired me to adjust some of the highlife goods and features for better integration with tourist season and other DLC.  
-
-<details>
-    <summary>Detailed changes:</summary>
-
-* add Cognac and Mezcal to Beer Festival Buff
-* add Cognac and Mezcal to Harvest Festival
-* add Cognac and Mezcal to City Carneval
-* add Cognac and Mezcal to Anarchy Festival
-* add Cognac Production Chain to all alcohol production chains
-* redesigned Buffs for cafe, bar and Iron Tower recipes to include cognac and biscuits and even the amount of buffed goods
-* add Cognac and Mezcal to Armagnac Bottles
-* add Cognac Manufactury to all drink productions
-* add Biscuit Assembly Line to all food productions
-* add all Orchards to Origin of Mankind of and Miombo Woodlands set buffs
-</details>
+This mod is not really made by request, but by an idea from Wiesel in the Ubisoft Discussion Forum. His post in the Ubi-Forum inspired me to adjust some of the highlife goods and features for better integration with tourist season and other DLC.  
 
 -----
 
@@ -108,18 +54,6 @@ This mod is not really made by request, but by an idea from [Wiesl](https://disc
 
 Adds the Particularly Pull-y Pulley to be craftable at Old N8s Kontor in the Arctic Region.
 It comes at quite a hefty cost though! So be prepared!
-
-<details>
-    <summary>Crafting costs for Pulley</summary>
-
-* 50 t of Artic scrap
-* 50 t of Tier 3 OW scrap
-* 50 t of Gold Ingots
-* 25 t of steam engines
-* 25 t of celluloid
-* 50 t of Gas
-
-</details>
 
 The crafting recipe is unlocked upon completing the main storyline of the arctic session (so when you get your first pulley).
 
@@ -143,9 +77,6 @@ Tired of Emperor Ketema commenting on all things you do? Increasing hours for yo
 ![banner](https://user-images.githubusercontent.com/64583643/170460843-5c8c864d-399d-4ce3-9ec5-5070ab1a02e1.png)
 
 Adds three new variations of the Anarchist Loudspeaker Ornament.
-1. No flags
-2. One Flag with Player Banner/Colour
-3. Two Flags with Player Banner/Colour
 
 Cycle through the variations of the original Loudspeaker ornament with your individual hotkey (Standard: Shift+V) to get to the new variations.
 
@@ -178,12 +109,6 @@ One of the most anticipated QoL Updates since the release of Anno 1800 - at leas
 
 You can now stack every item in the game apart from Quest Items (which are usually unique) to 99 pieces a stack. No longer maintaining a whole fleet to buy a hand full of items from Eli. This should be a huge time saver in long term. Just buy one of each item you want to mass-purchase, then afterwards all other items will be greyed out because of no space left inside your ship. Only the selected items will be buyable and stack inside your ship. 
 
-<details>
-    <summary>The little problem which actually isn't one</summary>
-
-With this mod enabled you could potentially exploit the expedition feature of the game, since every item inside the holds of your ship counts towards the success propability of the selected expedition. So you could just load a stack of 6 legendary items and never have problems with the "minigame" again. But as you could have stacked ActionItems like the pirate flags before and no one has done that, I believe in you all, that you use this feature wisely and maturely to only not get crazy over buying items at Eli.
-</details>
-
 -----
 
 ### Mine Slot Unification
@@ -207,31 +132,5 @@ Mrkoekie (Ricky on Mod-Discord) and Taludas presents: The Halloween Decoration P
 A haunting new new season awaits for our residents! 
 
 This mod adds 14 ornamental pieces and a few extra skins for some buildings!
-
-
-<details>
-    <summary>What does it include:</summary>
-
-* 2x2 tree with graveyard
-* 1x1 tree variant
-* 1x1 tree variant
-* 1x1 tree variant
-* 1x1 tree  variant 
-* 1x3 street gate
-* 1x1 spooky well
-* 1x1 witches cauldron
-* 1x1 sweet shop
-* 2x2 foodstand
-* 2x2 drinkstand
-* 1x2 pumpkin juice stand
-* 1x1 big tree variant
-* 1x1 terrace bar table (standing)
-
-* 1 skin for the marketplace ( use brush to in order to shift between skins)
-* 1 skin for the church (shift V)
-* 1 skin for the hospital (shift V)
-</details>
-
-If you want a first hand look at the new ornaments in game, click [here](https://www.nexusmods.com/anno1800/mods/445/?tab=images)
 
 Made as a team effort by Ricky and Taludas!
