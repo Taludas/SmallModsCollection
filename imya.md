@@ -4,9 +4,6 @@ This is a collection of my small mods for Anno 1800, bringing fixes, UI changes 
 
 ***These Mods are savegame-compatible. Save to install/uninstall mid playthrough.*** 
 
-## Mod Images
-You can find a gallery of images from my mod [here](https://drive.google.com/drive/folders/1lDerhMP6z4F2VB1GfAsk8_H0W80ljscE?usp=sharing).
-
 ## Mod Description with main feature overview
 **Please remember to always check the Changelog to see the new or changed features.**
 
