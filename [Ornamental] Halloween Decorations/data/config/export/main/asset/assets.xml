@@ -1515,14 +1515,14 @@
         </Item>
     </ModOp>
 
-    <ModOp Type="addNextSibling" GUID="529">
+    <ModOp Type="addNextSibling" GUID="25141">
         <Asset>
             <Template>ConstructionCategory</Template>
             <Values>
                 <Standard>
                     <GUID>1999002370</GUID>
                     <Name>construction menu halloween ornaments</Name>
-                    <IconFilename>data/modgraphics/ui/halloween_sweetstand1.png</IconFilename>
+                    <IconFilename>data/modgraphics/ui/halloween_menu.png</IconFilename>
                 </Standard>
                 <ConstructionCategory>
                     <BuildingList>
