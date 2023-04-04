@@ -19,6 +19,13 @@ You can find a gallery of images from my mod [here](https://drive.google.com/dri
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.5</summary>
+
+* Small Bugfix to include some missing German localization for the Mine overhaul
+* Fix for Halloween Ornaments pack for GU17 as well as missing decal for Halloween marketplace.
+</details>
+
+<details>
     <summary>Patch Notes Version 1.4</summary>
 
 * Removed the Mod "Celluloid Planes floating" since the fix was finally included in GU16.
