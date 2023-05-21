@@ -2,14 +2,17 @@
 
 This is a collection of my small mods for Anno 1800, bringing fixes, UI changes and QoL Updates to the game.
 
+If you like this mod and want to support me, feel free to share it with your friends. You can also buy me a coffee at Ko-Fi (yes, I want to raise my coffee consume to Investor's hight!)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W8L558T)
+
 ## How to use
 
-- Be sure how to use either the [iModYourAnno Anno Mod Manager](https://github.com/anno-mods/iModYourAnno) or the [Anno Mod Loader](https://github.com/xforce/anno1800-mod-loader) directly.
-- Make sure you always have the latest version of the Anno Mod Loader installed.
-- download the mod archieve from [GitHub releases](https://github.com/Taludas/SmallModsCollection/releases)
-- select the relevant mods and drag them to your 1800 Mod Folder or use the iModYourAnno Anno Mod Manager to install.
+- Either use [iModYourAnno](https://github.com/anno-mods/iModYourAnno/releases) mod manager or know [how to install mods manually](https://github.com/jakobharder/anno1800-mod-loader#mods).
+- If you download the mod manually, use the archieve from [GitHub releases](https://github.com/Taludas/RiverSlots/releases). Don't download the whole repo!
+- Select the relevant mods and drag them to your 1800 Mod Folder or use the iModYourAnno Anno Mod Manager to install.
 
-***These Mods are savegame-compatible. Save to install/uninstall mid playthrough.*** 
+***Apart from Mineslot Unification, these Mods are savegame-compatible. Save to install/uninstall mid playthrough.*** 
 
 ## German Description/Deutsche Beschreibung: 
 [Hier](https://drive.google.com/file/d/1FAUadHbn3lXhXMEaWPyXYUnrstWxBBqR/view?usp=sharing) findet Ihr die deutsche Beschreibung der Mod mit allen Inhalten und Changelogs.
