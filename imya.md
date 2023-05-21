@@ -2,7 +2,11 @@
 
 This is a collection of my small mods for Anno 1800, bringing fixes, UI changes and QoL Updates to the game.
 
-***These Mods are savegame-compatible. Save to install/uninstall mid playthrough.*** 
+If you like this mod and want to support me, feel free to share it with your friends. You can also buy me a coffee at Ko-Fi (yes, I want to raise my coffee consume to Investor's hight!)
+
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W8L558T)
+
+***Apart from Mineslot Unification, these Mods are savegame-compatible. Save to install/uninstall mid playthrough.*** 
 
 ## Mod Description with main feature overview
 **Please remember to always check the Changelog to see the new or changed features.**
