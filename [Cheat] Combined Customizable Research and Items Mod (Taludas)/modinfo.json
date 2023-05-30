@@ -1,0 +1,73 @@
+{
+  "Version": "1.0.0",
+  "ModID": "Taludas_CombinedResearchandItemsMod",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "DeprecateIds": [
+    "Taludas_ItemsStackable"
+  ],
+  "LoadAfterIDs": [
+    "*",
+    "Hackner_EnbesaMailIntegration"
+  ],
+  "Category": {
+    "Chinese": "Cheat",
+    "English": "Cheat",
+    "French": "Cheat",
+    "German": "Cheat",
+    "Italian": "Cheat",
+    "Japanese": "Cheat",
+    "Korean": "Cheat",
+    "Polish": "Cheat",
+    "Russian": "Cheat",
+    "Spanish": "Cheat",
+    "Taiwanese": "Cheat"
+  },
+  "ModName": {
+    "Chinese": "Combined Customizable Research and Items Mod (Taludas)",
+    "English": "Combined Customizable Research and Items Mod (Taludas)",
+    "French": "Combined Customizable Research and Items Mod (Taludas)",
+    "German": "Combined Customizable Research and Items Mod (Taludas)",
+    "Italian": "Combined Customizable Research and Items Mod (Taludas)",
+    "Japanese": "Combined Customizable Research and Items Mod (Taludas)",
+    "Korean": "Combined Customizable Research and Items Mod (Taludas)",
+    "Polish": "Combined Customizable Research and Items Mod (Taludas)",
+    "Russian": "Combined Customizable Research and Items Mod (Taludas)",
+    "Spanish": "Combined Customizable Research and Items Mod (Taludas)",
+    "Taiwanese": "Combined Customizable Research and Items Mod (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "::readme_english.md",
+    "French": null,
+    "German": "::readme_deutsch.md",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    "LandOfLions"
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/SmallModsCollection",
+  "Image": null
+}

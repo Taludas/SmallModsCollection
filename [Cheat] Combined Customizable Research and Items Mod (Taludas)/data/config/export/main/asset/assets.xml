@@ -1,0 +1,31 @@
+<ModOps>
+
+    <!-- #Items Stackable --> 
+    <Include File="assets_CustomItemStackable.include.xml" />
+
+    <!-- #ItemtransferFeature --> 
+    <Include File="assets_CustomItemTransfer.include.xml" />
+    
+    <!-- #ResearchFeature -->
+    <Include File="assets_CustomResearchFeature0.include.xml" />
+
+    <!-- #Adjust max workforce allocation and max research times -->
+    <Include File="assets_CustomResearchFeature2WorkforceandTime.include.xml" />
+
+    <!-- #Custom Research Point reward for donated Items -->
+    <Include File="assets_CustomResearchFeature1DonationPoints.include.xml" />
+
+
+    <!-- #Godlikes -->
+    <Include File="assets_CustomResearchFeature3Godlikes.include.xml" />
+   
+    <!-- #Scholar Permits -->
+    <Include File="assets_CustomResearchFeature4ScholarPermits.include.xml" />
+
+    <!-- #Research Cost Config -->
+    <Include File="assets_CustomResearchFeature00ResearchPointsLimit.include.xml" />  
+
+    <Include File="assets_CustomResearchFeature5ItemUnlockCosts.include.xml" />
+
+    <Include File="assets_CustomResearchFeature6ItemDevCosts.include.xml" />
+</ModOps>

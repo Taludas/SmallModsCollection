@@ -1,0 +1,119 @@
+<ModOps>
+    <ImyaTweaks Title="Custom Costs for Crafting Items in the Research Institute" />
+    <!-- # Research Point Costs for crafting Common Items -->
+    <ModOp Type="replace" GUID="128475" Path="/Values/ProgressBalancing/Progress" ModOpID="ProgressFirstStepCommon">
+        <Progress>
+            <Item>
+                <Value>500</Value>
+            </Item>
+        </Progress>
+    </ModOp>
+    <ImyaExpose Path="self::Progress/Item/Value" ModOpID="ProgressFirstStepCommon" ExposeID="Research Point Cost to craft the first Common Item"></ImyaExpose>
+
+    <ModOp Type="replace" GUID="128475" Path="/Values/ProgressBalancing/PostProgress" ModOpID="ProgressFollowingStepsCommon">
+        <PostProgress>
+            <ThresholdInterval>1</ThresholdInterval>
+            <ValueIncrease>500</ValueIncrease>
+        </PostProgress>
+    </ModOp>
+    <ImyaExpose Path="self::PostProgress/ValueIncrease" ModOpID="ProgressFollowingStepsCommon" ExposeID="Research Point Cost Increase to craft each following Common Item"></ImyaExpose>
+
+    <ModOp Type="add" GUID="128475" Path="/Values/ProgressBalancing" ModOpID="ProgressLimitCommon">
+        <AbsoluteLimit>250000</AbsoluteLimit>
+    </ModOp>
+    <ImyaExpose Path="self::AbsoluteLimit" ModOpID="ProgressLimitCommon" ExposeID="Research Point Limit for crafting Common Items" Description="Sets the Research Points Cost for the first and each following craft of a common item as well as the overall cost threshold."></ImyaExpose>
+
+
+    <!-- # Research Point Costs for crafting uncommon Items -->
+    <ModOp Type="replace" GUID="128952" Path="/Values/ProgressBalancing/Progress" ModOpID="ProgressFirstStepUncommon">
+        <Progress>
+            <Item>
+                <Value>1000</Value>
+            </Item>
+        </Progress>
+    </ModOp>
+    <ImyaExpose Path="self::Progress/Item/Value" ModOpID="ProgressFirstStepUncommon" ExposeID="Research Point Cost to craft the first Uncommon Item"></ImyaExpose>
+
+    <ModOp Type="replace" GUID="128952" Path="/Values/ProgressBalancing/PostProgress" ModOpID="ProgressFollowingStepsUncommon">
+        <PostProgress>
+            <ThresholdInterval>1</ThresholdInterval>
+            <ValueIncrease>1000</ValueIncrease>
+        </PostProgress>
+    </ModOp>
+    <ImyaExpose Path="self::PostProgress/ValueIncrease" ModOpID="ProgressFollowingStepsUncommon" ExposeID="Research Point Cost Increase to craft each following Uncommon Item"></ImyaExpose>
+
+    <ModOp Type="add" GUID="128952" Path="/Values/ProgressBalancing" ModOpID="ProgressLimitUncommon">
+        <AbsoluteLimit>500000</AbsoluteLimit>
+    </ModOp>
+    <ImyaExpose Path="self::AbsoluteLimit" ModOpID="ProgressLimitUncommon" ExposeID="Research Point Limit for crafting Uncommon Items" Description="Sets the Research Points Cost for the first and each following craft of a uncommon item as well as the overall cost threshold."></ImyaExpose>
+
+    <!-- # Research Point Costs for crafting rare Items -->
+    <ModOp Type="replace" GUID="128953" Path="/Values/ProgressBalancing/Progress" ModOpID="ProgressFirstStepRare">
+        <Progress>
+            <Item>
+                <Value>2000</Value>
+            </Item>
+        </Progress>
+    </ModOp>
+    <ImyaExpose Path="self::Progress/Item/Value" ModOpID="ProgressFirstStepRare" ExposeID="Research Point Cost to craft the first Rare Item"></ImyaExpose>
+
+    <ModOp Type="replace" GUID="128953" Path="/Values/ProgressBalancing/PostProgress" ModOpID="ProgressFollowingStepsRare">
+        <PostProgress>
+            <ThresholdInterval>1</ThresholdInterval>
+            <ValueIncrease>2000</ValueIncrease>
+        </PostProgress>
+    </ModOp>
+    <ImyaExpose Path="self::PostProgress/ValueIncrease" ModOpID="ProgressFollowingStepsRare" ExposeID="Research Point Cost Increase to craft each following Rare Item"></ImyaExpose>
+
+    <ModOp Type="add" GUID="128953" Path="/Values/ProgressBalancing" ModOpID="ProgressLimitRare">
+        <AbsoluteLimit>1000000</AbsoluteLimit>
+    </ModOp>
+    <ImyaExpose Path="self::AbsoluteLimit" ModOpID="ProgressLimitRare" ExposeID="Research Point Limit for crafting Rare Items" Description="Sets the Research Points Cost for the first and each following craft of a rare item as well as the overall cost threshold."></ImyaExpose>
+
+    <!-- # Research Point Costs for crafting epic Items -->
+    <ModOp Type="replace" GUID="128954" Path="/Values/ProgressBalancing/Progress" ModOpID="ProgressFirstStepEpic">
+        <Progress>
+            <Item>
+                <Value>5000</Value>
+            </Item>
+        </Progress>
+    </ModOp>
+    <ImyaExpose Path="self::Progress/Item/Value" ModOpID="ProgressFirstStepEpic" ExposeID="Research Point Cost to craft the first Epic Item"></ImyaExpose>
+
+    <ModOp Type="replace" GUID="128954" Path="/Values/ProgressBalancing/PostProgress" ModOpID="ProgressFollowingStepsEpic">
+        <PostProgress>
+            <ThresholdInterval>1</ThresholdInterval>
+            <ValueIncrease>5000</ValueIncrease>
+        </PostProgress>
+    </ModOp>
+    <ImyaExpose Path="self::PostProgress/ValueIncrease" ModOpID="ProgressFollowingStepsEpic" ExposeID="Research Point Cost Increase to craft each following Epic Item"></ImyaExpose>
+
+    <ModOp Type="add" GUID="128954" Path="/Values/ProgressBalancing" ModOpID="ProgressLimitEpic">
+        <AbsoluteLimit>2000000</AbsoluteLimit>
+    </ModOp>
+    <ImyaExpose Path="self::AbsoluteLimit" ModOpID="ProgressLimitEpic" ExposeID="Research Point Limit for crafting Epic Items" Description="Sets the Research Points Cost for the first and each following craft of a epic item as well as the overall cost threshold."></ImyaExpose>
+
+    <!-- # Research Point Costs for crafting legendary Items -->
+    <ModOp Type="replace" GUID="128955" Path="/Values/ProgressBalancing/Progress" ModOpID="ProgressFirstStepLegendary">
+        <Progress>
+            <Item>
+                <Value>10000</Value>
+            </Item>
+        </Progress>
+    </ModOp>
+    <ImyaExpose Path="self::Progress/Item/Value" ModOpID="ProgressFirstStepLegendary" ExposeID="Research Point Cost to craft the first Legendary Item"></ImyaExpose>
+
+    <ModOp Type="replace" GUID="128955" Path="/Values/ProgressBalancing/PostProgress" ModOpID="ProgressFollowingStepsLegendary">
+        <PostProgress>
+            <ThresholdInterval>1</ThresholdInterval>
+            <ValueIncrease>10000</ValueIncrease>
+        </PostProgress>
+    </ModOp>
+    <ImyaExpose Path="self::PostProgress/ValueIncrease" ModOpID="ProgressFollowingStepsLegendary" ExposeID="Research Point Cost Increase to craft each following Legendary Item"></ImyaExpose>
+
+    <ModOp Type="add" GUID="128955" Path="/Values/ProgressBalancing" ModOpID="ProgressLimitLegendary">
+        <AbsoluteLimit>5000000</AbsoluteLimit>
+    </ModOp>
+    <ImyaExpose Path="self::AbsoluteLimit" ModOpID="ProgressLimitLegendary" ExposeID="Research Point Limit for crafting Legendary Items" Description="Sets the Research Points Cost for the first and each following craft of a legendary item as well as the overall cost threshold."></ImyaExpose>
+
+</ModOps>

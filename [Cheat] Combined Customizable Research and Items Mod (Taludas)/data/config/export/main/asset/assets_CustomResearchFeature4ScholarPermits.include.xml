@@ -1,0 +1,70 @@
+<ModOps>
+    <ImyaTweaks Title="Modification of Scholar Permit Crafting - Workforce Allocation, Research Time, Cost Increase and Crafting Amount" />
+    <!-- max Workforce Amount Scholar Permits Research-->
+    <ModOp Type="replace" GUID="125340" Path="/Values/Godlike/CraftingConfig/MaximumWorkforceAmount" ModOpID="CustomWorkforceAmountScholarPermits">
+        <MaximumWorkforceAmount>10000</MaximumWorkforceAmount>
+    </ModOp>
+    <ImyaExpose Path="self::MaximumWorkforceAmount" Kind="Slider" ModOpID="CustomWorkforceAmountScholarPermits" ExposeID="ScholarPermits Research MaxWorkforceAllocation" Description="Sets how much Workforce can be allocated for research time reduction [default = 10000]">
+        <SliderDefinition Min="5000" Max="100000" Stepping="5000" />
+    </ImyaExpose> 
+
+    <!-- custom times for Scholar Research-->
+    <ModOp Type="replace" GUID="125340" Path="/Values/Godlike/CraftingConfig/MinimumWorkforceTime" ModOpID="CustomMinTimeScholarPermits">
+        <MinimumWorkforceTime>1800000</MinimumWorkforceTime>
+    </ModOp>
+    <ImyaExpose Path="self::MinimumWorkforceTime" ModOpID="CustomMinTimeScholarPermits" ExposeID="MaxResearchTime NoWorforceAllocation ScholarPermits" Description="Sets the maximum Research Time for a Scholar Permit with minimum Workforce Allocation [in Milliseconds]."/>
+
+    <ModOp Type="replace" GUID="125340" Path="/Values/Godlike/CraftingConfig/MaximumWorkforceTime" ModOpID="CustomMaxTimeScholarPermits">
+        <MaximumWorkforceTime>60000</MaximumWorkforceTime>
+    </ModOp>
+    <ImyaExpose Path="self::MaximumWorkforceTime" ModOpID="CustomMaxTimeScholarPermits" ExposeID="MinResearchTime FullWorforceAllocation ScholarPermits" Description="Sets the minimum Research Time for a Scholar Permits Research with maximum Workforce Allocation [in Milliseconds]."/>
+
+    <!-- custom Progress Balancing Scholar Permits-->
+    <ModOp Type="replace" GUID="129525" Path="/Values/ProgressBalancing">
+		<ProgressBalancing>
+			<Progress>
+				<Item>
+					<Value>250</Value>
+				</Item>
+				<Item>
+					<Threshold>1</Threshold>
+					<Value>1000</Value>
+				</Item>
+			</Progress>
+			<PostProgress>
+				<ThresholdInterval>1</ThresholdInterval>
+				<ValueIncrease>1000</ValueIncrease>
+			</PostProgress>
+		</ProgressBalancing>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="129525" Path="/Values/ProgressBalancing/Progress/Item[1]/Value" ModOpID="CustomProgressBalancingScholarPermitsFirst">
+		<Value>250</Value>
+    </ModOp>
+    <ImyaExpose Path="self::Value" ModOpID="CustomProgressBalancingScholarPermitsFirst" ExposeID="Reasearch Point Cost for First ScholarPermits Research" Description="Sets the Research Point cost for the first Research of a ScholarPermit."/>
+
+    <ModOp Type="replace" GUID="129525" Path="/Values/ProgressBalancing/Progress/Item[2]/Value" ModOpID="CustomProgressBalancingScholarPermitsSecond">
+		<Value>1000</Value>
+    </ModOp>
+    <ImyaExpose Path="self::Value" ModOpID="CustomProgressBalancingScholarPermitsSecond" ExposeID="Reasearch Point Cost for Second ScholarPermits Research" Description="Sets the Research Point cost for the second Research of a ScholarPermit."/>
+
+    <ModOp Type="replace" GUID="129525" Path="/Values/ProgressBalancing/PostProgress/ValueIncrease" ModOpID="CustomProgressBalancingScholarPermitsPost">
+		<ValueIncrease>1000</ValueIncrease>
+    </ModOp>
+    <ImyaExpose Path="self::ValueIncrease" ModOpID="CustomProgressBalancingScholarPermitsPost" ExposeID="Reasearch Point Cost for each ScholarPermits Research afterwards" Description="Sets the Research Point cost for each following Research of a ScholarPermits."/>
+
+    <ModOp Type="add" GUID="129525" Path="/Values/ProgressBalancing">
+        <AbsoluteLimit>250000</AbsoluteLimit>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="129525" Path="/Values/ProgressBalancing/AbsoluteLimit" ModOpID="CustomProgressBalancingScholarPermitsAbsoluteLimit">
+		<AbsoluteLimit>250000</AbsoluteLimit>
+    </ModOp>
+    <ImyaExpose Path="self::AbsoluteLimit" ModOpID="CustomProgressBalancingScholarPermitsAbsoluteLimit" ExposeID="Reasearch Point Cost Limit for ScholarPermits Research" Description="Sets the Research Point cost limit for Research of a ScholarPermit."/>
+
+    <!-- crafting Amount -->
+    <ModOp Type="replace" GUID="125340" Path="/Values/Godlike/CraftingAmount" ModOpID="CustomCraftingAmountPermitScholarResidences">
+        <CraftingAmount>5</CraftingAmount>
+    </ModOp>
+    <ImyaExpose Path="self::CraftingAmount" ModOpID="CustomCraftingAmountPermitScholarResidences" ExposeID="Permits for Scholar Residences per Research" Description="Sets the Amount of Scholar Residence Permits gained per Research."/>
+</ModOps>

@@ -1,0 +1,38 @@
+<ModOps>
+    <ImyaTweaks Title="Custom Costs for Unlocking Items in the Research Institute" />
+    <!-- #Custom Research Point Costs for unlocking Items -->
+    <Group ModOpID="UseFixedIncreaseInsteadOfProgressItemUnlock">
+        <ModOp Type="replace" GUID="123401" Path="/Values/ProgressBalancing/Progress">
+            <Progress>
+                <Item>
+                    <Value>1000</Value>
+                </Item>
+            </Progress>
+        </ModOp>
+        <ModOp Type="replace" GUID="123401" Path="/Values/ProgressBalancing/PostProgress" ModOpID="UseFixedIncreaseInsteadOfProgressItemUnlock">
+            <PostProgress>
+                <ThresholdInterval>1</ThresholdInterval>
+                <ValueIncrease>1000</ValueIncrease>
+            </PostProgress>
+        </ModOp>
+    </Group>
+    <ImyaExpose Path="self::" ModOpID="UseFixedIncreaseInsteadOfProgressItemUnlock" ExposeID="Use Vanilla Increase instead of Custom Progress" Description="Sets whether the Item Unlock mechanic in the Research Institute uses a cost increase based on steps for the first 60 items (Vanilla) or a fixed Value increase for each unlocked item. [Toggle: off = Custom, Toggle: on = Vanilla]" Kind="SkipToggle"></ImyaExpose>
+
+    <ModOp Type="replace" GUID="123401" Path="/Values/ProgressBalancing/Progress" ModOpID="CustomProgressFirstStep">
+        <Progress>
+            <Item>
+                <Value>1000</Value>
+            </Item>
+        </Progress>
+    </ModOp>
+    <ImyaExpose Path="self::Progress/Item/Value" ModOpID="CustomProgressFirstStep" ExposeID="Research Point Cost to Unlock the first Item" Description="Cost for the first Unlock of an Item."></ImyaExpose>
+
+    <ModOp Type="replace" GUID="123401" Path="/Values/ProgressBalancing/PostProgress" ModOpID="CustomProgressFollowingSteps">
+        <PostProgress>
+            <ThresholdInterval>1</ThresholdInterval>
+            <ValueIncrease>1000</ValueIncrease>
+        </PostProgress>
+    </ModOp>
+    <ImyaExpose Path="self::PostProgress/ValueIncrease" ModOpID="CustomProgressFollowingSteps" ExposeID="Research Point Cost to Unlock each following Item" Description="Cost Increase for each following Unlock of an Item."></ImyaExpose>
+
+</ModOps>

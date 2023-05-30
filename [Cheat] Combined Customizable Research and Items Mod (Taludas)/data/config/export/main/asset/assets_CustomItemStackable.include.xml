@@ -1,0 +1,7 @@
+<ModOps>
+    <ModOp Type="merge" Path="//Asset[Template='GuildhouseItem' or Template='HarborOfficeItem' or Template='TownhallItem' or Template='VehicleItem' or Template='ShipSpecialist' or Template='ActiveItem' or Template='ItemSpecialAction' or Template='CultureItem']/Values/Item/MaxStackSize" ModOpID="CustomItemStackSize">
+        <MaxStackSize>99</MaxStackSize>
+    </ModOp>
+
+    <ImyaExpose Path="self::MaxStackSize" ModOpID="CustomItemStackSize" ExposeID="Custom ItemStack Size" Description="Sets the stack size for all items. Notice that for values above 100, the UI might not show the full number, but '99+'. [Default = 99]"></ImyaExpose>
+</ModOps>

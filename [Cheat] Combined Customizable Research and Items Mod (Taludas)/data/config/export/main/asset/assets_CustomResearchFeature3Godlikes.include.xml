@@ -1,0 +1,71 @@
+<ModOps>
+    <ImyaTweaks Title="Modification of Godlike Crafting - Workforce Allocation, Research Time, Cost Increase and Crafting Amount" />
+    <!-- max Workforce Amount Godlikes Research-->
+    <ModOp Type="replace" GUID="124850,124849,124845,124846,124844,124843,124842,124841,124840,124839" Path="/Values/Godlike/CraftingConfig/MaximumWorkforceAmount" ModOpID="CustomWorkforceAmountGodlikes">
+        <MaximumWorkforceAmount>10000</MaximumWorkforceAmount>
+    </ModOp>
+    <ImyaExpose Path="self::MaximumWorkforceAmount" Kind="Slider" ModOpID="CustomWorkforceAmountGodlikes" ExposeID="Godlike Research MaxWorkforceAllocation" Description="Sets how much Workforce can be allocated for research time reduction [default = 10000]">
+        <SliderDefinition Min="5000" Max="100000" Stepping="5000" />
+    </ImyaExpose> 
+
+    <!-- custom times for Godlikes Research-->
+    <ModOp Type="replace" GUID="124850,124849,124845,124846,124844,124843,124842,124841,124840,124839" Path="/Values/Godlike/CraftingConfig/MinimumWorkforceTime" ModOpID="CustomMinTimeGodlikes">
+        <MinimumWorkforceTime>5400000</MinimumWorkforceTime>
+    </ModOp>
+    <ImyaExpose Path="self::MinimumWorkforceTime" ModOpID="CustomMinTimeGodlikes" ExposeID="MaxResearchTime NoWorforceAllocation Godlikes" Description="Sets the maximum Research Time for a Godlike Research with minimum Workforce Allocation [in Milliseconds]."/>
+
+    <ModOp Type="replace" GUID="124850,124849,124845,124846,124844,124843,124842,124841,124840,124839" Path="/Values/Godlike/CraftingConfig/MaximumWorkforceTime" ModOpID="CustomMaxTimeGodlikes">
+        <MaximumWorkforceTime>600000</MaximumWorkforceTime>
+    </ModOp>
+    <ImyaExpose Path="self::MaximumWorkforceTime" ModOpID="CustomMaxTimeGodlikes" ExposeID="MinResearchTime FullWorforceAllocation Godlikes" Description="Sets the minimum Research Time for a Godlike Research with maximum Workforce Allocation [in Milliseconds]."/>
+
+    <!-- custom Progress Balancing Godlikes-->
+    <ModOp Type="replace" GUID="126888" Path="/Values/ProgressBalancing">
+		<ProgressBalancing>
+			<Progress>
+				<Item>
+					<Value>5000</Value>
+				</Item>
+				<Item>
+					<Threshold>1</Threshold>
+					<Value>10000</Value>
+				</Item>
+			</Progress>
+			<PostProgress>
+				<ThresholdInterval>1</ThresholdInterval>
+				<ValueIncrease>10000</ValueIncrease>
+			</PostProgress>
+			<AbsoluteLimit>250000</AbsoluteLimit>
+		</ProgressBalancing>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="126888" Path="/Values/ProgressBalancing/Progress/Item[1]/Value" ModOpID="CustomProgressBalancingGodlikesFirst">
+		<Value>5000</Value>
+    </ModOp>
+    <ImyaExpose Path="self::Value" ModOpID="CustomProgressBalancingGodlikesFirst" ExposeID="Reasearch Point Cost for First Godlike Research" Description="Sets the Research Point cost for the first Research of a Godlike."/>
+
+    <ModOp Type="replace" GUID="126888" Path="/Values/ProgressBalancing/Progress/Item[2]/Value" ModOpID="CustomProgressBalancingGodlikesSecond">
+		<Value>10000</Value>
+    </ModOp>
+    <ImyaExpose Path="self::Value" ModOpID="CustomProgressBalancingGodlikesSecond" ExposeID="Reasearch Point Cost for Second Godlike Research" Description="Sets the Research Point cost for the second Research of a Godlike."/>
+
+    <ModOp Type="replace" GUID="126888" Path="/Values/ProgressBalancing/PostProgress/ValueIncrease" ModOpID="CustomProgressBalancingGodlikesPost">
+		<ValueIncrease>10000</ValueIncrease>
+    </ModOp>
+    <ImyaExpose Path="self::ValueIncrease" ModOpID="CustomProgressBalancingGodlikesPost" ExposeID="Reasearch Point Cost for each Godlike Research afterwards" Description="Sets the Research Point cost for each following Research of a Godlike."/>
+
+    <ModOp Type="replace" GUID="126888" Path="/Values/ProgressBalancing/AbsoluteLimit" ModOpID="CustomProgressBalancingGodlikesAbsoluteLimit">
+		<AbsoluteLimit>250000</AbsoluteLimit>
+    </ModOp>
+    <ImyaExpose Path="self::AbsoluteLimit" ModOpID="CustomProgressBalancingGodlikesAbsoluteLimit" ExposeID="Reasearch Point Cost Limit for Godlike Research" Description="Sets the Research Point cost limit for Research of a Godlike."/>
+
+    <!-- custom Amount Godlikes-->
+    <ModOp Type="add" GUID="124850,124849,124845,124846,124844,124843,124842,124841,124840,124839" Path="/Values/Godlike">
+        <CraftingAmount>1</CraftingAmount>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="124850,124849,124845,124846,124844,124843,124842,124841,124840,124839" Path="/Values/Godlike/CraftingAmount" ModOpID="CustomCraftingAmountPermitGodlike">
+        <CraftingAmount>1</CraftingAmount>
+    </ModOp>
+    <ImyaExpose Path="self::CraftingAmount" ModOpID="CustomCraftingAmountPermitGodlike" ExposeID="Permits for Godlikes per Research" Description="Sets the Amount of Godlikes gained per Research."/>
+</ModOps>

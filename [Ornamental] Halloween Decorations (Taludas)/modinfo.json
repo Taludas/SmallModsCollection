@@ -1,0 +1,65 @@
+{
+  "Version": "1.0.1",
+  "ModID": "Taludas_HalloweenDecorations",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Ornamental",
+    "English": "Ornamental",
+    "French": "Ornamental",
+    "German": "Ornamental",
+    "Italian": "Ornamental",
+    "Japanese": "Ornamental",
+    "Korean": "Ornamental",
+    "Polish": "Ornamental",
+    "Russian": "Ornamental",
+    "Spanish": "Ornamental",
+    "Taiwanese": "Ornamental"
+  },
+  "ModName": {
+    "Chinese": "Halloween Decorations Pack",
+    "English": "Halloween Decorations Pack",
+    "French": "Halloween Decorations Pack",
+    "German": "Halloween Decorations Pack",
+    "Italian": "Halloween Decorations Pack",
+    "Japanese": "Halloween Decorations Pack",
+    "Korean": "Halloween Decorations Pack",
+    "Polish": "Halloween Decorations Pack",
+    "Russian": "Halloween Decorations Pack",
+    "Spanish": "Halloween Decorations Pack",
+    "Taiwanese": "Halloween Decorations Pack"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Get yourself into the right atmosphere for a festive Halloween's eve! Build 14 new ornaments and 2 new spooky skins for the market place and church.",
+    "French": null,
+    "German": "Bringe dich in die richtige Stimmung für einen festlichen Halloween-Abend! Baue 14 neue Ornamente und 2 neue gruselige Skins für den Marktplatz und die Kirche.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [],
+  "CreatorName": "Taludas and Ricky",
+  "CreatorContact": "https://github.com/Taludas/SmallModsCollection",
+  "Image": null
+}

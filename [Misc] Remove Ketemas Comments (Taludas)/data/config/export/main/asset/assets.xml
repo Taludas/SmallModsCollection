@@ -1,0 +1,8 @@
+<ModOps>
+
+    <ModOp Type="remove" GUID="119058" Path="/Values/ParticipantMessages/MessageTriggers/IncidentEscalate/Reactions"></ModOp>
+    <ModOp Type="remove" GUID="119058" Path="/Values/ParticipantMessages/MessageTriggers/BuildingBuilt/Reactions/Item[RequiredContextAsset='114544']"></ModOp>
+    <ModOp Type="remove" GUID="119058" Path="/Values/ParticipantMessages/MessageTriggers/WorkingConditionsHigh/Reactions"></ModOp>
+    <ModOp Type="remove" GUID="119058" Path="/Values/ParticipantMessages/MessageTriggers/ResearchCenterFinishCrafting/Reactions"></ModOp>
+
+</ModOps>

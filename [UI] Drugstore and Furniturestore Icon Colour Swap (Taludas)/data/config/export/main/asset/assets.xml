@@ -1,0 +1,41 @@
+<ModOps>
+
+    <!-- #Replace Icons Furniture and Drug Store with new Background Colours -->
+    <ModOp Type="replace" GUID="135099,135107,136165" Path="/Values/Standard/IconFilename">
+        <IconFilename>data/modgraphics/ui/icon_furnitures_green.png</IconFilename>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="136102" Path="/Values/Objectives/WinConditions/Item[2]/Objective/Values/ConditionQuestObjective/QuestTrackerIcon">
+        <QuestTrackerIcon>data/modgraphics/ui/icon_furnitures_green.png</QuestTrackerIcon>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="134629,135109" Path="/Values/Standard/IconFilename">
+        <IconFilename>data/modgraphics/ui/icon_drugstore_red.png</IconFilename>
+    </ModOp>
+
+    <!-- #Replace flags on all Malls with true player coloured flags -->
+    <ModOp Type="replace" GUID="134629,134631,135191,135192,135193,135194" Path="/Values/Object/Variations">
+        <Variations>
+            <Item>
+              <Filename>data/modgraphics/models/mall_02.cfg</Filename>
+            </Item>
+        </Variations>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="135099,135105,135121,135120,135122,135123" Path="/Values/Object/Variations">
+        <Variations>
+            <Item>
+              <Filename>data/modgraphics/models/mall_03.cfg</Filename>
+            </Item>
+        </Variations>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="135100,135103,135187,135188,135189,135190" Path="/Values/Object/Variations">
+        <Variations>
+            <Item>
+              <Filename>data/modgraphics/models/mall_04.cfg</Filename>
+            </Item>
+        </Variations>
+    </ModOp>
+
+</ModOps>

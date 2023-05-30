@@ -1,0 +1,17 @@
+<ModOps>
+    <ImyaTweaks Title="Basic Modifications of the Research Feature - Max Queue Entries and Chance for Godlikes on Finishing Item Crafting" />
+    <!-- #Adjust Research Queue Size -->
+    <ModOp Type="replace" GUID="120244" Path="/Values/ResearchFeature/MaxQueueEntries" ModOpID="CustomResearchQueue">
+        <MaxQueueEntries>50</MaxQueueEntries>
+    </ModOp>
+
+    <ImyaExpose Path="self::MaxQueueEntries" ModOpID="CustomResearchQueue" ExposeID="Custom Research Queue Size" Description="Sets how many Queue positions are available in the Research Institute. Note that since there is no 'bring to top'-Button, it might be troublesome to get an Item from the back of the Queue up to first position."/>
+
+    <!-- #Chance for Godlike with ItemCrafting -->
+    <ModOp Type="replace" GUID="120244" Path="/Values/ResearchFeature/ChanceForGodlikePercent" ModOpID="CustomItemCraftingConfigChanceForGodlikePercent">
+        <ChanceForGodlikePercent>5</ChanceForGodlikePercent>
+    </ModOp>
+    <ImyaExpose Path="self::ChanceForGodlikePercent" Kind="Slider" ModOpID="CustomItemCraftingConfigChanceForGodlikePercent" ExposeID="Custom Chance for Godlike while Researching" Description="Sets the chance for a Godlike Discovery on each researched Item [in Percent]">
+        <SliderDefinition Min="0" Max="100" Stepping="5" />
+    </ImyaExpose> 
+</ModOps>

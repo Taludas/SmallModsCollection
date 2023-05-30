@@ -1,0 +1,344 @@
+<ModOps>
+
+  <!-- # Change Cinnamon Orchard to new FreeAreType and use the new cinnamon tree for it-->
+  <ModOp Type="replace" GUID="5000001" Path="/Values/Region/Trees/Hunter">
+    <Hunter>
+      <GUID>1999002241</GUID>
+      <PlantPercent>50</PlantPercent>
+    </Hunter>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="133030" Path="/Values/FreeAreaProductivity/FreeAreaType">
+    <FreeAreaType>Hunter</FreeAreaType>
+  </ModOp>
+
+  <!-- # Change Cinnamon Orchard Prop to the new cinnamon tree -->
+  <ModOp Type="replace" GUID="133030" Path="/Values/Object/Variations">
+    <Variations>
+      <Item>
+        <Filename>data/modgraphics/models/tree_planter/tree_planter_cinnamon.cfg</Filename>
+      </Item>
+    </Variations>
+  </ModOp>
+
+  <!-- # Add the new cinnamon tree to the tree brush -->
+  <ModOp Type="addNextSibling" GUID="133026">
+    <Asset>
+      <Template>Tree</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002241</GUID>
+          <Name>TreePlanter_Colony01_Cinnamon</Name>
+          <IconFilename>data/modgraphics/ui/icon_cinnamon_trees.png</IconFilename>
+          <InfoDescription>134907</InfoDescription>
+        </Standard>
+        <Object>
+          <Variations>
+            <Item>
+              <Filename>data/modgraphics/models/cinnamon_tree/cinnamon_tree_01.prp</Filename>
+            </Item>
+          </Variations>
+        </Object>
+        <Prop>
+          <HerdBlocking>PassableWhenSparse</HerdBlocking>
+          <VegetationType>Tree</VegetationType>
+        </Prop>
+        <Constructable>
+          <ConstructionMode>Tree</ConstructionMode>
+        </Constructable>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Cinnamon Grove</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>50482</LineID>
+        </Text>
+        <Locked />
+        <Cost>
+          <Costs>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>0</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>Tree</TemplateName>
+                    <Index>0</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+              <Amount>25</Amount>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>1</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>Tree</TemplateName>
+                    <Index>1</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>2</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>Tree</TemplateName>
+                    <Index>2</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>3</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>Tree</TemplateName>
+                    <Index>3</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>4</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>Tree</TemplateName>
+                    <Index>4</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+            <Item>
+              <VectorElement>
+                <InheritedIndex>5</InheritedIndex>
+                <InheritanceMapV2>
+                  <Entry>
+                    <TemplateName>Tree</TemplateName>
+                    <Index>5</Index>
+                  </Entry>
+                </InheritanceMapV2>
+              </VectorElement>
+            </Item>
+          </Costs>
+        </Cost>
+        <Tree>
+          <BuildSound>200140</BuildSound>
+        </Tree>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <ModOp Type="add" GUID="134882" Path="/Values/AssetPool/AssetList">
+    <Item>
+      <Asset>1999002241</Asset>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="addNextSibling" GUID="502339" Path="/Values/ConstructionCategory/BuildingList/Item[Building='133026']">
+    <Item>
+      <Building>1999002241</Building>
+    </Item>
+  </ModOp>
+
+  <!-- # Trigger new cinnamon tree -->
+  <ModOp Type="addNextSibling" GUID="130224">
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002242</GUID>
+          <Name>Rerun trigger: intermediate colony01 1.3 - trees (unhide) intermediate colony01 1.4 - trees</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <Template>ConditionPlayerCounter</Template>
+            <Values>
+              <Condition />
+              <ConditionPlayerCounter>
+                <PlayerCounter>PopulationByLevel</PlayerCounter>
+                <Context>15000005</Context>
+                <CounterAmount>300</CounterAmount>
+              </ConditionPlayerCounter>
+            </Values>
+          </TriggerCondition>
+          <TriggerActions>
+            <Item>
+              <TriggerAction>
+                <Template>ActionRegisterTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionRegisterTrigger>
+                    <TriggerAsset>134889</TriggerAsset>
+                  </ActionRegisterTrigger>
+                </Values>
+              </TriggerAction>
+            </Item>
+            <Item>
+              <TriggerAction>
+                <Template>ActionRegisterTrigger</Template>
+                <Values>
+                  <Action />
+                  <ActionRegisterTrigger>
+                    <TriggerAsset>134886</TriggerAsset>
+                  </ActionRegisterTrigger>
+                </Values>
+              </TriggerAction>
+            </Item>
+          </TriggerActions>
+        </Trigger>
+        <TriggerSetup />
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- # ConstructionCategory Orchards NW -> unnecessary with GU16
+  <ModOp Type="addNextSibling" GUID="25178">
+    <Asset>
+      <Template>ConstructionCategory</Template>
+      <Values>
+        <Standard>
+          <GUID>1999002251</GUID>
+          <Name>NW Orchards ConstructionCategory</Name>
+          <IconFilename>data/ui/2kimages/main/3dicons/icon_plantation_sa.png</IconFilename>
+        </Standard>
+        <ConstructionCategory>
+          <BuildingList>
+            <Item>
+              <Building>133004</Building>
+            </Item>
+            <Item>
+              <Building>133030</Building>
+            </Item>
+            <Item>
+              <Building>133031</Building>
+            </Item>
+            <Item>
+              <Building>134614</Building>
+            </Item>
+          </BuildingList>
+          <CategoryDescription>1999002252</CategoryDescription>
+        </ConstructionCategory>
+        <Text>
+          <LocaText>
+            <English>
+              <Text>Hacienda Publics</Text>
+              <Status>Exported</Status>
+              <ExportCount>1</ExportCount>
+            </English>
+          </LocaText>
+          <LineID>27185</LineID>
+        </Text>
+        <Locked />
+      </Values>
+    </Asset>
+  </ModOp> -->
+
+  <ModOp Type="replace" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building='133004']">
+    <Item>
+      <Building>7425</Building>
+    </Item>
+  </ModOp>
+
+  <ModOp Type="remove" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building='133030']"></ModOp>
+  <ModOp Type="remove" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building='133031']"></ModOp>
+  <ModOp Type="remove" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building='134614']"></ModOp>
+
+  <!-- <ModOp Type="addNextSibling" GUID="130248">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1999002253</GUID>
+					<Name>Unhide New Orchard Construction Category</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition/>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000005</Context>
+								<CounterAmount>100</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action/>
+									<ActionUnlockAsset>
+										<UnhideAssets>
+											<Item>
+												<Asset>1999002251</Asset>
+											</Item>
+										</UnhideAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup/>
+			</Values>
+		</Asset>
+	</ModOp>
+
+  <ModOp Type="addNextSibling" GUID="130248">
+		<Asset>
+			<Template>Trigger</Template>
+			<Values>
+				<Standard>
+					<GUID>1999002254</GUID>
+					<Name>Unlock New Orchard Construction Category</Name>
+				</Standard>
+				<Trigger>
+					<TriggerCondition>
+						<Template>ConditionPlayerCounter</Template>
+						<Values>
+							<Condition/>
+							<ConditionPlayerCounter>
+								<PlayerCounter>PopulationByLevel</PlayerCounter>
+								<Context>15000005</Context>
+								<CounterAmount>200</CounterAmount>
+							</ConditionPlayerCounter>
+						</Values>
+					</TriggerCondition>
+					<TriggerActions>
+						<Item>
+							<TriggerAction>
+								<Template>ActionUnlockAsset</Template>
+								<Values>
+									<Action/>
+									<ActionUnlockAsset>
+										<UnlockAssets>
+											<Item>
+												<Asset>1999002251</Asset>
+											</Item>
+										</UnlockAssets>
+									</ActionUnlockAsset>
+								</Values>
+							</TriggerAction>
+						</Item>
+					</TriggerActions>
+				</Trigger>
+				<TriggerSetup/>
+			</Values>
+		</Asset>
+	</ModOp> -->
+
+  <!-- #Reduce Internal Storage for Orchards to vanilla value of other farms -->
+  <ModOp Type="replace" GUID="133004,133030,133031,133496,134614,135085,135088" Path="/Values/FactoryBase/FactoryOutputs/Item/StorageAmount">
+    <StorageAmount>4</StorageAmount>
+  </ModOp>
+
+</ModOps>

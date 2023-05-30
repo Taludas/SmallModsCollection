@@ -1,9 +1,0 @@
-<ModOps>
-    <ModOp Type="replace" Path="//Asset[Template='GuildhouseItem' or Template='HarborOfficeItem' or Template='TownhallItem' or Template='VehicleItem' or Template='ShipSpecialist' or Template='ActiveItem' or Template='ItemSpecialAction' or Template='CultureItem']/Values/Item/MaxStackSize">
-        <MaxStackSize>99</MaxStackSize>
-    </ModOp>
-
-    <ModOp Type="add" Path="//Asset[Template='CultureItem']/Values/Item">
-        <MaxStackSize>99</MaxStackSize>
-    </ModOp>
-</ModOps>

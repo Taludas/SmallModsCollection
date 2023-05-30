@@ -1,0 +1,34 @@
+<ModOps>
+    <ImyaTweaks Title="Modification of the Item Transfer Module - Cooldown and Maximum Item Storage" />
+    <!-- #ItemtransferFeature - Custom Cooldown and MaxStorageSize -->
+    <ModOp Type="replace" GUID="465" Path="/Values/ItemTransferFeature/ItemCooldowns/*/Duration" ModOpID="CustomItemTransferReasearchDuration">
+        <Duration>10000</Duration>
+    </ModOp>
+    <ImyaExpose Path="self::Duration" ModOpID="CustomItemTransferReasearchDuration" ExposeID="Custom Cooldown Itemtransfer: Sandbox"  Description="Sets the Cooldown until Items can be accessed after transfer in Sandbox Mode. [in Milliseconds]"/>
+
+    <ModOp Type="replace" GUID="465" Path="/Values/ItemTransferFeature/CreativeModeItemCooldown" ModOpID="CustomItemTransferReasearchDurationCreativeMode">
+        <Duration>1000</Duration>
+    </ModOp>
+    <ImyaExpose Path="self::Duration" ModOpID="CustomItemTransferReasearchDurationCreativeMode" ExposeID="Custom Cooldown Itemtransfer: Creative Mode" Description="Sets the Cooldown until Items can be accessed after transfer in Creative Mode. [in Milliseconds]"/>
+
+    <!-- Custom StorageSize ItemTransferModule -->
+    <ModOp Type="replace" GUID="964,2274" Path="/Values/MetaItemStorageAccess/ProvidedStorageAmount" ModOpID="CustomItemTransferModuleStorageSize">
+        <ProvidedStorageAmount>2</ProvidedStorageAmount>
+    </ModOp>
+
+    <ModOp Type="replace" Condition="@103693004" GUID="103693004" Path="/Values/MetaItemStorageAccess/ProvidedStorageAmount" ModOpID="CustomItemTransferModuleStorageSize">
+        <ProvidedStorageAmount>2</ProvidedStorageAmount>
+    </ModOp>
+
+    <ModOp Type="replace" Condition="@103692002" GUID="103692002" Path="/Values/MetaItemStorageAccess/ProvidedStorageAmount" ModOpID="CustomItemTransferModuleStorageSize">
+        <ProvidedStorageAmount>2</ProvidedStorageAmount>
+    </ModOp>
+
+    <ImyaExpose Path="self::ProvidedStorageAmount" ModOpID="CustomItemTransferModuleStorageSize" ExposeID="Custom Storage for Itemtransfer Module" Description="Sets the Amount of Items unlocked by building new Itemtransfer Modules (including Enbesa and Arctis if you use the respective mods)."/>
+
+    <!-- Custom MaxStorageSize - UI scrollable, but without scrollbar -->
+    <ModOp Type="replace" GUID="465" Path="/Values/ItemTransferFeature/MaxStorageSize" ModOpID="CustomItemTransferMaxStorageSize">
+        <MaxStorageSize>24</MaxStorageSize>
+    </ModOp>
+    <ImyaExpose Path="self::MaxStorageSize" ModOpID="CustomItemTransferMaxStorageSize" ExposeID="Custom Max Storage for Itemtransfer" Description="Sets the Amount of Items you can store at once for the Item Transfer Module. Keep in mind, that the slots must be unlocked through building more modules. I highly advice to modify the value above to unlock more slots per module. Vanilla Ratio is 12 Modules for full storage amount."/>
+</ModOps>

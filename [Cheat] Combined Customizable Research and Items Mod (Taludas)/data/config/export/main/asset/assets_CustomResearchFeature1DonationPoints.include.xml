@@ -1,0 +1,38 @@
+<ModOps>
+    <ImyaTweaks Title="Basic Modifications of the Research Feature - Donation Points from Items" />
+    <ModOp Type="replace" GUID="120244" Path="/Values/ResearchFeature/ItemDonationConfig/Narrative/ResearchGain" ModOpID="CustomItemDonationConfigNarrativeResearchGain">
+        <ResearchGain>100</ResearchGain>
+    </ModOp>
+    <ImyaExpose Path="self::ResearchGain" ModOpID="CustomItemDonationConfigNarrativeResearchGain" ExposeID="ResearchPoints per Narrative Item Donation" Description="Sets the Research Points gained from Donating a Narrative Item."/>
+
+    <ModOp Type="replace" GUID="120244" Path="/Values/ResearchFeature/ItemDonationConfig/Common/ResearchGain" ModOpID="CustomItemDonationConfigCommonResearchGain">
+        <ResearchGain>20</ResearchGain>
+    </ModOp>
+    <ImyaExpose Path="self::ResearchGain" ModOpID="CustomItemDonationConfigCommonResearchGain" ExposeID="ResearchPoints per Common Item Donation" Description="Sets the Research Points gained from Donating a Common Item."/>
+
+    <ModOp Type="replace" GUID="120244" Path="/Values/ResearchFeature/ItemDonationConfig/Uncommon/ResearchGain" ModOpID="CustomItemDonationConfigUncommonResearchGain">
+        <ResearchGain>30</ResearchGain>
+    </ModOp>
+    <ImyaExpose Path="self::ResearchGain" ModOpID="CustomItemDonationConfigUncommonResearchGain" ExposeID="ResearchPoints per Uncommon Item Donation" Description="Sets the Research Points gained from Donating a Uncommon Item."/>
+
+    <ModOp Type="replace" GUID="120244" Path="/Values/ResearchFeature/ItemDonationConfig/Rare/ResearchGain" ModOpID="CustomItemDonationConfigRareResearchGain">
+        <ResearchGain>40</ResearchGain>
+    </ModOp>
+    <ImyaExpose Path="self::ResearchGain" ModOpID="CustomItemDonationConfigRareResearchGain" ExposeID="ResearchPoints per Rare Item Donation" Description="Sets the Research Points gained from Donating a Rare Item."/>
+
+    <ModOp Type="replace" GUID="120244" Path="/Values/ResearchFeature/ItemDonationConfig/Epic/ResearchGain" ModOpID="CustomItemDonationConfigEpicResearchGain">
+        <ResearchGain>50</ResearchGain>
+    </ModOp>
+    <ImyaExpose Path="self::ResearchGain" ModOpID="CustomItemDonationConfigEpicResearchGain" ExposeID="ResearchPoints per Epic Item Donation" Description="Sets the Research Points gained from Donating a Epic Item."/>
+
+    <ModOp Type="replace" GUID="120244" Path="/Values/ResearchFeature/ItemDonationConfig/Legendary/ResearchGain" ModOpID="CustomItemDonationConfigLegendaryResearchGain">
+        <ResearchGain>250</ResearchGain>
+    </ModOp>
+    <ImyaExpose Path="self::ResearchGain" ModOpID="CustomItemDonationConfigLegendaryResearchGain" ExposeID="ResearchPoints per Legendary Item Donation" Description="Sets the Research Points gained from Donating a Legendary Item."/>
+
+    <ModOp Type="replace" GUID="120244" Path="/Values/ResearchFeature/ItemDonationConfig/Godlike/ResearchGain" ModOpID="CustomItemDonationConfigGodlikeResearchGain">
+        <ResearchGain>7</ResearchGain>
+    </ModOp>
+    <ImyaExpose Path="self::ResearchGain" ModOpID="CustomItemDonationConfigGodlikeResearchGain" ExposeID="ResearchPoints per Godlike Item Donation" Description="Sets the Research Points gained from Donating a Godlike Item."/>
+
+</ModOps>

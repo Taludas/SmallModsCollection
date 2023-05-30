@@ -1,0 +1,70 @@
+{
+  "Version": "1.1",
+  "ModID": "Taludas_CampherCinnamonTrees",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "Category": {
+    "Chinese": "Fix",
+    "English": "Fix",
+    "French": "Fix",
+    "German": "Fix",
+    "Italian": "Fix",
+    "Japanese": "Fix",
+    "Korean": "Fix",
+    "Polish": "Fix",
+    "Russian": "Fix",
+    "Spanish": "Fix",
+    "Taiwanese": "Fix"
+  },
+  "ModName": {
+    "Chinese": "Campher and Cinnamon Orchards use different tree configs",
+    "English": "Campher and Cinnamon Orchards use different tree configs",
+    "French": "Campher and Cinnamon Orchards use different tree configs",
+    "German": "Campher and Cinnamon Orchards use different tree configs",
+    "Italian": "Campher and Cinnamon Orchards use different tree configs",
+    "Japanese": "Campher and Cinnamon Orchards use different tree configs",
+    "Korean": "Campher and Cinnamon Orchards use different tree configs",
+    "Polish": "Campher and Cinnamon Orchards use different tree configs",
+    "Russian": "Campher and Cinnamon Orchards use different tree configs",
+    "Spanish": "Campher and Cinnamon Orchards use different tree configs",
+    "Taiwanese": "Campher and Cinnamon Orchards use different tree configs"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Campher and Cinnamon Orchards use different tree configs.",
+    "French": null,
+    "German": "Kampfer und Zimtbaumschulen verwenden unterschiedliche Baumkonfigurationen.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"Tourism",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/SmallModsCollection",
+  "Image": null
+}

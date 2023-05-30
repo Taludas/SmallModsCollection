@@ -1,0 +1,26 @@
+<ModOps>
+    <ImyaTweaks Title="Basic Modifications of the Research Feature - Custom Research Points Limit" />
+    <ModOp Type="replace" GUID="123399" Path="/Values/ProgressBalancing/Progress">
+        <Progress>
+            <Item>
+                <Value>1000</Value>
+            </Item>
+            <Item>
+                <Threshold>500</Threshold>
+                <Value>2000</Value>
+            </Item>
+        </Progress>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="123399" Path="/Values/ProgressBalancing/PostProgress/ThresholdInterval" ModOpID="AmountofResearchersToIncreaseResearchPointLimit">
+        <ThresholdInterval>100</ThresholdInterval>
+    </ModOp>
+    <ImyaExpose Path="self::ThresholdInterval" ModOpID="AmountofResearchersToIncreaseResearchPointLimit" ExposeID="Amount of Researchers to increase Research Point Limit" Description="Amount of Researchers needed after the initial 500 threshold to increase the Research Point threshold. [default = 100]"></ImyaExpose>
+
+
+    <ModOp Type="replace" GUID="123399" Path="/Values/ProgressBalancing/PostProgress/ValueIncrease" ModOpID="AmountofResearchPointsAddedToResearchPointLimit">
+        <ValueIncrease>1000</ValueIncrease>
+    </ModOp>
+    <ImyaExpose Path="self::ValueIncrease" ModOpID="AmountofResearchPointsAddedToResearchPointLimit" ExposeID="Amount of Research Points added to Research Point Limit" Description="Amount of Research Points added to the Research Point Limit upon reaching the next Research pop Threshold. [default = 1000]"></ImyaExpose>
+
+</ModOps>

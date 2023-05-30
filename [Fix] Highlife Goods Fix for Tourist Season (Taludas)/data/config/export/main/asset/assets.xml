@@ -1,0 +1,467 @@
+<ModOps>
+    <!-- #add Cognac and Mezcal to Beer festival Buff -->
+    <ModOp Type="add" GUID="141896" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <Item>
+            <ProvidedNeed>135234</ProvidedNeed>
+            <AmountInPercent>-100</AmountInPercent>
+        </Item>
+        <Item>
+            <ProvidedNeed>6600</ProvidedNeed>
+            <AmountInPercent>-100</AmountInPercent>
+        </Item>
+    </ModOp>
+
+    <!-- #add Cognac Production Chain to all alcohol production chains ItemEffectTargetPool -->
+    <ModOp Type="remove" GUID="192566" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs/Item[GUID='1010266']"></ModOp>
+    <ModOp Type="add" GUID="192566" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>135088</GUID>
+        </Item>
+        <Item>
+            <GUID>1010329</GUID>
+        </Item>
+        <Item>
+            <GUID>1010317</GUID>
+        </Item>
+        <Item>
+            <GUID>135418</GUID>
+        </Item>
+        <Item>
+            <GUID>190778</GUID>
+        </Item>
+        <Item>
+            <GUID>101270</GUID>
+        </Item>
+        <Item>
+            <GUID>135134</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- #add Cognac and Mezcal to HarvestFestival -->
+    <ModOp Type="add" GUID="142430" Path="/Values/FactoryUpgrade/AdditionalOutput">
+        <Item>
+            <Product>135234</Product>
+            <AdditionalOutputCycle>12</AdditionalOutputCycle>
+            <Amount>1</Amount>
+        </Item>
+        <Item>
+            <Product>6600</Product>
+            <AdditionalOutputCycle>13</AdditionalOutputCycle>
+            <Amount>1</Amount>
+        </Item>
+    </ModOp>
+
+    <!-- #add Cognac and Mezcal to CityCarneval -->
+    <ModOp Type="add" GUID="142433" Path="/Values/PopulationUpgrade/InputBenefitModifier">
+        <Item>
+            <Product>135234</Product>
+            <AdditionalMoney>5</AdditionalMoney>
+        </Item>
+        <Item>
+            <Product>6600</Product>
+            <AdditionalMoney>5</AdditionalMoney>
+        </Item>
+    </ModOp>
+
+    <!-- #add Cognac and Mezcal to AnarchyFestival -->
+    <ModOp Type="add" GUID="111831" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <Item>
+            <ProvidedNeed>135234</ProvidedNeed>
+            <AmountInPercent>-100</AmountInPercent>
+        </Item>
+        <Item>
+            <ProvidedNeed>6600</ProvidedNeed>
+            <AmountInPercent>-100</AmountInPercent>
+        </Item>
+    </ModOp>
+
+    <!-- #replace Black Muscovy Coffee instead of champagne, replace glogg Cognac instead of beer, replace Enbesa Sunrise cognac instead of schnaps -->
+    <ModOp Type="replace" GUID="133361" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010216</ProvidedNeed>
+                <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>1010258</ProvidedNeed>
+                <AmountInPercent>-15</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>120032</ProvidedNeed>
+                <AmountInPercent>-25</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID="133898" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010216</ProvidedNeed>
+                <AmountInPercent>-7</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>1010258</ProvidedNeed>
+                <AmountInPercent>-10.5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>120032</ProvidedNeed>
+                <AmountInPercent>-17.5</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID="133899" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010216</ProvidedNeed>
+                <AmountInPercent>-3</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>1010258</ProvidedNeed>
+                <AmountInPercent>-4.5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>120032</ProvidedNeed>
+                <AmountInPercent>-7.5</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="133363" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>120032</ProvidedNeed>
+                <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>120016</ProvidedNeed>
+                <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135234</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID="133902" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>120032</ProvidedNeed>
+                <AmountInPercent>-7</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>120016</ProvidedNeed>
+                <AmountInPercent>-7</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135234</ProvidedNeed>
+                <AmountInPercent>-14</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID="133903" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>120032</ProvidedNeed>
+                <AmountInPercent>-3</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>120016</ProvidedNeed>
+                <AmountInPercent>-3</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135234</ProvidedNeed>
+                <AmountInPercent>-6</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="133364" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010257</ProvidedNeed>
+                <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>120016</ProvidedNeed>
+                <AmountInPercent>-25</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135234</ProvidedNeed>
+                <AmountInPercent>-15</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID="133904" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010257</ProvidedNeed>
+                <AmountInPercent>-7</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>120016</ProvidedNeed>
+                <AmountInPercent>-17.5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135234</ProvidedNeed>
+                <AmountInPercent>-10.5</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID="133905" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010257</ProvidedNeed>
+                <AmountInPercent>-3</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>120016</ProvidedNeed>
+                <AmountInPercent>-7.5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135234</ProvidedNeed>
+                <AmountInPercent>-4.5</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+
+    <!-- #Cafe add cookies instead of coffee: Donuts, Biscuit, Eclair -->
+    <ModOp Type="replace" GUID="132759" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010216</ProvidedNeed>
+                <AmountInPercent>-25</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>1010258</ProvidedNeed>
+                <AmountInPercent>-5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135229</ProvidedNeed>
+                <AmountInPercent>-10</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID="133906" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010216</ProvidedNeed>
+                <AmountInPercent>-17.5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>1010258</ProvidedNeed>
+                <AmountInPercent>-3.5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135229</ProvidedNeed>
+                <AmountInPercent>-7</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID="133907" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010216</ProvidedNeed>
+                <AmountInPercent>-7.5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>1010258</ProvidedNeed>
+                <AmountInPercent>-1.5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135229</ProvidedNeed>
+                <AmountInPercent>-3</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="133358" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010213</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>120016</ProvidedNeed>
+                <AmountInPercent>-5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135229</ProvidedNeed>
+                <AmountInPercent>-15</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID="133910" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010213</ProvidedNeed>
+                <AmountInPercent>-14</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>120016</ProvidedNeed>
+                <AmountInPercent>-3.5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135229</ProvidedNeed>
+                <AmountInPercent>-10.5</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID="133911" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010213</ProvidedNeed>
+                <AmountInPercent>-6</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>120016</ProvidedNeed>
+                <AmountInPercent>-1.5</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135229</ProvidedNeed>
+                <AmountInPercent>-4.5</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="133357" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010238</ProvidedNeed>
+                <AmountInPercent>-30</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>1010258</ProvidedNeed>
+                <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135229</ProvidedNeed>
+                <AmountInPercent>-15</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID="133908" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010238</ProvidedNeed>
+                <AmountInPercent>-21</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>1010258</ProvidedNeed>
+                <AmountInPercent>-7</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135229</ProvidedNeed>
+                <AmountInPercent>-10.5</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID="133909" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010238</ProvidedNeed>
+                <AmountInPercent>-9</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>1010258</ProvidedNeed>
+                <AmountInPercent>-3</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135229</ProvidedNeed>
+                <AmountInPercent>-4.5</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+
+    <!-- #Iron Tower recipes, Trifle Tower coffee to cognac, brioche royal chocolate to biscuits, lady marmelade coffee tp cognac and bread to biscuits -->
+    <ModOp Type="replace" GUID="133929" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010257</ProvidedNeed>
+                <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>1010258</ProvidedNeed>
+                <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135234</ProvidedNeed>
+                <AmountInPercent>-10</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID="133934" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010217</ProvidedNeed>
+                <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>120016</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135234</ProvidedNeed>
+                <AmountInPercent>-10</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+    <ModOp Type="replace" GUID="133935" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <GoodConsumptionUpgrade>
+            <Item>
+                <ProvidedNeed>1010258</ProvidedNeed>
+                <AmountInPercent>-20</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135234</ProvidedNeed>
+                <AmountInPercent>-10</AmountInPercent>
+            </Item>
+            <Item>
+                <ProvidedNeed>135229</ProvidedNeed>
+                <AmountInPercent>-10</AmountInPercent>
+            </Item>
+        </GoodConsumptionUpgrade>
+    </ModOp>
+
+
+    <!-- #Armagnac Bottles with cognac and Mezcal -->
+    <ModOp Type="add" GUID="192020" Path="/Values/ResidenceUpgrade/GoodConsumptionUpgrade">
+        <Item>
+            <ProvidedNeed>135234</ProvidedNeed>
+            <AmountInPercent>-100</AmountInPercent>
+        </Item>
+        <Item>
+            <ProvidedNeed>6600</ProvidedNeed>
+            <AmountInPercent>-100</AmountInPercent>
+        </Item>
+    </ModOp>
+
+    <!-- #Cognac Manufactury in All drinks production -->
+    <ModOp Type="add" GUID="190901" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>135418</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- #Biscuits Assembly Line in all food productions  -->
+    <ModOp Type="add" GUID="190897" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>135361</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- #Orchards in prehistorical set buff -->
+    <ModOp Type="add" GUID="191147" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>194008</GUID>
+        </Item>
+        <Item>
+            <GUID>190778</GUID>
+        </Item>
+    </ModOp>
+
+    <!-- #Orchards in miombo woodlands set buff -->
+    <ModOp Type="add" GUID="124210" Path="/Values/ItemEffect/EffectTargets">
+        <Item>
+            <GUID>194008</GUID>
+        </Item>
+    </ModOp>
+</ModOps>

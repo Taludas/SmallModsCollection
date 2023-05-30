@@ -1,0 +1,126 @@
+<ModOps>
+
+    <ModOp Type="add" Path="/TextExport/Texts">
+        <Text>
+            <GUID>1999002340</GUID>
+            <Text>Tor zum Halloween-Festplatz</Text>
+        </Text>
+        <Text>
+            <GUID>1999002341</GUID>
+            <Text>Hier beginnt Eure Reise in die Welt des menschengemachten Horrors. Achtet auf herumstreunende Geister!</Text>
+        </Text>
+        <Text>
+            <GUID>1999002342</GUID>
+            <Text>Großer Halloween Baum</Text>
+        </Text>
+        <Text>
+            <GUID>1999002343</GUID>
+            <Text>Ein verkrüppelter Baum, der viele hundert Jahre alt ist. Eine mysteriöse Aura umgibt ihn, nachdem alle Mitglieder einer einflussreichen Großindustriellenfamilie ihren Tod im Schatten seiner Krone gefunden haben.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002344</GUID>
+            <Text>Toter Halloween Baum</Text>
+        </Text>
+        <Text>
+            <GUID>1999002345</GUID>
+            <Text>Dem Smog der Großstadt erlegen, wurden diese Bäume gespenstisch dekoriert, um sie wenigstens etwas ansehnlich zu machen.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002346</GUID>
+            <Text>Festlicher Halloween Baum</Text>
+        </Text>
+        <Text>
+            <GUID>1999002347</GUID>
+            <Text>Einige Bewohner haben sich dieser Bäume angenommen, um sie zum Fest des Grusels in schönstem Glanz erstrahlen zu lassen.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002348</GUID>
+            <Text>Halloween Imbissbude</Text>
+        </Text>
+        <Text>
+            <GUID>1999002349</GUID>
+            <Text>Gebackene Kürbisse, Butterbier und Rostbratwürstchen werden hier an die hungrigen Besucher verteilt.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002350</GUID>
+            <Text>Halloween Süßigkeitenstand</Text>
+        </Text>
+        <Text>
+            <GUID>1999002351</GUID>
+            <Text>Zuckerstangen, geröstete Mandeln und Kürbiskekse werden hier an die kleinen Besucher verteilt.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002352</GUID>
+            <Text>Halloween Moststand</Text>
+        </Text>
+        <Text>
+            <GUID>1999002353</GUID>
+            <Text>Der Dampf von heißem Apfelmost schlägt Euch entgegen. Eine Prise Zimt gibt ihm ein besonderes Aroma. Trinkt nicht zu viel, sonst findet Ihr den Heimweg nicht mehr!</Text>
+        </Text>
+        <Text>
+            <GUID>1999002354</GUID>
+            <Text>Halloween Tische</Text>
+        </Text>
+        <Text>
+            <GUID>1999002355</GUID>
+            <Text>Versammeln Sie sich und genießen Sie die von Vampirkellnerinnen und Zombiekellnern gelieferten Mahlzeiten. Manchmal wirft ein Besucher sein Messer in die Rinde des Baumes in der Mitte der Tafeln. Dabei wird roter Baumsaft auf die umliegenden Gäste verspritzt.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002356</GUID>
+            <Text>Gespenstischer Brunnen</Text>
+        </Text>
+        <Text>
+            <GUID>1999002357</GUID>
+            <Text>Eines Tages fiel ein Kind in den Brunnen und wurde nie wieder gefunden. Seit dem ist das Wasser des Brunnens ungenießbar und jeden der ihm zu nahe kommt überfällt ein kalter Schauer.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002358</GUID>
+            <Text>Halloween Kessel</Text>
+        </Text>
+        <Text>
+            <GUID>1999002359</GUID>
+            <Text>Alte Hexen tanzen um den Kessel, dickes Gift blubbert langsam vor sich hin und übelriechende Dämpfe steigen in den Nachthimmel. Bleibt zurück oder Ihr werdet die nächste Zutat im Trank der lebenden Toten.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002360</GUID>
+            <Text>Halloween Baum</Text>
+        </Text>
+        <Text>
+            <GUID>1999002361</GUID>
+            <Text>Ein alter knorriger Baum, dekoriert für die kommende Hallloween-Feier.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002362</GUID>
+            <Text>Halloween Marktplatz</Text>
+        </Text>
+        <Text>
+            <GUID>1999002363</GUID>
+            <Text>Halloween Marktplatz</Text>
+        </Text>
+        <Text>
+            <GUID>1999002364</GUID>
+            <Text>Die Kürbiszeit hat begonnen! Nach dem Erntedankfest sind die Stände reich gefüllt mit herbstlichem Gemüse, Deko und Pflanzen. Gespenstisches rotes Licht verbreitet einen Hauch von Mysterium. Verkleidete Vogelschrecken jagen den Besuchern eine gehörigen Schrecken ein, und heute Abend wird der größte Kürbis des Landes gekürt.</Text>
+        </Text>
+        <Text>
+            <GUID>1999002370</GUID>
+            <Text>Halloween Ornamente</Text>
+        </Text>
+        <Text>
+            <GUID>1999002369</GUID>
+            <Text>Gespentische Ornamente</Text>
+        </Text>
+        <Text>
+            <GUID>1999002365</GUID>
+            <Text>Halloween Kirche</Text>
+        </Text>
+        <Text>
+            <GUID>1999002366</GUID>
+            <Text>Halloween Kirche</Text>
+        </Text>
+        <Text>
+            <GUID>1999002367</GUID>
+            <Text>Vor langer Zeit beschloss einer der örtlichen Priester, die Katakomben unter dieser alten Kirche zu betreten. Er kehrte von dieser Reise nicht zurück. Seitdem verwandelte sich der Hinterhof der Kirche mehr und mehr in einen gespenstischen, nebligen Friedhof, und einige Leute schwören, dass sie Grabsteine und Gruften aus dem Nichts auftauchen sahen. Trotzdem haben einige seltsame Kultisten begonnen, in der Kirche zu beten, und an der Türschwelle waren Blutspritzer zu sehen. Mit diesen Leuten legt man sich besser nicht an!</Text>
+        </Text>
+    </ModOp>
+
+</ModOps>
