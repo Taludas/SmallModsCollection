@@ -1,0 +1,10 @@
+<ModOps>
+
+    <!-- #replace ventilator factory with fixed cfg -->
+    <ModOp Type="replace" GUID="5862" Path="/Values/Object/Variations/Item[1]">
+        <Item>
+            <Filename>data/modgraphics/ventilator_factory/ventilator_factory_fixed.cfg</Filename>
+        </Item>
+    </ModOp>
+    
+</ModOps>

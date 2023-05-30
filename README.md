@@ -247,8 +247,19 @@ This mod is combining one of the most anticipated QoL Updates since the release 
 - You can modify nearly every value involved with the Research Institute. From maximium Queue Size, over custom research time and cost config, cost limit for item research, till number of permits granted per research. Best have a look inside iMYA and play around with the numbers to get the full experience.
 - You can also customize the Item Transfer Module in every session. Frustrated over the limit of 24 items? No problem, with this mod you can increase it to whatever number you like. You can get rid of the timer until the item is available, too! Includes support for [Arctis](https://www.nexusmods.com/anno1800/mods/446) and [Enbesa](https://www.nexusmods.com/anno1800/mods/450) Modules, if you use those mods.
 
+This mod is (not necessarily) incompatible with all other mods that in any way change the features of the research institute (time, cost, output, etc.) I marked as incompatible the mods I found at Nexus that have a modinfo.json. But there are enough mods that do not have this. So be careful with your mod choice! If you still have some of these mods, my mod will most likely overwrite them, thanks to LoadAfterIds, so don't worry too much!
+
 <details>
     <summary>The little problem which actually isn't one</summary>
 
 With this mod enabled you could potentially exploit the expedition feature of the game, since every item inside the holds of your ship counts towards the success propability of the selected expedition. So you could just load a stack of 6 legendary items and never have problems with the "minigame" again. But as you could have stacked ActionItems like the pirate flags before and no one has done that, I believe in you all, that you use this feature wisely and maturely to only not get crazy over buying items at Eli.
 </details>
+
+-----
+
+### Fan Factory Fixed
+![banner](https://github.com/Taludas/SmallModsCollection/assets/64583643/4d7e70c2-4b2b-4f88-b3d6-01eda93bc414)
+
+This mod is fixing the issue present since GU17 concerning the Ventilator/Fan Factory. The building is sporting a 0.5 tile offset, that made it impossible to be clipped, since the center of the building was off-grid and disrupted the usual clipping mechanic.
+
+If you install this mod and have already built some Fan Factories in your savegame, you will have some graphical issues where street might clip through the building. This can be easily solved by grabbing the building up with the Move-Tool. When placing the building down again, the graphical issue is fixed.

@@ -1,0 +1,71 @@
+{
+  "Version": "1.0.0",
+  "ModID": "Taludas_FixedFanFactory",
+  "IncompatibleIds": null,
+  "ModDependencies": null,
+  "DeprecateIds": [
+  ],
+  "LoadAfterIDs": [
+  ],
+  "Category": {
+    "Chinese": "Fix",
+    "English": "Fix",
+    "French": "Fix",
+    "German": "Fix",
+    "Italian": "Fix",
+    "Japanese": "Fix",
+    "Korean": "Fix",
+    "Polish": "Fix",
+    "Russian": "Fix",
+    "Spanish": "Fix",
+    "Taiwanese": "Fix"
+  },
+  "ModName": {
+    "Chinese": "Fan Factory fixed (Taludas)",
+    "English": "Fan Factory fixed (Taludas)",
+    "French": "Fan Factory fixed (Taludas)",
+    "German": "Fan Factory fixed (Taludas)",
+    "Italian": "Fan Factory fixed (Taludas)",
+    "Japanese": "Fan Factory fixed (Taludas)",
+    "Korean": "Fan Factory fixed (Taludas)",
+    "Polish": "Fan Factory fixed (Taludas)",
+    "Russian": "Fan Factory fixed (Taludas)",
+    "Spanish": "Fan Factory fixed (Taludas)",
+    "Taiwanese": "Fan Factory fixed (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Fixes the non-clippable Fan Factory by replacing its graphic with a fixed cfg file.",
+    "French": null,
+    "German": "Behebt das Problem, dass die Ventilatoren-Fabrik nicht clippbar ist, indem die Mod die Grafikfile durch eine gefixte Version ersetzt.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    "NewWorldRising"
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/SmallModsCollection",
+  "Image": null
+}

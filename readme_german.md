@@ -246,8 +246,19 @@ Diese Mod kombiniert eines der am meisten erwarteten QoL-Updates seit der Veröf
 - Ihr könnt fast alle Werte des Forschungsinstituts ändern. Von der maximalen Größe der Warteschlange, über die Konfiguration der Forschungszeit und -kosten, das Kostenlimit für die Erforschung von Gegenständen, bis hin zur Anzahl der Genehmigungen, die pro Forschung erteilt werden. Am besten werft ihr einen Blick in iMYA und spielt mit den Zahlen herum, um die volle Erfahrung zu bekommen.
 - Ihr könnt auch das Item-Transfermodul in jeder Session anpassen. Frustriert über das Limit von 24 Gegenständen? Kein Problem, mit dieser Mod könnt ihr die Zahl auf jede beliebige Zahl erhöhen. Ihr könnt auch den Timer abschalten, bis die Items verfügbar sind! Enthält Unterstützung für die Module in der [Arktis](https://www.nexusmods.com/anno1800/mods/446) und [Enbesa](https://www.nexusmods.com/anno1800/mods/450), wenn ihr diese Mods verwendet.
 
+Diese Mod ist (nicht zwangsläufig) inkompatibel mit allen anderen Mods, die in irgendeiner Weise die Features des Forschungsinstitutes verändern (Zeit, Kosten, Output usw.) Ich habe die Mods als inkompatibel markiert, die ich bei Nexus gefunden habe und die eine modinfo.json haben. Aber es gibt genügend Mods, die dies nicht haben. Daher Augen auf bei der Mod-Wahl! Solltet ihr trotzdem noch einige dieser Mods haben, so wird meine Mod diese mit großer Wahrscheinlichkeit überschreiben, dank LoadAfterIds, also nicht zu viele Sorgen machen!
+
 <details>
     <summary>Das kleine Problem, das eigentlich keins ist</summary>
 
 Mit dieser Mod könnte man die Expeditionsfunktion des Spiels ausnutzen, da jedes Items im Laderaum des Schiffes für die Erfolgsaussicht der gewählten Expedition zählt. Du könntest also einfach einen Stapel von 6 legendären Items laden und hättest nie wieder Probleme mit dem "Minigame". Da man aber auch ActionItems wie die Piratenflaggen stapeln kann und das noch niemand gemacht hat, glaube ich an euch alle, dass ihr dieses Feature weise und reiflich nutzt, um nur ja nicht durchzudrehen, wenn ihr Gegenstände bei Eli kauft.
 </details>
+
+-----
+
+### Fan Factory Fixed
+![banner](https://github.com/Taludas/SmallModsCollection/assets/64583643/4d7e70c2-4b2b-4f88-b3d6-01eda93bc414)
+
+Dieser Mod behebt das Problem mit der Ventilatorenfabrik, das seit GU17 besteht. Das Gebäude hat einen Versatz von 0,5 Kacheln, wodurch es nicht geclippt werden konnte, da die Mitte des Gebäudes außerhalb des Rasters lag und die übliche Clipping-Mechanik störte.
+
+Wenn ihr diese Mod installiert habt und in eurem Spielstand bereits einige Fanfabriken gebaut wurden, werdet ihr einige grafische Probleme feststellen, bei denen die Straße das Gebäude durchschneidet. Dies lässt sich leicht beheben, indem man das Gebäude mit dem Verschiebewerkzeug einmal aufnimmt und wieder absetzt. Sobald ihr das Gebäude wieder abgesetzt habt, ist das grafische Problem behoben.
