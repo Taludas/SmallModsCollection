@@ -23,7 +23,7 @@ You can find a gallery of images from my mod [here](docs/).
     <summary>Patch Notes Version 1.6</summary>
 
 * Added the Combined Research Mod and merged it with the "Items Stackable" Mod. Therefore, if you install manually, make sure to delete the old mod named: "[zZzFix] Item Stack Size". iMYA will give a automatic warning in the mod browser. Please remove the old mod there as well.
-* 
+* Added "Fan Factory Fixed" Mod, a mod to resolve the issue of the non-clippable Fan Factory persistend since GU17.
 </details>
 
 <details>

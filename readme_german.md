@@ -22,7 +22,7 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
     <summary>Patch Notes Version 1.6</summary>
 
 * Die Combined Research Mod wurde hinzugefügt und mit der "Items Stackable" Mod zusammengeführt. Wenn ihr also manuell installiert, stellt sicher, dass ihr die alte Mod löscht: "[zZzFix] Item Stack Size". iMYA wird eine automatische Warnung im Mod-Browser ausgeben. Bitte entfernt die alte Mod auch dort.
-* 
+* Mod "Fan Factory Fixed" hinzugefügt, eine Mod, die das Problem der nicht klippbaren Ventilatorenfabrik behebt, das seit GU17 besteht.
 </details>
 
 <details>
