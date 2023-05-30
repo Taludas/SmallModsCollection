@@ -1,7 +1,12 @@
 {
   "Version": "1.0.0",
   "ModID": "Taludas_CombinedResearchandItemsMod",
-  "IncompatibleIds": null,
+  "IncompatibleIds": [
+    "Spice_Research",
+    "Spice_ScholarPermits",
+    "hdd_better_RP_on_Items",
+    "Easy_Research"
+  ],
   "ModDependencies": null,
   "DeprecateIds": [
     "Taludas_ItemsStackable"
@@ -49,7 +54,8 @@
     "Spanish": null,
     "Taiwanese": null
   },
-  "KnownIssues": [
+  "KnownIssues": 
+  [
     {
       "Chinese": null,
       "English": null,
