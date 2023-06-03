@@ -1,0 +1,16 @@
+<ModOps>
+    <ImyaTweaks Title="Influence amount for Enbesa Residences"/>
+    <!-- Shepards -->
+    <ModOp Type="merge" GUID="114436" Path="/Values/InfluenceSource" ModOpID="InfluenceShepards">
+        <InfluenceAmount>0</InfluenceAmount>
+        <InfluenceSource>Culture</InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceAmount" ModOpID="InfluenceShepards" ExposeID="Influence Amount Shepards Residence"></ImyaExpose>
+
+    <!-- Eldest -->
+    <ModOp Type="merge" GUID="114437" Path="/Values/InfluenceSource" ModOpID="InfluenceEldest">
+        <InfluenceAmount>0</InfluenceAmount>
+        <InfluenceSource>Culture</InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceAmount" ModOpID="InfluenceEldest" ExposeID="Influence Amount Eldest Residence"></ImyaExpose>
+</ModOps>

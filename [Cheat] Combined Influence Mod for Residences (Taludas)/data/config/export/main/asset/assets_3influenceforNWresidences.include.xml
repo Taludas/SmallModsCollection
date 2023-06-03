@@ -1,0 +1,51 @@
+<ModOps>
+    <ImyaTweaks Title="Influence amount for New World Residences inlcuding DLCs (Hacienda Residences and Hacienda Buff)"/>
+    <!-- Jornaleros -->
+    <ModOp Type="merge" GUID="101254" Path="/Values/InfluenceSource" ModOpID="InfluenceJornaleros">
+        <InfluenceAmount>0</InfluenceAmount>
+        <InfluenceSource>Culture</InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceAmount" ModOpID="InfluenceJornaleros" ExposeID="Influence Amount Jornalero Residence"></ImyaExpose>
+
+    <!-- Obreros -->
+    <ModOp Type="merge" GUID="101255" Path="/Values/InfluenceSource" ModOpID="InfluenceObreros">
+        <InfluenceAmount>0</InfluenceAmount>
+        <InfluenceSource>Culture</InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceAmount" ModOpID="InfluenceObreros" ExposeID="Influence Amount Obrero Residence"></ImyaExpose>
+
+    <!-- Artistas -->
+    <ModOp Type="merge" GUID="5405" Path="/Values/InfluenceSource" ModOpID="InfluenceArtista">
+        <InfluenceAmount>0</InfluenceAmount>
+        <InfluenceSource>Culture</InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceAmount" ModOpID="InfluenceArtista" ExposeID="Influence Amount Artista Residence"></ImyaExpose>
+
+    <!-- Jornaleros Hacienda -->
+    <ModOp Type="merge" GUID="24792" Path="/Values/InfluenceSource" ModOpID="InfluenceJornalerosHacienda">
+        <InfluenceAmount>0</InfluenceAmount>
+        <InfluenceSource>Culture</InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceAmount" ModOpID="InfluenceJornalerosHacienda" ExposeID="Influence Amount Jornalero Hacienda Residence"></ImyaExpose>
+
+    <!-- Obreros Hacienda -->
+    <ModOp Type="merge" GUID="24793" Path="/Values/InfluenceSource" ModOpID="InfluenceObrerosHacienda">
+        <InfluenceAmount>0</InfluenceAmount>
+        <InfluenceSource>Culture</InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceAmount" ModOpID="InfluenceObrerosHacienda" ExposeID="Influence Amount Obrero Hacienda Residence"></ImyaExpose>
+
+    <!-- Artista Hacienda -->
+    <ModOp Type="merge" GUID="6086" Path="/Values/InfluenceSource" ModOpID="InfluenceArtistaHacienda">
+        <InfluenceAmount>0</InfluenceAmount>
+        <InfluenceSource>Culture</InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceAmount" ModOpID="InfluenceArtistaHacienda" ExposeID="Influence Amount Artista Hacienda Residence"></ImyaExpose>
+
+    <!-- Obrero and Artista with Hacienda Decree 4 -->
+    <ModOp Type="merge" GUID="25661" Path="Values/InfluenceSourceUpgrade/InfluenceAmounUpgrade/Value" ModOpID="InfluenceHaciendaDecreeBuff">
+        <Value>5</Value>
+    </ModOp>
+    <ImyaExpose Path="self::Value" ModOpID="InfluenceHaciendaDecreeBuff" ExposeID="Influence Amount Hacienda Obreros/Artistas Local Assemblies"></ImyaExpose>
+
+</ModOps>

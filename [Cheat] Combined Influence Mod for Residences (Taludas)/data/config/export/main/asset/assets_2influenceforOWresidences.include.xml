@@ -1,0 +1,141 @@
+<ModOps>
+    <ImyaTweaks Title="Influence amount for Old World Residences including DLC Residences (Hotels, Scholars, Skyscrapers and SkylineTower)"/>
+    <!-- Farmers -->
+    <ModOp Type="merge" GUID="1010343" Path="/Values/InfluenceSource" ModOpID="InfluenceFarmer">
+        <InfluenceAmount>0</InfluenceAmount>
+        <InfluenceSource>Culture</InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceAmount" ModOpID="InfluenceFarmer" ExposeID="Influence Amount Farmer Residence"></ImyaExpose>
+
+    <!-- Workers -->
+    <ModOp Type="merge" GUID="1010344" Path="/Values/InfluenceSource" ModOpID="InfluenceWorker">
+        <InfluenceAmount>0</InfluenceAmount>
+        <InfluenceSource>Culture</InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceAmount" ModOpID="InfluenceWorker" ExposeID="Influence Amount Worker Residence"></ImyaExpose>
+
+    <!-- Artisans -->
+    <ModOp Type="merge" GUID="1010345" Path="/Values/InfluenceSource" ModOpID="InfluenceArtisan">
+        <InfluenceAmount>0</InfluenceAmount>
+        <InfluenceSource>Culture</InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceAmount" ModOpID="InfluenceArtisan" ExposeID="Influence Amount Artisan Residence"></ImyaExpose>
+
+    <!-- Engineers -->
+    <ModOp Type="replace" GUID="1010346" Path="/Values/InfluenceSource" ModOpID="InfluenceEngineer">
+        <InfluenceSource>
+            <InfluenceAmount>0</InfluenceAmount>
+        </InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="InfluenceEngineer" ExposeID="Influence Amount Engineer Residence"></ImyaExpose>
+
+    <!-- Engineers Skyscraper Lvl.1 -->
+    <ModOp Type="replace" GUID="601888" Path="/Values/InfluenceSource" ModOpID="InfluenceEngineerLvl1">
+        <InfluenceSource>
+            <InfluenceSource>Engineers</InfluenceSource>
+            <InfluenceAmount>1</InfluenceAmount>
+        </InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="InfluenceEngineerLvl1" ExposeID="Influence Amount Engineer Skyscraper Lvl1"></ImyaExpose>
+
+    <!-- Engineers Skyscraper Lvl.2 -->
+    <ModOp Type="replace" GUID="601889" Path="/Values/InfluenceSource" ModOpID="InfluenceEngineerLvl2">
+        <InfluenceSource>
+            <InfluenceSource>Engineers</InfluenceSource>
+            <InfluenceAmount>2</InfluenceAmount>
+        </InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="InfluenceEngineerLvl2" ExposeID="Influence Amount Engineer Skyscraper Lvl2"></ImyaExpose>
+
+    <!-- Engineers Skyscraper Lvl.3 -->
+    <ModOp Type="replace" GUID="601890" Path="/Values/InfluenceSource" ModOpID="InfluenceEngineerLvl3">
+        <InfluenceSource>
+            <InfluenceSource>Engineers</InfluenceSource>
+            <InfluenceAmount>3</InfluenceAmount>
+        </InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="InfluenceEngineerLvl3" ExposeID="Influence Amount Engineer Skyscraper Lvl3"></ImyaExpose>
+
+    <!-- City Affiars - Decree 3 Buff -->
+    <ModOp Type="merge" GUID="269178" Path="Values/InfluenceSourceUpgrade/InfluenceAmounUpgrade/Value" ModOpID="InfluenceEngineerDecreeBuff">
+        <Value>1</Value>
+    </ModOp>
+    <ImyaExpose Path="self::Value" ModOpID="InfluenceEngineerDecreeBuff" ExposeID="Influence Amount Engineers Science Fairs Act"></ImyaExpose>
+
+    <!-- Investors -->
+    <ModOp Type="replace" GUID="1010347" Path="/Values/InfluenceSource" ModOpID="InfluenceInvestor">
+        <InfluenceSource>
+            <InfluenceSource>Investors</InfluenceSource>
+            <InfluenceAmount>3</InfluenceAmount>
+        </InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="InfluenceInvestor" ExposeID="Influence Amount Investor Residence"></ImyaExpose>
+
+    <!-- Investors Lvl.1 -->
+    <ModOp Type="replace" GUID="601882" Path="/Values/InfluenceSource" ModOpID="InfluenceInvestorLvl1">
+        <InfluenceSource>
+            <InfluenceSource>Investors</InfluenceSource>
+            <InfluenceAmount>4</InfluenceAmount>
+        </InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="InfluenceInvestorLvl1" ExposeID="Influence Amount Investor Skyscraper Lvl1"></ImyaExpose>
+
+    <!-- Investors Lvl.2 -->
+    <ModOp Type="replace" GUID="601883" Path="/Values/InfluenceSource" ModOpID="InfluenceInvestorLvl2">
+        <InfluenceSource>
+            <InfluenceSource>Investors</InfluenceSource>
+            <InfluenceAmount>5</InfluenceAmount>
+        </InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="InfluenceInvestorLvl2" ExposeID="Influence Amount Investor Skyscraper Lvl2"></ImyaExpose>
+
+    <!-- Investors Lvl.3 -->
+    <ModOp Type="replace" GUID="601884" Path="/Values/InfluenceSource" ModOpID="InfluenceInvestorLvl3">
+        <InfluenceSource>
+            <InfluenceSource>Investors</InfluenceSource>
+            <InfluenceAmount>6</InfluenceAmount>
+        </InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="InfluenceInvestorLvl3" ExposeID="Influence Amount Investor Skyscraper Lvl3"></ImyaExpose>
+
+    <!-- Investors Lvl.4 -->
+    <ModOp Type="replace" GUID="601886" Path="/Values/InfluenceSource" ModOpID="InfluenceInvestorLvl4">
+        <InfluenceSource>
+            <InfluenceSource>Investors</InfluenceSource>
+            <InfluenceAmount>7</InfluenceAmount>
+        </InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="InfluenceInvestorLvl4" ExposeID="Influence Amount Investor Skyscraper Lvl4"></ImyaExpose>
+
+    <!-- Investors Lvl.5 -->
+    <ModOp Type="replace" GUID="601891" Path="/Values/InfluenceSource" ModOpID="InfluenceInvestorLvl5">
+        <InfluenceSource>
+            <InfluenceSource>Investors</InfluenceSource>
+            <InfluenceAmount>8</InfluenceAmount>
+        </InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceSource/InfluenceAmount" ModOpID="InfluenceInvestorLvl5" ExposeID="Influence Amount Investor Skyscraper Lvl5"></ImyaExpose>
+
+    <!-- Hotels -->
+    <ModOp Type="merge" GUID="601445" Path="/Values/InfluenceSource" ModOpID="InfluenceHotels">
+        <InfluenceAmount>0</InfluenceAmount>
+        <InfluenceSource>Culture</InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceAmount" ModOpID="InfluenceHotels" ExposeID="Influence Amount Hotels"></ImyaExpose>
+
+    <!-- Scholars -->
+    <ModOp Type="merge" GUID="114445" Path="/Values/InfluenceSource" ModOpID="InfluenceScholars">
+        <InfluenceAmount>0</InfluenceAmount>
+        <InfluenceSource>Culture</InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceAmount" ModOpID="InfluenceScholars" ExposeID="Influence Amount Scholars"></ImyaExpose>
+
+    <!-- SkylineTower -->
+    <ModOp Type="merge" GUID="406" Path="/Values/InfluenceSource" ModOpID="InfluenceSkylineTower">
+        <InfluenceAmount>50</InfluenceAmount>
+        <InfluenceSource>Culture</InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceAmount" ModOpID="InfluenceSkylineTower" ExposeID="Influence Amount Skyline Tower"></ImyaExpose>
+
+
+</ModOps>

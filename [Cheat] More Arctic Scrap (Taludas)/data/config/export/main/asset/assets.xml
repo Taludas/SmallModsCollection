@@ -1,12 +1,11 @@
 <ModOps>
-
-    <ModOp Type="replace" GUID="116830" Path="/Values/RewardPool/ItemsPool">
+    <ImyaTweaks Title="Modifies the Amount of Arctic Scrap which can be found in the chests."/>
+    <ModOp Type="replace" GUID="116830" Path="/Values/RewardPool/ItemsPool" ModOpID="CustomArcticScrapAmount">
         <ItemsPool>
             <Item>
                 <ItemLink>115980</ItemLink>
                 <MaxAmount>15</MaxAmount>
                 <Weight>3</Weight>
-
             </Item>
            <Item>
                 <ItemLink>115980</ItemLink>
@@ -17,5 +16,6 @@
             </Item>
         </ItemsPool>
     </ModOp>
+    <ImyaExpose Path="self::ItemsPool/Item[1]/MaxAmount" ModOpID="CustomArcticScrapAmount" ExposeID="Sets max Amount of Scrap for Loot Chests"></ImyaExpose>
 
 </ModOps>

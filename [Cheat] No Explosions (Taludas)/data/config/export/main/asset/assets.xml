@@ -1,0 +1,83 @@
+<ModOps>
+    <ModOp Type="addNextSibling" GUID="658">
+        <Asset>
+            <Template>GuildhouseBuff</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999003250</GUID>
+                    <Name>Cheat - No Explosion Buff for all Productions</Name>
+                    <IconFilename>data/ui/2kimages/main/3dicons/consumables/icon_fire_extinguisher_3.png</IconFilename>
+                    <InfoDescription>1999003251</InfoDescription>
+                </Standard>
+                <ItemEffect>
+                    <EffectTargets>
+                        <Item>
+                            <GUID>368</GUID>
+                        </Item>
+                    </EffectTargets>
+                </ItemEffect>
+                <Text>
+                    <LocaText>
+                        <English>
+                            <Text>Explosion Awareness</Text>
+                            <Status>Exported</Status>
+                        </English>
+                    </LocaText>
+                    <LineID>53894</LineID>
+                </Text>
+                <FactoryUpgrade/>
+                <BuildingUpgrade/>
+                <Buff />
+                <CultureUpgrade/>
+                <ModuleOwnerUpgrade/>
+                <IncidentInfectableUpgrade>
+                    <IncidentExplosionIncreaseUpgrade>
+                        <Value>-1000</Value>
+                        <Percental>1</Percental>
+                    </IncidentExplosionIncreaseUpgrade>
+                </IncidentInfectableUpgrade>
+                <PowerplantUpgrade/>
+                <IndustrializableUpgrade/>
+                <ItemContainerUpgrade/>
+                <IncidentInfluencerUpgrade/>
+                <IrrigationUpgrade/>
+                <EcoSystemProviderUpgrade/>
+                <ResourceUpgrade/>
+            </Values>
+        </Asset>
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999003252</GUID>
+                    <Name>Trigger No Explosion Buff</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                            <Template>ActionBuff</Template>
+                            <Values>
+                                <Action />
+                                <ActionBuff>
+                                <BuffAsset>1999003250</BuffAsset>
+                                <AddBuff>1</AddBuff>
+                                <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                </ActionBuff>
+                            </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup />
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>

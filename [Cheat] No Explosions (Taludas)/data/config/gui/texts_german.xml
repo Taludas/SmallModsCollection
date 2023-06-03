@@ -1,0 +1,12 @@
+<ModOps>
+  <ModOp Type="add" Path="/TextExport/Texts">
+    <Text>
+      <GUID>1999003250</GUID>
+      <Text>Sichere Lagerung</Text>
+    </Text>
+    <Text>
+      <GUID>1999003251</GUID>
+      <Text>Eine gründliche Schulung zur sicheren Lagerung in Fabrikgebäuden ermöglicht es Euren Mitarbeitern, "kleine Missgeschicke" zu vermeiden.</Text>
+    </Text>
+  </ModOp>
+</ModOps>

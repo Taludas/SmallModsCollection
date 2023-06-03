@@ -1,0 +1,81 @@
+{
+  "Version": "1.0.0",
+  "ModID": "Taludas_CombinedInfluenceforResidences",
+  "IncompatibleIds": [],
+  "ModDependencies": null,
+  "DeprecateIds": [],
+  "LoadAfterIDs": [
+    "*"
+  ],
+  "Category": {
+    "Chinese": "Cheat",
+    "English": "Cheat",
+    "French": "Cheat",
+    "German": "Cheat",
+    "Italian": "Cheat",
+    "Japanese": "Cheat",
+    "Korean": "Cheat",
+    "Polish": "Cheat",
+    "Russian": "Cheat",
+    "Spanish": "Cheat",
+    "Taiwanese": "Cheat"
+  },
+  "ModName": {
+    "Chinese": "Combined Influence Mod for Residences (Taludas)",
+    "English": "Combined Influence Mod for Residences (Taludas)",
+    "French": "Combined Influence Mod for Residences (Taludas)",
+    "German": "Combined Influence Mod for Residences (Taludas)",
+    "Italian": "Combined Influence Mod for Residences (Taludas)",
+    "Japanese": "Combined Influence Mod for Residences (Taludas)",
+    "Korean": "Combined Influence Mod for Residences (Taludas)",
+    "Polish": "Combined Influence Mod for Residences (Taludas)",
+    "Russian": "Combined Influence Mod for Residences (Taludas)",
+    "Spanish": "Combined Influence Mod for Residences (Taludas)",
+    "Taiwanese": "Combined Influence Mod for Residences (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "This mod adds the ability to customize - through iModYourAnno - the amount of influence gained from each type of residence, as well as the two buffs that grant additional influence for Engineers and Obreros/Artistas.",
+    "French": null,
+    "German": "Diese Mod fügt die Möglichkeit durch iModYourAnno hinzu, die Menge an Einfluss, die von jeder Art von Wohnhaus gewonnen wird, sowie die beiden Buffs, die zusätzlichen Einfluss für Ingenieure und Obreros/Artistas gewähren, anzupassen.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC": "LandOfLions",
+      "Dependant": "partly"
+    },
+    {
+      "DLC": "ThePassage",
+      "Dependant": "partly"
+    },
+    {
+      "DLC": "NewWorldRising",
+      "Dependant": "partly"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/SmallModsCollection",
+  "Image": null
+}

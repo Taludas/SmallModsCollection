@@ -71,7 +71,10 @@
     }
   ],
   "DLCDependencies": [
-    "LandOfLions"
+    {
+      "DLC":"LandOfLions",
+      "Dependant": "partly"
+    }
   ],
   "CreatorName": "Taludas",
   "CreatorContact": "https://github.com/Taludas/SmallModsCollection",

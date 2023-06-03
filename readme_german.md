@@ -19,6 +19,19 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.7</summary>
+
+* Korrekturen:
+  - Die Namen mehrerer Mods in der modinfo.json wurden geändert, um die Einheitlichkeit zwischen dem Namen des Mods-Ordners und dem angezeigten iMYA-Mod-Namen zu erhöhen
+  - Umbenennung eines Titels im iMYA Tweaking für die Mod "Combined Research and Items"
+
+* Ergänzungen:
+  - Es wurde ein Mod hinzugefügt, der den durch Wohnhäuser gewonnenen Einfluss über iMYA anpassbar macht.
+  - Es wurde ein Mod hinzugefügt, der Fabrikexplosionen über einen Buff ausschaltet.
+  - Mod "More Arctic Scrap" ist jetzt mit iMYA anpassbar.
+</details>
+
+<details>
     <summary>Patch Notes Version 1.6</summary>
 
 * Die Combined Research Mod wurde hinzugefügt und mit der "Items Stackable" Mod zusammengeführt. Wenn ihr also manuell installiert, stellt sicher, dass ihr die alte Mod löscht: "[zZzFix] Item Stack Size". iMYA wird eine automatische Warnung im Mod-Browser ausgeben. Bitte entfernt die alte Mod auch dort.

@@ -1,4 +1,5 @@
 <ModOps>
+    <ImyaTweaks Title="Items stackable - Custom Size of Item Stack in Ships" />
     <ModOp Type="merge" Path="//Asset[Template='GuildhouseItem' or Template='HarborOfficeItem' or Template='TownhallItem' or Template='VehicleItem' or Template='ShipSpecialist' or Template='ActiveItem' or Template='ItemSpecialAction' or Template='CultureItem']/Values/Item/MaxStackSize" ModOpID="CustomItemStackSize">
         <MaxStackSize>99</MaxStackSize>
     </ModOp>

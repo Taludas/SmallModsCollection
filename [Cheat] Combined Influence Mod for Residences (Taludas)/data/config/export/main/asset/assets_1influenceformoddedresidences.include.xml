@@ -1,0 +1,27 @@
+<ModOps>
+    <ImyaTweaks Title="Influence amount for modded Residences using vanilla Residence Templates"/>
+    <!-- #Initial setup: Influence for Houses from Mods using vanilla templates -->
+    <ModOp Type="merge" Path="//Asset[Template = 'ResidenceBuilding' and not(Values/Residence7/GoodViewBuffs)]/Values/InfluenceSource" ModOpID="InfluenceModdedResidences">
+        <InfluenceAmount>5</InfluenceAmount>
+        <InfluenceSource>Culture</InfluenceSource>
+    </ModOp>
+
+    <ModOp Type="add" Path="//Asset[Template = 'ResidenceBuilding7_Arctic']/Values" ModOpID="InfluenceModdedResidences">
+    <InfluenceSource> 
+            <InfluenceAmount>5</InfluenceAmount>
+                <InfluenceSource>Culture</InfluenceSource>
+    </InfluenceSource> 
+    </ModOp>
+
+    <ModOp Type="merge" Path="//Asset[Template = 'ResidenceBuilding7_Colony' and not(Values/Residence7/GoodViewBuffs)]/Values/InfluenceSource" ModOpID="InfluenceModdedResidences">
+        <InfluenceAmount>5</InfluenceAmount>
+        <InfluenceSource>Culture</InfluenceSource>
+    </ModOp>
+
+    <ModOp Type="merge" Path="//Asset[Template = 'ResidenceBuilding7_Hotel']/Values/InfluenceSource" ModOpID="InfluenceModdedResidences">
+        <InfluenceAmount>5</InfluenceAmount>
+        <InfluenceSource>Culture</InfluenceSource>
+    </ModOp>
+    <ImyaExpose Path="self::InfluenceAmount" ModOpID="InfluenceModdedResidences" ExposeID="Influence Amount Modded Residences"></ImyaExpose>
+
+</ModOps>

@@ -1,0 +1,68 @@
+{
+  "Version": "1.0.0",
+  "ModID": "Taludas_NoExplosions",
+  "IncompatibleIds": [],
+  "ModDependencies": null,
+  "DeprecateIds": [],
+  "LoadAfterIDs": [
+    "*"
+  ],
+  "Category": {
+    "Chinese": "Cheat",
+    "English": "Cheat",
+    "French": "Cheat",
+    "German": "Cheat",
+    "Italian": "Cheat",
+    "Japanese": "Cheat",
+    "Korean": "Cheat",
+    "Polish": "Cheat",
+    "Russian": "Cheat",
+    "Spanish": "Cheat",
+    "Taiwanese": "Cheat"
+  },
+  "ModName": {
+    "Chinese": "No Explosions (Taludas)",
+    "English": "No Explosions (Taludas)",
+    "French": "No Explosions (Taludas)",
+    "German": "No Explosions (Taludas)",
+    "Italian": "No Explosions (Taludas)",
+    "Japanese": "No Explosions (Taludas)",
+    "Korean": "No Explosions (Taludas)",
+    "Polish": "No Explosions (Taludas)",
+    "Russian": "No Explosions (Taludas)",
+    "Spanish": "No Explosions (Taludas)",
+    "Taiwanese": "No Explosions (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "This small mod gives every buidling with maintance cost a -1000% Explosion Chance. Therefore explosions in fctories should no longer happen (including modded buildings, if they add to the required pool).",
+    "French": null,
+    "German": "Diese kleine Mod gibt jedem Gebäude mit Unterhaltskosten eine -1000% Explosionswahrscheinlichkeit. Daher sollten keine Explosionen in Fabriken mehr auftreten (auch in gemoddeten Gebäuden, sofern sie korrekt zum betroffenen Pool inzugefügt sind).",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/SmallModsCollection",
+  "Image": null
+}

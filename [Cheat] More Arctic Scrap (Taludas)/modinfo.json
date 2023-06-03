@@ -1,5 +1,5 @@
 {
-  "Version": "1.0",
+  "Version": "1.1",
   "ModID": "Taludas_MoreArcticScrap",
   "IncompatibleIds": null,
   "ModDependencies": null,
@@ -17,17 +17,17 @@
     "Taiwanese": "Cheat"
   },
   "ModName": {
-    "Chinese": "More Arctic Scrap",
-    "English": "More Arctic Scrap",
-    "French": "More Arctic Scrap",
-    "German": "More Arctic Scrap",
-    "Italian": "More Arctic Scrap",
-    "Japanese": "More Arctic Scrap",
-    "Korean": "More Arctic Scrap",
-    "Polish": "More Arctic Scrap",
-    "Russian": "More Arctic Scrap",
-    "Spanish": "More Arctic Scrap",
-    "Taiwanese": "More Arctic Scrap"
+    "Chinese": "More Arctic Scrap (Taludas)",
+    "English": "More Arctic Scrap (Taludas)",
+    "French": "More Arctic Scrap (Taludas)",
+    "German": "More Arctic Scrap (Taludas)",
+    "Italian": "More Arctic Scrap (Taludas)",
+    "Japanese": "More Arctic Scrap (Taludas)",
+    "Korean": "More Arctic Scrap (Taludas)",
+    "Polish": "More Arctic Scrap (Taludas)",
+    "Russian": "More Arctic Scrap (Taludas)",
+    "Spanish": "More Arctic Scrap (Taludas)",
+    "Taiwanese": "More Arctic Scrap (Taludas)"
   },
   "Description": {
     "Chinese": null,

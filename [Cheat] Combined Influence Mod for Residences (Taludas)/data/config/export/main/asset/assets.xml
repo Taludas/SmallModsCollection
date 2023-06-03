@@ -1,0 +1,19 @@
+<ModOps>
+
+    <!-- #Initial setup: Influence for Houses from Mods using vanilla templates -->
+    <Include File="assets_1influenceformoddedresidences.include.xml" />
+
+    <!-- #Individual Setting for each Vanilla Residence -->
+    <!-- OW -->
+    <Include File="assets_2influenceforOWresidences.include.xml" />
+
+    <!-- NW -->
+    <Include File="assets_3influenceforNWresidences.include.xml" />
+
+    <!-- Enbesa -->
+    <Include File="assets_4influenceforENresidences.include.xml" />
+   
+    <!-- Arctis -->
+    <Include File="assets_5influenceforARresidences.include.xml" />
+
+</ModOps>
