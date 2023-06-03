@@ -275,3 +275,17 @@ Mit dieser Mod könnte man die Expeditionsfunktion des Spiels ausnutzen, da jede
 Dieser Mod behebt das Problem mit der Ventilatorenfabrik, das seit GU17 besteht. Das Gebäude hat einen Versatz von 0,5 Kacheln, wodurch es nicht geclippt werden konnte, da die Mitte des Gebäudes außerhalb des Rasters lag und die übliche Clipping-Mechanik störte.
 
 Wenn ihr diese Mod installiert habt und in eurem Spielstand bereits einige Fanfabriken gebaut wurden, werdet ihr einige grafische Probleme feststellen, bei denen die Straße das Gebäude durchschneidet. Dies lässt sich leicht beheben, indem man das Gebäude mit dem Verschiebewerkzeug einmal aufnimmt und wieder absetzt. Sobald ihr das Gebäude wieder abgesetzt habt, ist das grafische Problem behoben.
+
+-----
+
+### Combined Influence Mod for Residences
+![banner](https://github.com/Taludas/SmallModsCollection/assets/64583643/12eebe09-b303-4b3d-8f49-4d31a00fe3df)
+
+Dieser Mod ermöglicht es, die Menge des Einflusses, die man in allen Sessions von Wohnhäusern erhält, anzupassen. Die Anpassung kann über iMYA oder durch manuelle Asset-Modifikation erfolgen. Die Standardwerte sind vanilla. Außerdem kann die Menge an Einfluss, die Ingenieure durch das Palast-Edikt erhalten, und die Menge, die Obreros/Artistas durch das Hacienda-Dekret erhalten, angepasst werden. Beachte, dass die Werte absolut sind und nicht von der Spieleinstellung bezüglich der Höhe des Einflusses von Wohnhäusern beeinflusst werden!
+
+-----
+
+### No Explosions
+![banner](https://github.com/Taludas/SmallModsCollection/assets/64583643/f021808c-0ba2-48db-be8b-0d00d7792554)
+
+Eine sehr einfache Mod, die einen Buff für alle Gebäude mit Unterhaltskosten (GUID=368) hinzufügt, der die Wahrscheinlichkeit einer Explosion um 1000% reduziert. Selbst wenn ihr also andere Buffs oder Items in eurer Fabrik aktiv habt, die das Risiko einer Explosion erhöhen, ist es sehr unwahrscheinlich, dass sie jemals wieder passiert. Diese Mod reduziert den Verdruss, der entsteht, wenn man alle Sessions durchgeht, um die Ruinen wieder zu restaurieren. Viel Spaß und vor allem sicheres Bauen!

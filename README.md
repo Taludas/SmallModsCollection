@@ -276,3 +276,17 @@ With this mod enabled you could potentially exploit the expedition feature of th
 This mod is fixing the issue present since GU17 concerning the Ventilator/Fan Factory. The building is sporting a 0.5 tile offset, that made it impossible to be clipped, since the center of the building was off-grid and disrupted the usual clipping mechanic.
 
 If you install this mod and have already built some Fan Factories in your savegame, you will have some graphical issues where street might clip through the building. This can be easily solved by grabbing the building up with the Move-Tool. When placing the building down again, the graphical issue is fixed.
+
+-----
+
+### Combined Influence Mod for Residences
+![banner](https://github.com/Taludas/SmallModsCollection/assets/64583643/12eebe09-b303-4b3d-8f49-4d31a00fe3df)
+
+This mod allows for customized Amounts of Influence gained from residences in all sessions. The tweaking can be done via iMYA or by manual asset modification. Standard Values are vanilla. You can also customize the amount of Influence gained for Engineers from the Palace Edict and the amount gained for Obreros/Artistas from the Hacienda Decree. Notice that the values are absolute and won't get influenced by the game setting concerning the amount of Influence gained by residences!
+
+-----
+
+### No Explosions
+![banner](https://github.com/Taludas/SmallModsCollection/assets/64583643/f021808c-0ba2-48db-be8b-0d00d7792554)
+
+A very simple mod that adds a buff to all buildings with a maintenance cost (GUID=368) that reduces the chance of an explosion by 1000%. So even if you have other buffs or items active in your factory that increase the risk of an explosion, it is very unlikely that it will ever happen again. This mod reduces the annoyance of going through all the sessions to restore the ruins. Have fun and above all, safe building!
