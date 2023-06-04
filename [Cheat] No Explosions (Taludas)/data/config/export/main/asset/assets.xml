@@ -49,15 +49,17 @@
             <Template>Trigger</Template>
             <Values>
                 <Standard>
-                    <GUID>1999003252</GUID>
-                    <Name>Trigger No Explosion Buff</Name>
+                    <GUID>1999003253</GUID>
+                    <Name>Trigger No Explosion Buff all sessions</Name>
                 </Standard>
                 <Trigger>
                     <TriggerCondition>
-                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Template>ConditionEvent</Template>
                         <Values>
-                            <Condition />
-                            <ConditionAlwaysTrue />
+                        <Condition />
+                        <ConditionEvent>
+                            <ConditionEvent>SessionEnter</ConditionEvent>
+                        </ConditionEvent>
                         </Values>
                     </TriggerCondition>
                     <TriggerActions>
@@ -68,15 +70,39 @@
                                 <Action />
                                 <ActionBuff>
                                 <BuffAsset>1999003250</BuffAsset>
-                                <AddBuff>1</AddBuff>
-                                <BuffProcessingParticipant>1</BuffProcessingParticipant>
+                                <AddBuff>0</AddBuff>
                                 </ActionBuff>
                             </Values>
                             </TriggerAction>
                         </Item>
+                        <Item>
+                            <TriggerAction>
+                            <Template>ActionBuff</Template>
+                            <Values>
+                                <Action />
+                                <ActionBuff>
+                                <BuffAsset>1999003250</BuffAsset>
+                                <AddBuff>1</AddBuff>
+                                </ActionBuff>
+                            </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionRegisterTrigger</Template>
+                                <Values>
+                                <Action />
+                                <ActionRegisterTrigger>
+                                    <TriggerAsset>1999003253</TriggerAsset>
+                                </ActionRegisterTrigger>
+                                </Values>
+                            </TriggerAction>
+                        </Item> 
                     </TriggerActions>
                 </Trigger>
-                <TriggerSetup />
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
             </Values>
         </Asset>
     </ModOp>
