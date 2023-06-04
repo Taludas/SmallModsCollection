@@ -20,6 +20,14 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.7.1</summary>
+
+* Fixes:
+  - [No Explosions]: The buff to remove the explosion chance should now be active in newly discovered regions.
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.7</summary>
 
 * Fixes:

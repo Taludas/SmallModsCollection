@@ -19,6 +19,14 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.7.1</summary>
+
+* Fixes:
+  - [No Explosions]: Der Buff der die Explosionswahrscheinlichkeit entfernt, ist nun beim Entdecken einer neuen Region auch in dieser aktiv.
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.7</summary>
 
 * Korrekturen:
