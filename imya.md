@@ -10,7 +10,7 @@ This is a collection of my small mods for Anno 1800, bringing fixes, UI changes 
 ### More Arctic Scrap
 ![banner](https://user-images.githubusercontent.com/64583643/170460767-f23baca2-1d87-4342-9d46-12ef8e249c8f.png)
 
-This little mod makes scrap grinding in the Arctic more easy. It increases the maxium scrap amount from a crate to 15. Average is going up as well, the range is normally between 5 and 15 tons per crate.
+This little mod makes scrap grinding in the Arctic more easy. It increases the maximum scrap amount from a crate to 15. Average is going up as well, the range is normally between 5 and 15 tons per crate.
 
 Note that the "new" crates need some time to spawn, so don't worry if your first crates have normal amounts of scrap in them.
 
@@ -93,9 +93,9 @@ Second feature is the coulour change of the 6 flags hanging on the long side of 
 ### Fancy Billardtable Icon
 ![banner](https://user-images.githubusercontent.com/64583643/170460874-a68b7f1a-4a88-4e67-ae48-dc040e95c06d.png)
 
-You enjoy it thinking about Investors having to hump up a new billard table to their appartement in the skyscraper every day? Then this mod is just for you. Replaces the Icon for Billard Tables with on more suited for a sturdy and heavy Billard Table.
+You enjoy it thinking about Investors having to hump up a new billiard table to their apartement in the skyscraper every day? Then this mod is just for you. Replaces the Icon for Billiard Tables with on more suited for a sturdy and heavy Billiard Table.
 
-In my opinion, the Billard Table Icon from the Highlife DLC is a little underwhelming. If you have played at a tournament graded table once, you will see that these legs are to small and not sturdy enough to be a good quality billard table. Since there is an alternative Icon file in the game assets, which looks way better in my opinion, I wrote this little mod to just replace the icon. Nothing else was changed gamplay wise!
+In my opinion, the Billiard Table Icon from the Highlife DLC is a little underwhelming. If you have played at a tournament graded table once, you will see that these legs are to small and not sturdy enough to be a good quality billiard table. Since there is an alternative Icon file in the game assets, which looks way better in my opinion, I wrote this little mod to just replace the icon. Nothing else was changed gameplay wise!
 
 -----
 
@@ -104,11 +104,11 @@ In my opinion, the Billard Table Icon from the Highlife DLC is a little underwhe
 
 This little mod allows you to build every mine on any slot available. There is one uniform slot for all mines. Therefore you can no longer build mines directly from clicking on the slot. You have to find the mine in the build menu first! 
 
-Same goes for clay pits. There is now one slot called Opencast Ressource Deposit on which all opencast mines will fit.
+Same goes for clay pits. There is now one slot called Opencast Resource Deposit on which all opencast mines will fit.
 
 After DLC12, I exchanged all new mine slots in the New World (Bauxite, Helium, Iron, Minerals) with Gold slots. If you use an existing savegame, the way I implemented it means, that on Manola, the slots are uniform in Icons and slot type, but if you click on, it doesn't highlight all mines. But I don't think this is a big issue, since all mines are suited for all slots. If you start a new game, this issue is not present.
 
-**WARNING:** The activation of this mod in a savegame means, that this savegame now relays on the presence of the mod. If you remove mid playthrough, all mine slots will become iron or gold depending on the region and all opencast ressource mines become clay slots. The mines may no longer fit the slot, so you cannot build them any longer. So watch out! If you want to remove the mod, load a savegame from before loading this mod for the first time! Make a save before with a clear name so you can always remember it!
+**WARNING:** The activation of this mod in a savegame means, that this savegame now relays on the presence of the mod. If you remove mid playthrough, all mine slots will become iron or gold depending on the region and all opencast resource mines become clay slots. The mines may no longer fit the slot, so you cannot build them any longer. So watch out! If you want to remove the mod, load a savegame from before loading this mod for the first time! Make a save before with a clear name so you can always remember it!
 
 -----
 
@@ -131,7 +131,7 @@ Made as a team effort by Ricky and Taludas!
 This mod is combining one of the most anticipated QoL Updates since the release of Anno 1800 concerning Item gameplay - at least for me - with a fully customizable Research Institute. This mod is meant to be tweaked via iModYourAnno Mod Manager. Otherwise you'll get vanilla values for all the features concerning the Research Institute.
 
 - You can now stack every item in the game apart from Quest Items (which are usually unique) to 99 pieces a stack. No longer maintaining a whole fleet to buy a hand full of items from Eli. This should be a huge time saver in long term. Just buy one of each item you want to mass-purchase, then afterwards all other items will be greyed out because of no space left inside your ship. Only the selected items will be buyable and stack inside your ship. 
-- You can modify nearly every value involved with the Research Institute. From maximium Queue Size, over custom research time and cost config, cost limit for item research, till number of permits granted per research. Best have a look inside iMYA and play around with the numbers to get the full experience.
+- You can modify nearly every value involved with the Research Institute. From maximum Queue Size, over custom research time and cost config, cost limit for item research, till number of permits granted per research. Best have a look inside iMYA and play around with the numbers to get the full experience.
 - You can also customize the Item Transfer Module in every session. Frustrated over the limit of 24 items? No problem, with this mod you can increase it to whatever number you like. You can get rid of the timer until the item is available, too! Includes support for Arctis and Enbesa Modules, if you use those mods.
 
 -----
@@ -156,3 +156,17 @@ This mod allows for customized Amounts of Influence gained from residences in al
 ![banner](https://github.com/Taludas/SmallModsCollection/assets/64583643/f021808c-0ba2-48db-be8b-0d00d7792554)
 
 A very simple mod that adds a buff to all buildings with a maintenance cost (GUID=368) that reduces the chance of an explosion by 1000%. So even if you have other buffs or items active in your factory that increase the risk of an explosion, it is very unlikely that it will ever happen again. This mod reduces the annoyance of going through all the sessions to restore the ruins. Have fun and above all, safe building!
+
+-----
+
+### PC Time as Ingame Time
+![banner](https://github.com/Taludas/SmallModsCollection/assets/64583643/5c6d5aae-e45f-422a-8fea-9579cd029f8c)
+
+A simple mod to synchronize the ingame time of the Day-Night-Cycle to your local PC Time. Notice, that you can't change the time manually anymore, neither is the normal time progression available. To use those features again, disable this mod.
+
+-----
+
+### Fertilizer, Vehicle Drivers, Luggage People with Texture
+![banner](https://github.com/Taludas/SmallModsCollection/assets/64583643/e9f99a2e-90b7-473d-bc94-c98cbae0ecc0)
+
+This small mod fixes various texture bugs with DLC vehicle and inhabitant feedbackunits, visible as white textures on certain zoom levels.

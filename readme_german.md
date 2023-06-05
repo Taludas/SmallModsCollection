@@ -19,6 +19,15 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.8.0</summary>
+
+* Additions:
+  - [PC Time as Ingame Time]: Eine Mod hinzugefügt, die die PC-Zeit als ingame-Zeit für den Tag-Nacht-Wechsel nutzt.
+  - [Fertilizer_Vehicle Drivers_Luggage People with Texture]: Es wurde eine Mod hinzugefügt, die weiße Mesh-Texturen bei bestimmten Zoomstufen für eine Reihe von DLC Fahrzeug- und Einwohner-Feedback-Einheiten korrigiert.
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.7.2</summary>
 
 * Fixes:
@@ -67,7 +76,7 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 * Die Mod "Celluloid Planes floating" wurde entfernt, da der Fix endlich in GU16 enthalten war.
 * Anpassung der Mod "Highlife Goods Fix for Tourist Season" für das Hinzufügen von Mezcal in DLC12.
 * Anpassung der Mod "Campher and Cinnamon use different tree configs" an die neue Baumschulen-Baukategorie mit GU16.
-* Anpassung des Mods "Mineslot Unification" an die neuen Slots, die mit DLC12 eingeführt wurden, so dass auch neue Slots berücksichtigt werden. Bei einigen Minenslot-/Arbeitsplatzmodellen kann es zu einem leichten Clipping auf einigen Slots kommen. Wenn ihr die NW-Erweiterung bereits geladet habt, werden die Slots so "konvertiert", dass sie einheitlich aussehen, aber immer noch unterschiedliche GUIDs haben. Wenn du also einen Slot auswählst, werden sie nicht einheitlich markiert, sondern immer noch individuell. Wenn ihr ein neues Spiel startet oder einen Speicherstand vor GU16 verwendet, wird dieses Problem nicht auftreten.
+* Anpassung des Mods "Mineslot Unification" an die neuen Slots, die mit DLC12 eingeführt wurden, so dass auch neue Slots berücksichtigt werden. Bei einigen Minenslot-/Arbeitsplatzmodellen kann es zu einem leichten Clipping auf einigen Slots kommen. Wenn ihr die NW-Erweiterung bereits geladen habt, werden die Slots so "konvertiert", dass sie einheitlich aussehen, aber immer noch unterschiedliche GUIDs haben. Wenn du also einen Slot auswählst, werden sie nicht einheitlich markiert, sondern immer noch individuell. Wenn ihr ein neues Spiel startet oder einen Speicherstand vor GU16 verwendet, wird dieses Problem nicht auftreten.
 * Die Mod "Halloween Decorations" wurde angepasst, um den neuen Kirchen-Skin-Tab mit dem Ornamental DLC "Old Town" zu verwenden.
 </details>
 
@@ -219,7 +228,7 @@ Meiner Meinung nach ist das Billardtisch-Symbol aus dem Highlife-DLC ein wenig u
 
 Mit diesem kleinen Mod könnt ihr jede Mine auf jedem verfügbaren Slot bauen. Es gibt einen einheitlichen Slot für alle Minen. Daher kann man Minen nicht mehr direkt durch Anklicken des Slots bauen. Ihr müsst die Mine erst im Baumenü finden! 
 
-Das Gleiche gilt für Lehmgruben. Es gibt jetzt einen Slot namens Oberflächlises Rohstoffvorkommen, auf den alle Tagebauminen passen.
+Das Gleiche gilt für Lehmgruben. Es gibt jetzt einen Slot namens Oberflächliches Rohstoffvorkommen, auf den alle Tagebauminen passen.
 
 Nach DLC12 habe ich alle neuen Minenslots in der Neuen Welt (Bauxit, Helium, Eisen, Mineralien) gegen Goldslots ausgetauscht. Wenn du ein bestehendes Savegame verwendest, bedeutet die Art und Weise, wie ich es implementiert habe, dass auf Manola die Slots einheitlich in Icons und Slot-Typ sind, aber wenn du auf sie klickst, werden nicht alle Minen hervorgehoben. Ich denke aber nicht, dass dies ein großes Problem ist, da alle Minen für alle Slots geeignet sind. Wenn man ein neues Spiel beginnt, ist dieses Problem nicht vorhanden.
 
@@ -290,7 +299,7 @@ Mit dieser Mod könnte man die Expeditionsfunktion des Spiels ausnutzen, da jede
 
 Dieser Mod behebt das Problem mit der Ventilatorenfabrik, das seit GU17 besteht. Das Gebäude hat einen Versatz von 0,5 Kacheln, wodurch es nicht geclippt werden konnte, da die Mitte des Gebäudes außerhalb des Rasters lag und die übliche Clipping-Mechanik störte.
 
-Wenn ihr diese Mod installiert habt und in eurem Spielstand bereits einige Fanfabriken gebaut wurden, werdet ihr einige grafische Probleme feststellen, bei denen die Straße das Gebäude durchschneidet. Dies lässt sich leicht beheben, indem man das Gebäude mit dem Verschiebewerkzeug einmal aufnimmt und wieder absetzt. Sobald ihr das Gebäude wieder abgesetzt habt, ist das grafische Problem behoben.
+Wenn ihr diese Mod installiert habt und in eurem Spielstand bereits einige Ventilatorenfabriken gebaut wurden, werdet ihr einige grafische Probleme feststellen, bei denen die Straße das Gebäude durchschneidet. Dies lässt sich leicht beheben, indem man das Gebäude mit dem Verschiebewerkzeug einmal aufnimmt und wieder absetzt. Sobald ihr das Gebäude wieder abgesetzt habt, ist das grafische Problem behoben.
 
 -----
 
@@ -305,3 +314,17 @@ Dieser Mod ermöglicht es, die Menge des Einflusses, die man in allen Sessions v
 ![banner](https://github.com/Taludas/SmallModsCollection/assets/64583643/f021808c-0ba2-48db-be8b-0d00d7792554)
 
 Eine sehr einfache Mod, die einen Buff für alle Gebäude mit Unterhaltskosten (GUID=368) hinzufügt, der die Wahrscheinlichkeit einer Explosion um 1000% reduziert. Selbst wenn ihr also andere Buffs oder Items in eurer Fabrik aktiv habt, die das Risiko einer Explosion erhöhen, ist es sehr unwahrscheinlich, dass sie jemals wieder passiert. Diese Mod reduziert den Verdruss, der entsteht, wenn man alle Sessions durchgeht, um die Ruinen wieder zu restaurieren. Viel Spaß und vor allem sicheres Bauen!
+
+-----
+
+### PC Time as Ingame Time
+![banner](https://github.com/Taludas/SmallModsCollection/assets/64583643/5c6d5aae-e45f-422a-8fea-9579cd029f8c)
+
+Eine einfache Mod, um die Zeit des Tag-Nacht-Zyklus im Spiel mit der lokalen PC-Zeit zu synchronisieren. Beachtet, dass ihr die Zeit nicht mehr manuell ändern könnt und auch der normale Zeitfortlauf nicht mehr verfügbar ist. Um diese Funktionen wieder zu nutzen, müsst ihr diese Mod deaktivieren.
+
+-----
+
+### Fertilizer, Vehicle Drivers, Luggage People with Texture
+![banner](https://github.com/Taludas/SmallModsCollection/assets/64583643/e9f99a2e-90b7-473d-bc94-c98cbae0ecc0)
+
+Diese kleine Mod behebt verschiedene Textur-Fehler bei DLC-Fahrzeugen und Bewohner-Feedback-Units, die bei bestimmten Zoomstufen als weiße Texturen sichtbar sind.
