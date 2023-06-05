@@ -20,6 +20,14 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.7.2</summary>
+
+* Fixes:
+  - [Combined Research and Items Mod]: fixed a small bug with CultureItems (Animals, Museum exhibitions, Flowers, etc.) not being stackable inside ship slots.
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.7.1</summary>
 
 * Fixes:

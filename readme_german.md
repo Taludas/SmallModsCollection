@@ -19,6 +19,14 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.7.2</summary>
+
+* Fixes:
+  - [Combined Research and Items Mod]: ein kleinen Bug behoben, der das Stacken von CultureItems (wie Zootieren, Museumsexponaten und Pflanzen, etc.) im Schiff verhindert. 
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.7.1</summary>
 
 * Fixes:
