@@ -1,5 +1,5 @@
 <ModOps>
-    <ModOp Type="addNextSibling" GUID="130248">
+    <ModOp Type="addNextSibling" GUID="130248" ModOpID="TogglePCSynchTime">
         <Asset>
             <Template>Trigger</Template>
             <Values>
@@ -29,10 +29,32 @@
                         </Item>
                         <Item>
                             <TriggerAction>
-                                <Template>ActionResetTrigger</Template>
+                                <Template>ActionDelayedActions</Template>
                                 <Values>
                                     <Action />
-                                    <ActionResetTrigger />
+                                    <ActionDelayedActions>
+                                        <ExecutionDelay>10000</ExecutionDelay>
+                                        <DelayedActions>
+                                            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                                            <Values>
+                                                <ActionList>
+                                                    <Actions>
+                                                        <Item>
+                                                            <Action>
+                                                                <Template>ActionRegisterTrigger</Template>
+                                                                <Values>
+                                                                    <Action />
+                                                                    <ActionRegisterTrigger>
+                                                                        <TriggerAsset>1999003260</TriggerAsset>
+                                                                    </ActionRegisterTrigger>
+                                                                </Values>
+                                                            </Action>
+                                                        </Item>
+                                                    </Actions>
+                                                </ActionList>
+                                            </Values>
+                                        </DelayedActions>
+                                    </ActionDelayedActions>
                                 </Values>
                             </TriggerAction>
                         </Item>
@@ -44,4 +66,18 @@
             </Values>
         </Asset>
     </ModOp>
+    <ImyaExpose Path="." ModOpID="TogglePCSynchTime" ExposeID="Toggle DayNightCycle PC synch"
+        Kind="Toggle"
+        Description="Toggles, whether the ingame time for the Day-Night-Cycle is synched to your PC's clock. One Anno Day then lasts 24 hours!">
+        <AltValue>
+        </AltValue>
+    </ImyaExpose>
+
+    <ModOp Type="replace" GUID="142671" Path="/Values/DayNightFeature/DayCycleDuration"
+        ModOpID="CustomDayLength">
+        <DayCycleDuration>1440000</DayCycleDuration>
+    </ModOp>
+    <ImyaExpose Path="self::DayCycleDuration" ModOpID="CustomDayLength"
+        ExposeID="Custom ingame DayLength"
+        Description="Sets, how long an Anno In-game day lasts [in Milliseconds]. If you use the above synch to the PC clock you can ignore this setting."></ImyaExpose>
 </ModOps>
