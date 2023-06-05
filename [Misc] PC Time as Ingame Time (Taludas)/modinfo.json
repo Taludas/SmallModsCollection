@@ -1,0 +1,71 @@
+{
+  "Version": "1.0.0",
+  "ModID": "Taludas_PCTimeasIngameTime",
+  "IncompatibleIds": [
+  ],
+  "ModDependencies": null,
+  "DeprecateIds": [
+  ],
+  "LoadAfterIDs": [
+  ],
+  "Category": {
+    "Chinese": "Misc",
+    "English": "Misc",
+    "French": "Misc",
+    "German": "Misc",
+    "Italian": "Misc",
+    "Japanese": "Misc",
+    "Korean": "Misc",
+    "Polish": "Misc",
+    "Russian": "Misc",
+    "Spanish": "Misc",
+    "Taiwanese": "Misc"
+  },
+  "ModName": {
+    "Chinese": "PC Time as Ingame Time (Taludas)",
+    "English": "PC Time as Ingame Time (Taludas)",
+    "French": "PC Time as Ingame Time (Taludas)",
+    "German": "PC Time as Ingame Time (Taludas)",
+    "Italian": "PC Time as Ingame Time (Taludas)",
+    "Japanese": "PC Time as Ingame Time (Taludas)",
+    "Korean": "PC Time as Ingame Time (Taludas)",
+    "Polish": "PC Time as Ingame Time (Taludas)",
+    "Russian": "PC Time as Ingame Time (Taludas)",
+    "Spanish": "PC Time as Ingame Time (Taludas)",
+    "Taiwanese": "PC Time as Ingame Time (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "This small mod sets your Ingame Time for the Day Night Cycle to your local PC Time.",
+    "French": null,
+    "German": "Diese kleine Mod nutzt eure lokale PC Uhrzeit, um die Uhrzeit des Tag-Nachtrhytmus zu bestimmen.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/SmallModsCollection",
+  "Image": null
+}

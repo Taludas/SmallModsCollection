@@ -1,0 +1,71 @@
+{
+  "Version": "1.0.0",
+  "ModID": "Taludas_DLCTextureFixes",
+  "IncompatibleIds": [
+  ],
+  "ModDependencies": null,
+  "DeprecateIds": [
+  ],
+  "LoadAfterIDs": [
+  ],
+  "Category": {
+    "Chinese": "Fix",
+    "English": "Fix",
+    "French": "Fix",
+    "German": "Fix",
+    "Italian": "Fix",
+    "Japanese": "Fix",
+    "Korean": "Fix",
+    "Polish": "Fix",
+    "Russian": "Fix",
+    "Spanish": "Fix",
+    "Taiwanese": "Fix"
+  },
+  "ModName": {
+    "Chinese": "Fertilizer_Vehicle Drivers_Luggage People with Texture (Taludas)",
+    "English": "Fertilizer_Vehicle Drivers_Luggage People with Texture (Taludas)",
+    "French": "Fertilizer_Vehicle Drivers_Luggage People with Texture (Taludas)",
+    "German": "Fertilizer_Vehicle Drivers_Luggage People with Texture (Taludas)",
+    "Italian": "Fertilizer_Vehicle Drivers_Luggage People with Texture (Taludas)",
+    "Japanese": "Fertilizer_Vehicle Drivers_Luggage People with Texture (Taludas)",
+    "Korean": "Fertilizer_Vehicle Drivers_Luggage People with Texture (Taludas)",
+    "Polish": "Fertilizer_Vehicle Drivers_Luggage People with Texture (Taludas)",
+    "Russian": "Fertilizer_Vehicle Drivers_Luggage People with Texture (Taludas)",
+    "Spanish": "Fertilizer_Vehicle Drivers_Luggage People with Texture (Taludas)",
+    "Taiwanese": "Fertilizer_Vehicle Drivers_Luggage People with Texture (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "This small mod fixes various texture bugs with DLC vehicle and inhabitant feedbackunits, visible as white textures on certain zoom levels.",
+    "French": null,
+    "German": "Diese kleine Mod behebt verschiedene Textur-Fehler bei DLC-Fahrzeugen und Bewohner-Feedback-Units, die bei bestimmten Zoomstufen als weiße Texturen sichtbar sind.",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues": 
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas/SmallModsCollection",
+  "Image": null
+}

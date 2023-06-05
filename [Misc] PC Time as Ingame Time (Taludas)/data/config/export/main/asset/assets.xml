@@ -1,0 +1,47 @@
+<ModOps>
+    <ModOp Type="addNextSibling" GUID="130248">
+        <Asset>
+            <Template>Trigger</Template>
+            <Values>
+                <Standard>
+                    <GUID>1999003260</GUID>
+                    <Name>Trigger synch ingame time with pc time</Name>
+                </Standard>
+                <Trigger>
+                    <TriggerCondition>
+                        <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+                        <Values>
+                            <Condition />
+                            <ConditionAlwaysTrue />
+                        </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionExecuteScript</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionExecuteScript>
+                                        <ScriptFileName>taludas/pctimeasingametime.lua</ScriptFileName>
+                                    </ActionExecuteScript>
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                        <Item>
+                            <TriggerAction>
+                                <Template>ActionResetTrigger</Template>
+                                <Values>
+                                    <Action />
+                                    <ActionResetTrigger />
+                                </Values>
+                            </TriggerAction>
+                        </Item>
+                    </TriggerActions>
+                </Trigger>
+                <TriggerSetup>
+                    <UsedBySecondParties>0</UsedBySecondParties>
+                </TriggerSetup>
+            </Values>
+        </Asset>
+    </ModOp>
+</ModOps>
