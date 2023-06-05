@@ -20,6 +20,14 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.8.1</summary>
+
+* Fixes and Addition:
+  - [PC Time as Ingame Time]: Exchanged the trigger to synch the time with a more performance friendly one, only checking every 10 seconds for the local time. Added the option to customize the mod via iModYourAnno. You can now choose to alternatively toggle of the PC time synch and set your own, custom Day Length. The standard Anno Day lasts 24 minutes, so 1 minute real time equals 1 hour in game. Customize to your liking. Note that the time must be entered in milliseconds.
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.8.0</summary>
 
 * Additions:

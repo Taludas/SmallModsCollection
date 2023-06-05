@@ -19,9 +19,17 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.8.1</summary>
+
+* Fixes und Ergänzung:
+  - [PC Time as Ingame Time]: Der Trigger für die Zeitsynchronisation wurde durch einen performancefreundlicheren ersetzt, der nur alle 10 Sekunden die lokale Zeit überprüft. Es wurde die Option hinzugefügt, die Mod über iModYourAnno anzupassen. Man kann nun alternativ die PC-Zeitsynchronisation abschalten und eine eigene, individuelle Tageslänge einstellen. Der Standard-Anno-Tag dauert 24 Minuten, also entspricht 1 Minute Echtzeit 1 Stunde im Spiel. Stellt sie nach eurem Geschmack ein. Beachte, dass die Zeit in Millisekunden eingegeben werden muss.
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.8.0</summary>
 
-* Additions:
+* Ergänzungen:
   - [PC Time as Ingame Time]: Eine Mod hinzugefügt, die die PC-Zeit als ingame-Zeit für den Tag-Nacht-Wechsel nutzt.
   - [Fertilizer_Vehicle Drivers_Luggage People with Texture]: Es wurde eine Mod hinzugefügt, die weiße Mesh-Texturen bei bestimmten Zoomstufen für eine Reihe von DLC Fahrzeug- und Einwohner-Feedback-Einheiten korrigiert.
 
@@ -30,7 +38,7 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 <details>
     <summary>Patch Notes Version 1.7.2</summary>
 
-* Fixes:
+* Korrekturen:
   - [Combined Research and Items Mod]: ein kleinen Bug behoben, der das Stacken von CultureItems (wie Zootieren, Museumsexponaten und Pflanzen, etc.) im Schiff verhindert. 
 
 </details>
@@ -38,7 +46,7 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 <details>
     <summary>Patch Notes Version 1.7.1</summary>
 
-* Fixes:
+* Korrekturen:
   - [No Explosions]: Der Buff der die Explosionswahrscheinlichkeit entfernt, ist nun beim Entdecken einer neuen Region auch in dieser aktiv.
 
 </details>
