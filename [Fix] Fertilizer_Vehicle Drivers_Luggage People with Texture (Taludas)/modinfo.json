@@ -6,7 +6,7 @@
   "ModDependencies": null,
   "DeprecateIds": [
   ],
-  "LoadAfterIDs": [
+  "LoadAfterIds": [
   ],
   "Category": {
     "Chinese": "Fix",

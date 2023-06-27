@@ -11,7 +11,7 @@
   "DeprecateIds": [
     "Taludas_ItemsStackable"
   ],
-  "LoadAfterIDs": [
+  "LoadAfterIds": [
     "*",
     "Hackner_EnbesaMailIntegration"
   ],
