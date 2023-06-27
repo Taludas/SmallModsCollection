@@ -19,6 +19,14 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.8.2</summary>
+
+* Fixes:
+  - Mehrere Probleme mit der Ladereihenfolge aufgrund eines falsch geschriebenen Eintrags in der modinfo.json behoben. Daher wurden einige Mods, die eigentlich am Ende der Liste geladen werden sollten, dort nicht geladen. Dies konnte zu Problemen führen, wenn man Mods von anderen Autoren verwendet hat.
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.8.1</summary>
 
 * Fixes und Ergänzung:

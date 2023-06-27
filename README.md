@@ -20,6 +20,14 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.8.2</summary>
+
+* Fixes:
+  - Fixed several load order issues du to miss-spelled entry in the modinfo.json. Therefore some mods that are supposed to load at the bottom of the list didn't load there. This could have caused issue if you were using mods from other authors.
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.8.1</summary>
 
 * Fixes and Addition:
