@@ -1,5 +1,5 @@
 <ModOps>
-    <ImyaTweaks Title="Influence amount for New World Residences inlcuding DLCs (Hacienda Residences and Hacienda Buff)"/>
+    <ImyaTweaks Title="Features of Influence for NW Residences" Description="Influence amount for New World Residences inlcuding DLCs (Hacienda Residences and Hacienda Buff)" Icon="data/ui/2kimages/main/icons/icon_influence.png" />
     <!-- Jornaleros -->
     <ModOp Type="merge" GUID="101254" Path="/Values/InfluenceSource" ModOpID="InfluenceJornaleros">
         <InfluenceAmount>0</InfluenceAmount>

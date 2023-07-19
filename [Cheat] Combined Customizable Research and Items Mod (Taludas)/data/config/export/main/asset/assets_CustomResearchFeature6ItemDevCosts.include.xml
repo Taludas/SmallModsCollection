@@ -1,5 +1,5 @@
 <ModOps>
-    <ImyaTweaks Title="Custom Costs for Crafting Items in the Research Institute" />
+    <ImyaTweaks Title="Custom Costs for Crafting Items in the Research Institute" Description="You can use the value entries to fine tune your experience." Icon="data/ui/2kimages/main/icons/icon_research_resource.png"/>
     <!-- # Research Point Costs for crafting Common Items -->
     <ModOp Type="replace" GUID="128475" Path="/Values/ProgressBalancing/Progress" ModOpID="ProgressFirstStepCommon">
         <Progress>

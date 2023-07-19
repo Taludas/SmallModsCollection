@@ -1,5 +1,5 @@
 <ModOps>
-    <ImyaTweaks Title="Influence amount for Arctis Residences"/>
+    <ImyaTweaks Title="Features of Influence for Arctic Residences" Description="Influence amount for Arctis Residences" Icon="data/ui/2kimages/main/icons/icon_influence.png" />
     <!-- Explorers -->
     <ModOp Type="merge" GUID="112091" Path="/Values/InfluenceSource" ModOpID="InfluenceExplorers">
         <InfluenceAmount>0</InfluenceAmount>

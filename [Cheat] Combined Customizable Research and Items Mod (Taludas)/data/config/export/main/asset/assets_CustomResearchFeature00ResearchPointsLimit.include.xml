@@ -1,5 +1,5 @@
 <ModOps>
-    <ImyaTweaks Title="Basic Modifications of the Research Feature - Custom Research Points Limit" />
+    <ImyaTweaks Title="Basic Modifications of the Research Feature - Custom Research Points Limit" Description="You can use the value entries to fine tune your experience." Icon="data/ui/2kimages/main/icons/icon_research_resource.png"/>
     <ModOp Type="replace" GUID="123399" Path="/Values/ProgressBalancing/Progress">
         <Progress>
             <Item>

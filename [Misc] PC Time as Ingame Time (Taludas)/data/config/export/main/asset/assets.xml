@@ -66,9 +66,10 @@
             </Values>
         </Asset>
     </ModOp>
+    <ImyaTweaks Title="Features of PC Time as Ingame Time" Description="Use the panels below to turn on or off entire Features of the mod. You can use the value entries to further fine tune your experience." Icon="data/ui/2kimages/main/3dicons/icon_time.png" />
     <ImyaExpose Path="." ModOpID="TogglePCSynchTime" ExposeID="Toggle DayNightCycle PC synch"
         Kind="Toggle"
-        Description="Toggles, whether the ingame time for the Day-Night-Cycle is synched to your PC's clock. One Anno Day then lasts 24 hours!">
+        Description="Toggle on to synch your PC's clock to the ingame time used for the Day-Night-Cycle. One Anno Day then lasts 24 hours!">
         <AltValue>
         </AltValue>
     </ImyaExpose>

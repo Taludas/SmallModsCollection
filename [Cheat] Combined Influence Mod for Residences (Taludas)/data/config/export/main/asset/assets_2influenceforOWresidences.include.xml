@@ -1,5 +1,5 @@
 <ModOps>
-    <ImyaTweaks Title="Influence amount for Old World Residences including DLC Residences (Hotels, Scholars, Skyscrapers and SkylineTower)"/>
+    <ImyaTweaks Title="Features of Influence for OW Residences" Description="Influence amount for Old World Residences including DLC Residences (Hotels, Scholars, Skyscrapers and SkylineTower)" Icon="data/ui/2kimages/main/icons/icon_influence.png" />
     <!-- Farmers -->
     <ModOp Type="merge" GUID="1010343" Path="/Values/InfluenceSource" ModOpID="InfluenceFarmer">
         <InfluenceAmount>0</InfluenceAmount>

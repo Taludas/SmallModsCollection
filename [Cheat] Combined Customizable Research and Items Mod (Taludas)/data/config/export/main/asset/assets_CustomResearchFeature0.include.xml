@@ -1,5 +1,5 @@
 <ModOps>
-    <ImyaTweaks Title="Basic Modifications of the Research Feature - Max Queue Entries and Chance for Godlikes on Finishing Item Crafting" />
+    <ImyaTweaks Title="Basic Modifications of the Research Feature - Max Queue Entries and Chance for Godlikes on Finishing Item Crafting" Description="You can use the value entries to fine tune your experience." Icon="data/ui/2kimages/main/icons/icon_research_resource.png"/>
     <!-- #Adjust Research Queue Size -->
     <ModOp Type="replace" GUID="120244" Path="/Values/ResearchFeature/MaxQueueEntries" ModOpID="CustomResearchQueue">
         <MaxQueueEntries>50</MaxQueueEntries>

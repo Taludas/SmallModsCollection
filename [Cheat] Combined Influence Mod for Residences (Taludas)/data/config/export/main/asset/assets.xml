@@ -1,5 +1,5 @@
 <ModOps>
-
+    <ImyaTweaks Title="Features of Combined Influence Mod for Residences" Description="Use the panels below to turn on or off entire Features of the mod. You can use the value entries to further fine tune your experience." Icon="data/ui/2kimages/main/icons/icon_influence.png" />
     <!-- #Initial setup: Influence for Houses from Mods using vanilla templates -->
     <Include File="assets_1influenceformoddedresidences.include.xml" />
 

@@ -1,5 +1,5 @@
 <ModOps>
-    <ImyaTweaks Title="Influence amount for modded Residences using vanilla Residence Templates"/>
+    <ImyaTweaks Title="Features of Influence for Modded Residences" Description="This Value sets the Influence amount for modded Residences using vanilla Residence Templates" Icon="data/ui/2kimages/main/icons/icon_influence.png" />
     <!-- #Initial setup: Influence for Houses from Mods using vanilla templates -->
     <ModOp Type="merge" Path="//Asset[Template = 'ResidenceBuilding' and not(Values/Residence7/GoodViewBuffs)]/Values/InfluenceSource" ModOpID="InfluenceModdedResidences">
         <InfluenceAmount>5</InfluenceAmount>

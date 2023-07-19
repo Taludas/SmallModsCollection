@@ -1,5 +1,5 @@
 <ModOps>
-    <ImyaTweaks Title="Basic Modifications of the Research Feature - Donation Points from Items" />
+    <ImyaTweaks Title="Basic Modifications of the Research Feature - Donation Points from Items" Description="You can use the value entries to fine tune your experience." Icon="data/ui/2kimages/main/icons/icon_research_resource.png"/>
     <ModOp Type="replace" GUID="120244" Path="/Values/ResearchFeature/ItemDonationConfig/Narrative/ResearchGain" ModOpID="CustomItemDonationConfigNarrativeResearchGain">
         <ResearchGain>100</ResearchGain>
     </ModOp>

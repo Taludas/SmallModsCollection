@@ -1,5 +1,5 @@
 <ModOps>
-    <ImyaTweaks Title="Basic Modifications of the Research Feature - Workforce Allocation and Research Time" />
+    <ImyaTweaks Title="Basic Modifications of the Research Feature - Workforce Allocation and Research Time" Description="You can use the value entries to fine tune your experience." Icon="data/ui/2kimages/main/icons/icon_research_resource.png"/>
     <ModOp Type="replace" GUID="120244" Path="/Values/ResearchFeature/ItemCraftingConfig/*/MaximumWorkforceAmount" ModOpID="CustomItemCraftingConfigMaxWorkforceAllocation">
         <MaximumWorkforceAmount>10000</MaximumWorkforceAmount>
     </ModOp>

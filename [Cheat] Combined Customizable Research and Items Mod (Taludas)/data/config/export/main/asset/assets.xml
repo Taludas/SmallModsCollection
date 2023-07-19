@@ -1,4 +1,5 @@
 <ModOps>
+    <ImyaTweaks Title="Features of Combined Customizable Research and Items Mod" Description="Use the panels below to turn on or off entire Features of the mod. You can use the value entries to further fine tune your experience." Icon="data/ui/2kimages/main/icons/icon_research_resource.png" />
 
     <!-- #Items Stackable --> 
     <Include File="assets_CustomItemStackable.include.xml" />

@@ -1,5 +1,5 @@
 <ModOps>
-    <ImyaTweaks Title="Custom Costs for Unlocking Items in the Research Institute" />
+    <ImyaTweaks Title="Custom Costs for Unlocking Items in the Research Institute" Description="You can use the value entries to fine tune your experience." Icon="data/ui/2kimages/main/icons/icon_research_resource.png"/>
     <!-- #Custom Research Point Costs for unlocking Items -->
     <Group ModOpID="UseFixedIncreaseInsteadOfProgressItemUnlock">
         <ModOp Type="replace" GUID="123401" Path="/Values/ProgressBalancing/Progress">

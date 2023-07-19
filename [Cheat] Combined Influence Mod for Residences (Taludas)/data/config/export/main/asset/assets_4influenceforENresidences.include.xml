@@ -1,5 +1,5 @@
 <ModOps>
-    <ImyaTweaks Title="Influence amount for Enbesa Residences"/>
+    <ImyaTweaks Title="Features of Influence for Enbesa Residences" Description="Influence amount for Enbesa Residences" Icon="data/ui/2kimages/main/icons/icon_influence.png" />
     <!-- Shepards -->
     <ModOp Type="merge" GUID="114436" Path="/Values/InfluenceSource" ModOpID="InfluenceShepards">
         <InfluenceAmount>0</InfluenceAmount>

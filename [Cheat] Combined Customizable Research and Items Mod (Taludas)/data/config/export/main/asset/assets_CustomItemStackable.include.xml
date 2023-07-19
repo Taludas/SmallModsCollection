@@ -1,4 +1,5 @@
 <ModOps>
+    <ImyaTweaks Title="Modification of the Item Stack Size" Description="You can use the value entries to fine tune your experience." Icon="data/ui/2kimages/main/icons/icon_owned_item.png" />
     <ModOp Type="merge" Path="//Asset[Template='GuildhouseItem' or Template='HarborOfficeItem' or Template='TownhallItem' or Template='VehicleItem' or Template='ShipSpecialist' or Template='ActiveItem' or Template='ItemSpecialAction' or Template='CultureItem']/Values/Item" ModOpID="CustomItemStackSize">
         <MaxStackSize>99</MaxStackSize>
     </ModOp>

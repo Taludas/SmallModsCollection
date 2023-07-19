@@ -1,5 +1,5 @@
 <ModOps>
-    <ImyaTweaks Title="Modification of Scholar Permit Crafting - Workforce Allocation, Research Time, Cost Increase and Crafting Amount" />
+    <ImyaTweaks Title="Modification of Scholar Permit Crafting - Workforce Allocation, Research Time, Cost Increase and Crafting Amount" Description="You can use the value entries to fine tune your experience." Icon="data/ui/2kimages/main/icons/icon_research_resource.png"/>
     <!-- max Workforce Amount Scholar Permits Research-->
     <ModOp Type="replace" GUID="125340" Path="/Values/Godlike/CraftingConfig/MaximumWorkforceAmount" ModOpID="CustomWorkforceAmountScholarPermits">
         <MaximumWorkforceAmount>10000</MaximumWorkforceAmount>

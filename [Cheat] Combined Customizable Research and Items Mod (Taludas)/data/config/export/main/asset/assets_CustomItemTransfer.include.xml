@@ -1,5 +1,5 @@
 <ModOps>
-    <ImyaTweaks Title="Modification of the Item Transfer Module - Cooldown and Maximum Item Storage" />
+    <ImyaTweaks Title="Modification of the Item Transfer Module - Cooldown and Maximum Item Storage" Description="You can use the value entries to fine tune your experience." Icon="data/ui/2kimages/main/3dicons/airship_platform/icon_airship_platform_items.png"/>
     <!-- #ItemtransferFeature - Custom Cooldown and MaxStorageSize -->
     <ModOp Type="replace" GUID="465" Path="/Values/ItemTransferFeature/ItemCooldowns/*/Duration" ModOpID="CustomItemTransferReasearchDuration">
         <Duration>10000</Duration>

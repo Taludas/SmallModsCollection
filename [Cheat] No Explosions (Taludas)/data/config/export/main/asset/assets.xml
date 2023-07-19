@@ -1,4 +1,9 @@
 <ModOps>
+    <ModOp Type="add" GUID="368" Path="/Values/ItemEffectTargetPool/EffectTargetGUIDs">
+        <Item>
+            <GUID>101331</GUID>
+        </Item>
+    </ModOp>
     <ModOp Type="addNextSibling" GUID="658">
         <Asset>
             <Template>GuildhouseBuff</Template>
