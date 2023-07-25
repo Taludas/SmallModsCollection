@@ -20,6 +20,17 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.8.3</summary>
+
+* Adjustments:
+  * Adjustments for all mods to the new features of iModYourAnno v0.5 (new images, default options are toggled automatically in the tweaking tab). ***WARNING***: Adjust your Tweaking options in iMYA before you continue playing, because those will be lost after update to v0.5!
+
+* Fixes:
+  - [No Explosions]: Fixed the issue, that the OW Oil Refinery was not effected by the explosion reduction buff.
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.8.2</summary>
 
 * Fixes:

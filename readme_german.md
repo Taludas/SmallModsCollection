@@ -19,6 +19,17 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.8.3</summary>
+
+* Anpassungen:
+  * Anpassungen für alle Mods an die neuen Features von iModYourAnno v0.5 (neue Bilder, Standardoptionen werden automatisch im Tweaking-Tab umgeschaltet). ***WARNUNG***: Passt eure Tweaking-Optionen in iMYA an, bevor ihr weiterspielt, da diese nach dem Update auf v0.5 verloren gehen!
+
+* Fixes:
+  - [No Explosions]: Es wurde das Problem behoben, dass die OW-Ölraffinerie nicht von dem Buff zur Reduzierung von Explosionen betroffen war.
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.8.2</summary>
 
 * Fixes:
