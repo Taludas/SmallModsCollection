@@ -8,6 +8,7 @@ Wenn ihr diese Mods mögt und mich unterstützen wollt, könnt ihr sie gerne mit
 
 ## How to use
 
+- Automatische Installation über den Anno-Mod-Browser, der über das Hauptmenü des Anno 1800-Spiels erreichbar ist.
 - Verwende entweder den [iModYourAnno](https://github.com/anno-mods/iModYourAnno/releases) Mod-Manager oder kenne wie man [Mods manuell installiert](https://github.com/jakobharder/anno1800-mod-loader#mods).
 - Wenn du die Mod manuell herunterlädst, benutze das Archiv von [GitHub releases](https://github.com/Taludas/SmallModsCollection/releases). Ladet nicht das gesamte Repo herunter!
 - Wählt die relevanten Mods aus und zieht sie in euren 1800 Mod-Ordner oder benutzt den iModYourAnno Mod Manager zur manuellen Installation.
