@@ -21,6 +21,16 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.8.4</summary>
+
+* Fixes:
+  * [Cinnamon Tree Fix]: fix an issue in the German localization where the new Cinnamon Tree Prop had no text. Thx @Kurila
+  * [Cinnamon Tree Fix]: improve the new tree prop for the cinnamon tree. The funny stem wobble is gone due to the usage of the updated rdm4-bin-plant.exe from Jakob and Colours are improved.
+  * [Customizable Research and Items Mod]: fix several Typos in the iMYA description texts of some value descriptions. Thx @Kurila
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.8.3</summary>
 
 * Adjustments:

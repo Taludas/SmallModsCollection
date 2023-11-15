@@ -19,6 +19,17 @@ Wenn ihr diese Mods mögt und mich unterstützen wollt, könnt ihr sie gerne mit
 Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
+
+<details>
+    <summary>Patch Notes Version 1.8.4</summary>
+
+* Fixes:
+  * [Cinnamon Tree Fix]: Behebung eines Problems in der deutschen Lokalisierung, bei dem die neue Zimtbaum-Prop keinen Text hatte. Danke @Kurila
+  * [Cinnamon Tree Fix]: Verbesserung der neuen Baum-Props für den Zimtbaum. Das lustige Stammwackeln ist durch die Verwendung der aktualisierten rdm4-bin-plant.exe von Jakob verschwunden und die Farben sind verbessert.
+  * [Customizable Research and Items Mod] mehrere Tippfehler in den iMYA-Beschreibungstexten einiger Value-Beschreibungen behoben. Danke @Kurila
+
+</details>
+
 <details>
     <summary>Patch Notes Version 1.8.3</summary>
 
