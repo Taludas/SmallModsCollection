@@ -12,12 +12,12 @@
     <ModOp Type="replace" GUID="125340" Path="/Values/Godlike/CraftingConfig/MinimumWorkforceTime" ModOpID="CustomMinTimeScholarPermits">
         <MinimumWorkforceTime>1800000</MinimumWorkforceTime>
     </ModOp>
-    <ImyaExpose Path="self::MinimumWorkforceTime" ModOpID="CustomMinTimeScholarPermits" ExposeID="MaxResearchTime NoWorforceAllocation ScholarPermits" Description="Sets the maximum Research Time for a Scholar Permit with minimum Workforce Allocation [in Milliseconds]."/>
+    <ImyaExpose Path="self::MinimumWorkforceTime" ModOpID="CustomMinTimeScholarPermits" ExposeID="MaxResearchTime NoWorkforceAllocation ScholarPermits" Description="Sets the maximum Research Time for a Scholar Permit with minimum Workforce Allocation [in Milliseconds]."/>
 
     <ModOp Type="replace" GUID="125340" Path="/Values/Godlike/CraftingConfig/MaximumWorkforceTime" ModOpID="CustomMaxTimeScholarPermits">
         <MaximumWorkforceTime>60000</MaximumWorkforceTime>
     </ModOp>
-    <ImyaExpose Path="self::MaximumWorkforceTime" ModOpID="CustomMaxTimeScholarPermits" ExposeID="MinResearchTime FullWorforceAllocation ScholarPermits" Description="Sets the minimum Research Time for a Scholar Permits Research with maximum Workforce Allocation [in Milliseconds]."/>
+    <ImyaExpose Path="self::MaximumWorkforceTime" ModOpID="CustomMaxTimeScholarPermits" ExposeID="MinResearchTime FullWorkforceAllocation ScholarPermits" Description="Sets the minimum Research Time for a Scholar Permits Research with maximum Workforce Allocation [in Milliseconds]."/>
 
     <!-- custom Progress Balancing Scholar Permits-->
     <ModOp Type="replace" GUID="129525" Path="/Values/ProgressBalancing">

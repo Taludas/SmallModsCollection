@@ -12,12 +12,12 @@
     <ModOp Type="replace" GUID="124850,124849,124845,124846,124844,124843,124842,124841,124840,124839" Path="/Values/Godlike/CraftingConfig/MinimumWorkforceTime" ModOpID="CustomMinTimeGodlikes">
         <MinimumWorkforceTime>5400000</MinimumWorkforceTime>
     </ModOp>
-    <ImyaExpose Path="self::MinimumWorkforceTime" ModOpID="CustomMinTimeGodlikes" ExposeID="MaxResearchTime NoWorforceAllocation Godlikes" Description="Sets the maximum Research Time for a Godlike Research with minimum Workforce Allocation [in Milliseconds]."/>
+    <ImyaExpose Path="self::MinimumWorkforceTime" ModOpID="CustomMinTimeGodlikes" ExposeID="MaxResearchTime NoWorkforceAllocation Godlikes" Description="Sets the maximum Research Time for a Godlike Research with minimum Workforce Allocation [in Milliseconds]."/>
 
     <ModOp Type="replace" GUID="124850,124849,124845,124846,124844,124843,124842,124841,124840,124839" Path="/Values/Godlike/CraftingConfig/MaximumWorkforceTime" ModOpID="CustomMaxTimeGodlikes">
         <MaximumWorkforceTime>600000</MaximumWorkforceTime>
     </ModOp>
-    <ImyaExpose Path="self::MaximumWorkforceTime" ModOpID="CustomMaxTimeGodlikes" ExposeID="MinResearchTime FullWorforceAllocation Godlikes" Description="Sets the minimum Research Time for a Godlike Research with maximum Workforce Allocation [in Milliseconds]."/>
+    <ImyaExpose Path="self::MaximumWorkforceTime" ModOpID="CustomMaxTimeGodlikes" ExposeID="MinResearchTime FullWorkforceAllocation Godlikes" Description="Sets the minimum Research Time for a Godlike Research with maximum Workforce Allocation [in Milliseconds]."/>
 
     <!-- custom Progress Balancing Godlikes-->
     <ModOp Type="replace" GUID="126888" Path="/Values/ProgressBalancing">

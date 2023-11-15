@@ -1,27 +1,7 @@
 <ModOps>
-
-  <!-- # Change Cinnamon Orchard to new FreeAreType and use the new cinnamon tree for it-->
-  <ModOp Type="replace" GUID="5000001" Path="/Values/Region/Trees/Hunter">
-    <Hunter>
-      <GUID>1999002241</GUID>
-      <PlantPercent>50</PlantPercent>
-    </Hunter>
-  </ModOp>
-
-  <ModOp Type="replace" GUID="133030" Path="/Values/FreeAreaProductivity/FreeAreaType">
-    <FreeAreaType>Hunter</FreeAreaType>
-  </ModOp>
-
-  <!-- # Change Cinnamon Orchard Prop to the new cinnamon tree -->
-  <ModOp Type="replace" GUID="133030" Path="/Values/Object/Variations">
-    <Variations>
-      <Item>
-        <Filename>data/modgraphics/models/tree_planter/tree_planter_cinnamon.cfg</Filename>
-      </Item>
-    </Variations>
-  </ModOp>
-
   <!-- # Add the new cinnamon tree to the tree brush -->
+  <ModOp Type="remove" GUID="133003" Path="/Values/Object/Variations/Item[Filename = 'data/dlc08/graphics/props/terrain_props/trees/palm_tree_coconut_03.prp']"></ModOp>
+  
   <ModOp Type="addNextSibling" GUID="133026">
     <Asset>
       <Template>Tree</Template>
@@ -35,7 +15,7 @@
         <Object>
           <Variations>
             <Item>
-              <Filename>data/modgraphics/models/cinnamon_tree/cinnamon_tree_01.prp</Filename>
+              <Filename>data/dlc08/graphics/props/terrain_props/trees/palm_tree_coconut_03.prp</Filename>
             </Item>
           </Variations>
         </Object>
@@ -51,7 +31,6 @@
             <English>
               <Text>Cinnamon Grove</Text>
               <Status>Exported</Status>
-              <ExportCount>1</ExportCount>
             </English>
           </LocaText>
           <LineID>50482</LineID>
@@ -198,47 +177,30 @@
     </Asset>
   </ModOp>
 
-  <!-- # ConstructionCategory Orchards NW -> unnecessary with GU16
-  <ModOp Type="addNextSibling" GUID="25178">
-    <Asset>
-      <Template>ConstructionCategory</Template>
-      <Values>
-        <Standard>
-          <GUID>1999002251</GUID>
-          <Name>NW Orchards ConstructionCategory</Name>
-          <IconFilename>data/ui/2kimages/main/3dicons/icon_plantation_sa.png</IconFilename>
-        </Standard>
-        <ConstructionCategory>
-          <BuildingList>
-            <Item>
-              <Building>133004</Building>
-            </Item>
-            <Item>
-              <Building>133030</Building>
-            </Item>
-            <Item>
-              <Building>133031</Building>
-            </Item>
-            <Item>
-              <Building>134614</Building>
-            </Item>
-          </BuildingList>
-          <CategoryDescription>1999002252</CategoryDescription>
-        </ConstructionCategory>
-        <Text>
-          <LocaText>
-            <English>
-              <Text>Hacienda Publics</Text>
-              <Status>Exported</Status>
-              <ExportCount>1</ExportCount>
-            </English>
-          </LocaText>
-          <LineID>27185</LineID>
-        </Text>
-        <Locked />
-      </Values>
-    </Asset>
-  </ModOp> -->
+  <!-- # Change Cinnamon Orchard to new FreeAreType and use the new cinnamon tree for it-->
+  <ModOp Type="replace" GUID="5000001" Path="/Values/Region/Trees/Hunter">
+    <Hunter>
+      <GUID>1999002241</GUID>
+      <PlantPercent>100</PlantPercent>
+    </Hunter>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="5000001" Path="/Values/Region/Trees/Camphor/PlantPercent">
+    <PlantPercent>100</PlantPercent>
+  </ModOp>
+
+  <ModOp Type="replace" GUID="133030" Path="/Values/FreeAreaProductivity/FreeAreaType">
+    <FreeAreaType>Hunter</FreeAreaType>
+  </ModOp>
+
+  <!-- # Change Cinnamon Orchard Prop to the new cinnamon tree -->
+  <ModOp Type="replace" GUID="133030" Path="/Values/Object/Variations">
+    <Variations>
+      <Item>
+        <Filename>data/modgraphics/models/tree_planter/tree_planter_cinnamon.cfg</Filename>
+      </Item>
+    </Variations>
+  </ModOp>
 
   <ModOp Type="replace" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building='133004']">
     <Item>
@@ -249,92 +211,6 @@
   <ModOp Type="remove" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building='133030']"></ModOp>
   <ModOp Type="remove" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building='133031']"></ModOp>
   <ModOp Type="remove" GUID="500950" Path="/Values/ConstructionCategory/BuildingList/Item[Building='134614']"></ModOp>
-
-  <!-- <ModOp Type="addNextSibling" GUID="130248">
-		<Asset>
-			<Template>Trigger</Template>
-			<Values>
-				<Standard>
-					<GUID>1999002253</GUID>
-					<Name>Unhide New Orchard Construction Category</Name>
-				</Standard>
-				<Trigger>
-					<TriggerCondition>
-						<Template>ConditionPlayerCounter</Template>
-						<Values>
-							<Condition/>
-							<ConditionPlayerCounter>
-								<PlayerCounter>PopulationByLevel</PlayerCounter>
-								<Context>15000005</Context>
-								<CounterAmount>100</CounterAmount>
-							</ConditionPlayerCounter>
-						</Values>
-					</TriggerCondition>
-					<TriggerActions>
-						<Item>
-							<TriggerAction>
-								<Template>ActionUnlockAsset</Template>
-								<Values>
-									<Action/>
-									<ActionUnlockAsset>
-										<UnhideAssets>
-											<Item>
-												<Asset>1999002251</Asset>
-											</Item>
-										</UnhideAssets>
-									</ActionUnlockAsset>
-								</Values>
-							</TriggerAction>
-						</Item>
-					</TriggerActions>
-				</Trigger>
-				<TriggerSetup/>
-			</Values>
-		</Asset>
-	</ModOp>
-
-  <ModOp Type="addNextSibling" GUID="130248">
-		<Asset>
-			<Template>Trigger</Template>
-			<Values>
-				<Standard>
-					<GUID>1999002254</GUID>
-					<Name>Unlock New Orchard Construction Category</Name>
-				</Standard>
-				<Trigger>
-					<TriggerCondition>
-						<Template>ConditionPlayerCounter</Template>
-						<Values>
-							<Condition/>
-							<ConditionPlayerCounter>
-								<PlayerCounter>PopulationByLevel</PlayerCounter>
-								<Context>15000005</Context>
-								<CounterAmount>200</CounterAmount>
-							</ConditionPlayerCounter>
-						</Values>
-					</TriggerCondition>
-					<TriggerActions>
-						<Item>
-							<TriggerAction>
-								<Template>ActionUnlockAsset</Template>
-								<Values>
-									<Action/>
-									<ActionUnlockAsset>
-										<UnlockAssets>
-											<Item>
-												<Asset>1999002251</Asset>
-											</Item>
-										</UnlockAssets>
-									</ActionUnlockAsset>
-								</Values>
-							</TriggerAction>
-						</Item>
-					</TriggerActions>
-				</Trigger>
-				<TriggerSetup/>
-			</Values>
-		</Asset>
-	</ModOp> -->
 
   <!-- #Reduce Internal Storage for Orchards to vanilla value of other farms -->
   <ModOp Type="replace" GUID="133004,133030,133031,133496,134614,135085,135088" Path="/Values/FactoryBase/FactoryOutputs/Item/StorageAmount">

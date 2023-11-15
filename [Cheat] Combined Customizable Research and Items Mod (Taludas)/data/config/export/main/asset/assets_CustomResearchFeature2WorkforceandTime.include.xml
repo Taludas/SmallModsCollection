@@ -10,26 +10,26 @@
     <ModOp Type="replace" GUID="120244" Path="/Values/ResearchFeature/ItemCraftingConfig/*[self::Common or self::Uncommon]/MinimumWorkforceTime" ModOpID="CustomItemCraftingConfigMinWorkforceTimeCommonUncommon">
         <MinimumWorkforceTime>1800000</MinimumWorkforceTime>
     </ModOp>
-    <ImyaExpose Path="self::MinimumWorkforceTime" ModOpID="CustomItemCraftingConfigMinWorkforceTimeCommonUncommon" ExposeID="MaxResearchTime NoWorforceAllocation Common|Uncommon" Description="Sets the maximum Research Time for an common and uncommon Item with minimum Workforce Allocation [in Milliseconds]."/>
+    <ImyaExpose Path="self::MinimumWorkforceTime" ModOpID="CustomItemCraftingConfigMinWorkforceTimeCommonUncommon" ExposeID="MaxResearchTime NoWorkforceAllocation Common|Uncommon" Description="Sets the maximum Research Time for an common and uncommon Item with minimum Workforce Allocation [in Milliseconds]."/>
 
     <ModOp Type="replace" GUID="120244" Path="/Values/ResearchFeature/ItemCraftingConfig/Rare/MinimumWorkforceTime" ModOpID="CustomItemCraftingConfigMinWorkforceTimeRare">
         <MinimumWorkforceTime>2700000</MinimumWorkforceTime>
     </ModOp>
-    <ImyaExpose Path="self::MinimumWorkforceTime" ModOpID="CustomItemCraftingConfigMinWorkforceTimeRare" ExposeID="MaxResearchTime NoWorforceAllocation Rare" Description="Sets the maximum Research Time for an rare Item with minimum Workforce Allocation [in Milliseconds]."/>
+    <ImyaExpose Path="self::MinimumWorkforceTime" ModOpID="CustomItemCraftingConfigMinWorkforceTimeRare" ExposeID="MaxResearchTime NoWorkforceAllocation Rare" Description="Sets the maximum Research Time for an rare Item with minimum Workforce Allocation [in Milliseconds]."/>
 
     <ModOp Type="replace" GUID="120244" Path="/Values/ResearchFeature/ItemCraftingConfig/Epic/MinimumWorkforceTime" ModOpID="CustomItemCraftingConfigMinWorkforceTimeEpic">
         <MinimumWorkforceTime>3600000</MinimumWorkforceTime>
     </ModOp>
-    <ImyaExpose Path="self::MinimumWorkforceTime" ModOpID="CustomItemCraftingConfigMinWorkforceTimeEpic" ExposeID="MaxResearchTime NoWorforceAllocation Epic" Description="Sets the maximum Research Time for an Epic Item with minimum Workforce Allocation [in Milliseconds]."/>
+    <ImyaExpose Path="self::MinimumWorkforceTime" ModOpID="CustomItemCraftingConfigMinWorkforceTimeEpic" ExposeID="MaxResearchTime NoWorkforceAllocation Epic" Description="Sets the maximum Research Time for an Epic Item with minimum Workforce Allocation [in Milliseconds]."/>
 
     <ModOp Type="replace" GUID="120244" Path="/Values/ResearchFeature/ItemCraftingConfig/Legendary/MinimumWorkforceTime" ModOpID="CustomItemCraftingConfigMinWorkforceTimeLegendary">
         <MinimumWorkforceTime>5400000</MinimumWorkforceTime>
     </ModOp>
-    <ImyaExpose Path="self::MinimumWorkforceTime" ModOpID="CustomItemCraftingConfigMinWorkforceTimeLegendary" ExposeID="MaxResearchTime NoWorforceAllocation Legendary" Description="Sets the maximum Research Time for an Legendary Item with minimum Workforce Allocation [in Milliseconds]."/>
+    <ImyaExpose Path="self::MinimumWorkforceTime" ModOpID="CustomItemCraftingConfigMinWorkforceTimeLegendary" ExposeID="MaxResearchTime NoWorkforceAllocation Legendary" Description="Sets the maximum Research Time for an Legendary Item with minimum Workforce Allocation [in Milliseconds]."/>
 
     <ModOp Type="replace" GUID="120244" Path="/Values/ResearchFeature/ItemCraftingConfig/*/MaximumWorkforceTime" ModOpID="CustomItemCraftingConfigMaxWorkforceTime">
         <MaximumWorkforceTime>600000</MaximumWorkforceTime>
     </ModOp>
-    <ImyaExpose Path="self::MaximumWorkforceTime" ModOpID="CustomItemCraftingConfigMaxWorkforceTime" ExposeID="MinResearchTime FullWorforceAllocation" Description="Sets the minimal Research Time for an Item with maximum Workforce Allocation [in Milliseconds]."/>
+    <ImyaExpose Path="self::MaximumWorkforceTime" ModOpID="CustomItemCraftingConfigMaxWorkforceTime" ExposeID="MinResearchTime FullWorkforceAllocation" Description="Sets the minimal Research Time for an Item with maximum Workforce Allocation [in Milliseconds]."/>
 
 </ModOps>

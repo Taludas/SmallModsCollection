@@ -1,5 +1,5 @@
 {
-  "Version": "1.1",
+  "Version": "1.2",
   "ModID": "Taludas_CampherCinnamonTrees",
   "IncompatibleIds": null,
   "ModDependencies": null,
@@ -20,7 +20,7 @@
     "Chinese": "Campher and Cinnamon Orchards use different tree configs (Taludas)",
     "English": "Campher and Cinnamon Orchards use different tree configs (Taludas)",
     "French": "Campher and Cinnamon Orchards use different tree configs (Taludas)",
-    "German": "Campher and Cinnamon Orchards use different tree configs (Taludas)",
+    "German": "Kampfer- und Zimtbäume benutzen verschiedene Baum-Konfigurationen (Taludas)",
     "Italian": "Campher and Cinnamon Orchards use different tree configs (Taludas)",
     "Japanese": "Campher and Cinnamon Orchards use different tree configs (Taludas)",
     "Korean": "Campher and Cinnamon Orchards use different tree configs (Taludas)",
