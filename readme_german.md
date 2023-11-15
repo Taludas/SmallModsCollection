@@ -21,6 +21,14 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 ## Changelog
 
 <details>
+    <summary>Patch Notes Version 1.9.0</summary>
+
+* Ergänzung:
+  * [Show Grass for FreeArea Buildings]: Diese kleine Mod schaltet das Gras im Bereich der FreeArea-Gebäude wieder ein. Zuvor war es automatisch ausgeblendet, was dazu führte, dass der Untergrund einiger Baumschulen ziemlich kahl aussah..
+
+</details>
+
+<details>
     <summary>Patch Notes Version 1.8.4</summary>
 
 * Fixes:

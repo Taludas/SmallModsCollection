@@ -1,0 +1,7 @@
+<ModOps>
+
+    <ModOp Type="replace" Path="//FreeAreaProductivity/HideGrassInRange">
+        <HideGrassInRange>0</HideGrassInRange>
+    </ModOp>
+
+</ModOps>
