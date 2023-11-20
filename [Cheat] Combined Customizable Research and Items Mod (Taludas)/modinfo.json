@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.3",
+  "Version": "1.0.4",
   "ModID": "Taludas_CombinedResearchandItemsMod",
   "IncompatibleIds": [
     "Spice_Research",
@@ -43,9 +43,9 @@
   },
   "Description": {
     "Chinese": null,
-    "English": "::readme_english.md",
+    "English": "file::readme_english.md",
     "French": null,
-    "German": "::readme_deutsch.md",
+    "German": "file::readme_deutsch.md",
     "Italian": null,
     "Japanese": null,
     "Korean": null,
