@@ -2,11 +2,11 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999003250</GUID>
-      <Text>Safe Stowage</Text>
+      <Text>안전한 적하물</Text>
     </Text>
     <Text>
       <GUID>1999003251</GUID>
-      <Text>Thorough training on safe stowage in factory warehouses will enable your employees to avoid " happy accidents".</Text>
+      <Text>공장 창고의 안전한 보관에 대하여 철저한 교육을 통해 직원은 "행복한 사고"를 피할 수 있습니다.</Text>
     </Text>
   </ModOp>
 </ModOps>
