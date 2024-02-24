@@ -3,6 +3,9 @@
         <Item>
             <GUID>101331</GUID>
         </Item>
+        <Item>
+            <GUID>1308</GUID>
+        </Item>
     </ModOp>
     <ModOp Type="addNextSibling" GUID="658">
         <Asset>
@@ -102,7 +105,7 @@
                                 </ActionRegisterTrigger>
                                 </Values>
                             </TriggerAction>
-                        </Item> 
+                        </Item>
                     </TriggerActions>
                 </Trigger>
                 <TriggerSetup>
