@@ -23,6 +23,14 @@ You can find a gallery of images from my mod [here](docs/).
 <details>
     <summary>Patch Notes Version 1.9.0</summary>
 
+* Fixes:
+  * [Customizable Research and Items Mod]: fix an issue with iMYA customisation, where the toggle to switch on/off the custom item research value cost increase didn't work properly.
+
+</details>
+
+<details>
+    <summary>Patch Notes Version 1.9.0</summary>
+
 * Additions:
   * [Show Grass for FreeArea Buildings]: This small mod switches the grass in the area of FreeArea buildings back on. Previously, it was automatically hidden and this resulted in the underground of some orchards looking quite bare.
 

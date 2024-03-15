@@ -19,6 +19,13 @@ Wenn ihr diese Mods mögt und mich unterstützen wollt, könnt ihr sie gerne mit
 Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
+<details>
+    <summary>Patch Notes Version 1.9.0</summary>
+
+* Fixes:
+  * [Customizable Research and Items Mod]: Behebung eines Problems bei der iMYA-Anpassung, bei dem der Schalter zum Ein- und Ausschalten der individuellen Erhöhung der Freischaltkosten für Items nicht richtig funktionierte.
+
+</details>
 
 <details>
     <summary>Patch Notes Version 1.9.0</summary>
