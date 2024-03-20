@@ -16,7 +16,7 @@
             </PostProgress>
         </ModOp>
     </Group>
-    <ImyaExpose Path="*" ModOpID="UseFixedIncreaseInsteadOfProgressItemUnlock" ExposeID="Use Vanilla Increase instead of Custom Progress" Description="Sets whether the Item Unlock mechanic in the Research Institute uses a cost increase based on steps for the first 60 items (Vanilla) or a fixed Value increase for each unlocked item. [Toggle: off = Custom, Toggle: on = Vanilla]" Kind="SkipToggle"></ImyaExpose>
+    <ImyaExpose Path="*" ModOpID="UseFixedIncreaseInsteadOfProgressItemUnlock" ExposeID="Use Custom Increase instead of Vanilla Progress" Description="Sets whether the Item Unlock mechanic in the Research Institute uses a cost increase based on steps for the first 60 items (Vanilla) or a fixed Value increase for each unlocked item. [Toggle: on = Custom, Toggle: off = Vanilla] Use below values to customize further." Kind="SkipToggle"></ImyaExpose>
 
     <ModOp Type="replace" GUID="123401" Path="/Values/ProgressBalancing/Progress" ModOpID="CustomProgressFirstStep">
         <Progress>

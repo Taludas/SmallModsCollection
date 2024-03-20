@@ -21,7 +21,14 @@ You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
 <details>
-    <summary>Patch Notes Version 1.9.0</summary>
+    <summary>Patch Notes Version 1.9.2</summary>
+
+* Fixes:
+  * [Customizable Research and Items Mod]: fix labeling on one of the toggles (was accidentally inverted before): Toggle on = custom, Toggle off = vanilla settings now! Delete the iMYA tweaking file saved at the Anno 1800 installation directory .../.imya/tweaks/[Cheat] Combined Customizable Research and Items Mod (Taludas).json before using it with iMYA again. WARNING: This will delete your saved settings and you need to set them again!
+
+</details>
+<details>
+    <summary>Patch Notes Version 1.9.1</summary>
 
 * Fixes:
   * [Customizable Research and Items Mod]: fix an issue with iMYA customisation, where the toggle to switch on/off the custom item research value cost increase didn't work properly.
