@@ -1,0 +1,52 @@
+<ModOps>
+
+    <ModOp Type="remove" GUID="535,536,2524,4267,4268" Path="/Values/Product/BlockTransfer"></ModOp>
+    <ModOp Type="remove" GUID="535,536,2524,4267,4268" Path="/Values/Product/IsStrategicResource"></ModOp>
+
+    <ModOp Type="add" GUID="502019" Path="/Values/ProductList/List">
+        <Item>
+            <Product>535</Product>
+        </Item>
+        <Item>
+            <Product>536</Product>
+        </Item>
+        <Item>
+            <Product>2524</Product>
+        </Item>
+        <Item>
+            <Product>4267</Product>
+        </Item>
+        <Item>
+            <Product>4268</Product>
+        </Item>
+    </ModOp>
+
+    <ModOp Type="add" GUID="962,963" Path="/Values/Selection">
+        <UnlockSecondGUI>1500300092</UnlockSecondGUI>
+        <SecondGUIType>Pier</SecondGUIType>
+    </ModOp>
+
+    <ModOp Type="add" GUID="962,963" Path="/Values/LoadingPier">
+        <AllowExclusiveTrading>1</AllowExclusiveTrading>
+    </ModOp>
+
+    <Group Condition="#Hackner_EnbesaMailIntegration">
+        <ModOp Type="add" GUID="103693000" Path="/Values/Selection">
+            <UnlockSecondGUI>1500300092</UnlockSecondGUI>
+            <SecondGUIType>Pier</SecondGUIType>
+        </ModOp>
+
+        <ModOp Type="add" GUID="103693000" Path="/Values/LoadingPier">
+            <AllowExclusiveTrading>1</AllowExclusiveTrading>
+        </ModOp>
+
+        <ModOp Type="add" GUID="502019" Path="/Values/ProductList/List">
+            <Item>
+                <Product>103693031</Product>
+            </Item>
+        </ModOp>
+
+        <ModOp Type="remove" GUID="103693031" Path="/Values/Product/BlockTransfer"></ModOp>
+        <ModOp Type="remove" GUID="103693031" Path="/Values/Product/IsStrategicResource"></ModOp>
+    </Group>
+</ModOps>

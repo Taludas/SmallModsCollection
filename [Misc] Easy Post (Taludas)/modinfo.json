@@ -1,0 +1,75 @@
+{
+  "Version": "1.0.0",
+  "ModID": "Taludas_EasyPost",
+  "IncompatibleIds": null,
+  "ModDependencies": [
+    "shared_ui_change_kurila"
+  ],
+  "LoadAfterIds": [
+    "shared_ui_change_kurila"
+  ],
+  "Category": {
+    "Chinese": "Misc",
+    "English": "Misc",
+    "French": "Misc",
+    "German": "Misc",
+    "Italian": "Misc",
+    "Japanese": "Misc",
+    "Korean": "Misc",
+    "Polish": "Misc",
+    "Russian": "Misc",
+    "Spanish": "Misc",
+    "Taiwanese": "Misc"
+  },
+  "ModName": {
+    "Chinese": "Easy Post (Taludas)",
+    "English": "Easy Post (Taludas)",
+    "French": "Easy Post (Taludas)",
+    "German": "Easy Post (Taludas)",
+    "Italian": "Easy Post (Taludas)",
+    "Japanese": "Easy Post (Taludas)",
+    "Korean": "Easy Post (Taludas)",
+    "Polish": "Easy Post (Taludas)",
+    "Russian": "Easy Post (Taludas)",
+    "Spanish": "Easy Post (Taludas)",
+    "Taiwanese": "Easy Post (Taludas)"
+  },
+  "Description": {
+    "Chinese": null,
+    "English": "Enables 1.) setting a minimum stock for all post types, 2.) (after hitting Shift+C) setting an exclusive traderoute good for the Airship Platform, 3.) trading the different posttypes via normal traderoutes (no conversion from local post to other types though!!!)",
+    "French": null,
+    "German": "Ermöglicht 1.) das Festlegen eines Mindestbestands für alle Posttypen, 2.) (nach Drücken von Shift+C) das Festlegen einer exklusiven Handelsware, die für die Luftschiffplattform gilt, 3.) den Handel mit den verschiedenen Posttypen über normale Handelsrouten (allerdings keine Umwandlung von lokaler Post in andere Typen!!!)",
+    "Italian": null,
+    "Japanese": null,
+    "Korean": null,
+    "Polish": null,
+    "Russian": null,
+    "Spanish": null,
+    "Taiwanese": null
+  },
+  "KnownIssues":
+  [
+    {
+      "Chinese": null,
+      "English": null,
+      "French": null,
+      "German": null,
+      "Italian": null,
+      "Japanese": null,
+      "Korean": null,
+      "Polish": null,
+      "Russian": null,
+      "Spanish": null,
+      "Taiwanese": null
+    }
+  ],
+  "DLCDependencies": [
+    {
+      "DLC":"EmpireOfTheSkies",
+      "Dependant": "required"
+    }
+  ],
+  "CreatorName": "Taludas",
+  "CreatorContact": "https://github.com/Taludas",
+  "Image": null
+}

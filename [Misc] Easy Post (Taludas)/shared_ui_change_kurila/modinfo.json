@@ -1,0 +1,52 @@
+{
+  "Version": "1.0",
+  "ModID": "shared_ui_change_kurila",
+  "DeprecateIds": [],
+  "ModDependencies": [],
+  "LoadAfterIds": [],
+  "IncompatibleIds": null,
+  "Category": {
+    "English": "Shared",
+    "Chinese": "Shared",
+    "French": "Shared",
+    "German": "Shared",
+    "Italian": "Shared",
+    "Japanese": "Shared",
+    "Korean": "Shared",
+    "Polish": "Shared",
+    "Russian": "Shared",
+    "Spanish": "Shared",
+    "Taiwanese": "Shared"
+  },
+  "ModName": {
+    "Chinese": "UI Change (Kurila)",
+    "English": "UI Change (Kurila)",
+    "French": "UI Change (Kurila)",
+    "German": "UI Change (Kurila)",
+    "Italian": "UI Change (Kurila)",
+    "Japanese": "UI Change (Kurila)",
+    "Korean": "UI Change (Kurila)",
+    "Polish": "UI Change (Kurila)",
+    "Russian": "UI Change (Kurila)",
+    "Spanish": "UI Change (Kurila)",
+    "Taiwanese": "UI Change (Kurila)"
+  },
+  "Description": {
+    "English": "file::README.md",
+    "German": "file::README.md",
+    "Chinese": "file::README.md",
+    "French": "file::README.md",
+    "Italian": "file::README.md",
+    "Japanese": "file::README.md",
+    "Korean": "file::README.md",
+    "Polish": "file::README.md",
+    "Russian": "file::README.md",
+    "Spanish": "file::README.md",
+    "Taiwanese": "file::README.md"
+  },
+  "KnownIssues": null,
+  "DLCDependencies": null,
+  "CreatorName": "Kurila and Serp",
+  "CreatorContact": "https://discord.gg/YTQGDFK",
+  "Image": null
+}

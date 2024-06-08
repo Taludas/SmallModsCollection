@@ -1,0 +1,135 @@
+<ModOps>
+  <ModOp Type="add" GUID='2001271' Path="/Values/GUIConfig/KeyBindings">
+    <Item>
+      <KeyTypes>Shift;C</KeyTypes>
+      <Command>ts.Conditions.RegisterTriggerForCurrentParticipant(1500300093)</Command>
+      <Active>Session</Active>
+      <AvailableOnPlatforms>PC;Xbox;PS;Stadia</AvailableOnPlatforms>
+      <AudioEvent>200634</AudioEvent>
+      <Configurable>0</Configurable>
+      <HideInOptionMenu>1</HideInOptionMenu>
+      <AllowMultipleShortcuts>1</AllowMultipleShortcuts>
+    </Item>
+  </ModOp>
+  <!-- Trigger Code created by Serp -->
+  <ModOp Type="AddNextSibling" GUID="141489">
+    <Asset>
+      <Template>UnlockableAsset</Template>
+      <Values>
+        <Standard>
+          <GUID>1500300092</GUID>
+          <Name>Lock_For_Second_Guitype</Name>
+        </Standard>
+        <Locked />
+      </Values>
+    </Asset>
+    <Asset>
+      <Template>Trigger</Template>
+      <Values>
+        <Standard>
+          <GUID>1500300093</GUID>
+          <Name>Second_GUIType_Locker/Unlocker</Name>
+        </Standard>
+        <Trigger>
+          <TriggerCondition>
+            <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+            <Values>
+              <Condition>
+                <SubConditionCompletionOrder>MutuallyExclusive</SubConditionCompletionOrder>
+              </Condition>
+              <ConditionAlwaysTrue />
+            </Values>
+          </TriggerCondition>
+          <SubTriggers>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionUnlocked</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionUnlocked>
+                          <UnlockNeeded>1500300092</UnlockNeeded>
+                        </ConditionUnlocked>
+                        <ConditionPropsNegatable>
+                          <NegateCondition>1</NegateCondition>
+                        </ConditionPropsNegatable>
+                      </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                      <Item>
+                        <TriggerAction>
+                          <Template>ActionUnlockAsset</Template>
+                          <Values>
+                            <Action />
+                            <ActionUnlockAsset>
+                              <UnlockAssets>
+                                <Item>
+                                  <Asset>1500300092</Asset>
+                                </Item>
+                              </UnlockAssets>
+                              <UnhideAssets />
+                            </ActionUnlockAsset>
+                          </Values>
+                        </TriggerAction>
+                      </Item>
+                    </TriggerActions>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+            <Item>
+              <SubTrigger>
+                <Template>AutoCreateTrigger</Template>
+                <Values>
+                  <Trigger>
+                    <TriggerCondition>
+                      <Template>ConditionUnlocked</Template>
+                      <Values>
+                        <Condition />
+                        <ConditionUnlocked>
+                          <UnlockNeeded>1500300092</UnlockNeeded>
+                        </ConditionUnlocked>
+                        <ConditionPropsNegatable />
+                      </Values>
+                    </TriggerCondition>
+                    <TriggerActions>
+                      <Item>
+                        <TriggerAction>
+                          <Template>ActionLockAsset</Template>
+                          <Values>
+                            <Action />
+                            <ActionLockAsset>
+                              <LockAssets>
+                                <Item>
+                                  <Asset>1500300092</Asset>
+                                </Item>
+                              </LockAssets>
+                            </ActionLockAsset>
+                          </Values>
+                        </TriggerAction>
+                      </Item>
+                    </TriggerActions>
+                  </Trigger>
+                </Values>
+              </SubTrigger>
+            </Item>
+          </SubTriggers>
+        </Trigger>
+        <TriggerSetup>
+          <AutoRegisterTrigger>0</AutoRegisterTrigger>
+          <UsedBySecondParties>0</UsedBySecondParties>
+        </TriggerSetup>
+      </Values>
+    </Asset>
+  </ModOp>
+
+  <!-- Example
+    <Selection>
+      <UnlockSecondGUI>1500300092</UnlockSecondGUI>
+      <SecondGUIType>Guildhouse</SecondGUIType>
+    </Selection>
+  -->
+</ModOps>
