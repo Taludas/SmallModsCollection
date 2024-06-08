@@ -14,12 +14,23 @@ If you like these mods and want to support me, feel free to share it with your f
 - If you download the mod manually, use the archive from [GitHub releases](https://github.com/Taludas/SmallModsCollection/releases). Don't download the whole repo!
 - Select the relevant mods and drag them to your 1800 Mod Folder or use the iModYourAnno Mod Manager to install manually.
 
-***These Mods are savegame-compatible. Safe to install/uninstall mid playthrough.*** 
+***These Mods are savegame-compatible. Safe to install/uninstall mid playthrough.***
 
 ## Mod Images
 You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
+<details>
+    <summary>Patch Notes Version 1.10.0</summary>
+
+* Addition:
+  * [Easy Post]: A mod to ease up the Mail gameplay a little bit:
+    * Mail can now be loaded and unloaded onto any ship type just like a regular good.
+    * You can set a minimum stock in the Kontor
+    * You can now use normal traderoutes via ship or airship to distribute Mail (but not convert it! You still need the Airship routes to convert Local into Regional and Oversea Mail!!!)
+    * You can assign Mail as exclusive good to load/unload at Airship Platforms. For this you first need to press "Shift+C" while the Platform is not selected. Upon selecting the Platform afterwards, you'll find the regular UI of an Advanced Pier. Choose "Local Mail" from the list. The Platform will now only accept Mail Airship Routes to load/unload there. Deselect the Platform and press "Shift+C" again to switch back to the normal UI (Thanks to Kurila for providing his shared mod "UI Change" for this feature to work).
+
+</details>
 <details>
     <summary>Patch Notes Version 1.9.2</summary>
 
@@ -114,7 +125,7 @@ You can find a gallery of images from my mod [here](docs/).
 
 * Additions:
   - Added a mod that makes gained influence from residences customizable via iMYA.
-  - Added a mod that disables factory explosions via a buff. 
+  - Added a mod that disables factory explosions via a buff.
   - Mod "More Arctic Scrap" is now tweakable via iModYourAnno.
 </details>
 
@@ -151,7 +162,7 @@ You can find a gallery of images from my mod [here](docs/).
 <details>
     <summary>Patch Notes Version 1.2</summary>
 
-* Added the Mod "Mineslot Unification", which lets you build every mine on every slot. 
+* Added the Mod "Mineslot Unification", which lets you build every mine on every slot.
 </details>
 
 <details>
@@ -192,7 +203,7 @@ Furthermore, I reduced the internal storage of all orchards from 10 to 4 to redu
 ## Adjustments for HighLife Goods
 ![banner](https://user-images.githubusercontent.com/64583643/170511084-4ffd1cde-6662-4b77-939d-f81f2d132bae.png)
 
-This mod is not really made by request, but by an idea from [Wiesl](https://discussions.ubisoft.com/user/wuslwiz?lang=de) in the Ubisoft Discussion Forum. His [post](https://discussions.ubisoft.com/topic/106390/wunschliste-fuer-gu13-und-gu14/61?lang=de&page=4) inspired me to adjust some of the highlife goods and features for better integration with tourist season and other DLC.  
+This mod is not really made by request, but by an idea from [Wiesl](https://discussions.ubisoft.com/user/wuslwiz?lang=de) in the Ubisoft Discussion Forum. His [post](https://discussions.ubisoft.com/topic/106390/wunschliste-fuer-gu13-und-gu14/61?lang=de&page=4) inspired me to adjust some of the highlife goods and features for better integration with tourist season and other DLC.
 
 <details>
     <summary>Detailed changes:</summary>
@@ -288,7 +299,7 @@ In my opinion, the Billiard Table Icon from the Highlife DLC is a little underwh
 ### Mine Slot Unification
 ![Banner](https://user-images.githubusercontent.com/64583643/192851935-eda188f4-2cd9-41a8-976a-3445e1ba52f4.png)
 
-This little mod allows you to build every mine on any slot available. There is one uniform slot for all mines. Therefore you can no longer build mines directly from clicking on the slot. You have to find the mine in the build menu first! 
+This little mod allows you to build every mine on any slot available. There is one uniform slot for all mines. Therefore you can no longer build mines directly from clicking on the slot. You have to find the mine in the build menu first!
 
 Same goes for clay pits. There is now one slot called Opencast Resource Deposit on which all opencast mines will fit.
 
@@ -303,7 +314,7 @@ After DLC12, I exchanged all new mine slots in the New World (Bauxite, Helium, I
 
 Mrkoekie (Ricky on Mod-Discord) and Taludas presents: The Halloween Decoration Pack!
 
-A haunting new new season awaits for our residents! 
+A haunting new new season awaits for our residents!
 
 This mod adds 14 ornamental pieces and a few extra skins for some buildings!
 
@@ -315,7 +326,7 @@ This mod adds 14 ornamental pieces and a few extra skins for some buildings!
 * 1x1 tree variant
 * 1x1 tree variant
 * 1x1 tree variant
-* 1x1 tree  variant 
+* 1x1 tree  variant
 * 1x3 street gate
 * 1x1 spooky well
 * 1x1 witches cauldron
@@ -342,7 +353,7 @@ Made as a team effort by Ricky and Taludas!
 
 This mod is combining one of the most anticipated QoL Updates since the release of Anno 1800 concerning Item gameplay - at least for me - with a fully customizable Research Institute. This mod is meant to be tweaked via [iModYourAnno Mod Manager](https://github.com/anno-mods/iModYourAnno). Otherwise you'll get vanilla values for all the features concerning the Research Institute.
 
-- You can now stack every item in the game apart from Quest Items (which are usually unique) to 99 pieces a stack. No longer maintaining a whole fleet to buy a hand full of items from Eli. This should be a huge time saver in long term. Just buy one of each item you want to mass-purchase, then afterwards all other items will be greyed out because of no space left inside your ship. Only the selected items will be buyable and stack inside your ship. 
+- You can now stack every item in the game apart from Quest Items (which are usually unique) to 99 pieces a stack. No longer maintaining a whole fleet to buy a hand full of items from Eli. This should be a huge time saver in long term. Just buy one of each item you want to mass-purchase, then afterwards all other items will be greyed out because of no space left inside your ship. Only the selected items will be buyable and stack inside your ship.
 - You can modify nearly every value involved with the Research Institute. From maximum Queue Size, over custom research time and cost config, cost limit for item research, till number of permits granted per research. Best have a look inside iMYA and play around with the numbers to get the full experience.
 - You can also customize the Item Transfer Module in every session. Frustrated over the limit of 24 items? No problem, with this mod you can increase it to whatever number you like. You can get rid of the timer until the item is available, too! Includes support for [Arctis](https://www.nexusmods.com/anno1800/mods/446) and [Enbesa](https://www.nexusmods.com/anno1800/mods/450) Modules, if you use those mods.
 

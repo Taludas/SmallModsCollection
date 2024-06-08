@@ -20,6 +20,17 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.10.0</summary>
+
+* Ergänzung:
+  * [Easy Post]: Eine Mod, die das Post-Gameplay ein wenig vereinfacht:
+    * Post kann nun auf jeden Schiffstyp geladen und entladen werden, genau wie eine normale Ware.
+    * Man kann einen Mindestbestand im Kontor einstellen.
+    * Man kann nun normale Handelsrouten per Schiff oder Luftschiff benutzen, um Post zu verteilen (aber nicht umzuwandeln! Du brauchst immer noch die Luftschiffrouten, um lokale in regionale und Überregionale Post umzuwandeln!!!)
+    * Man kann Post als exklusives Produkt zum Be- und Entladen an Luftschiffplattformen festlegen. Dazu muss man zuerst "Shift+C" drücken, während die Plattform nicht angewählt ist. Wenn die Plattform danach ausgewählt wird, findet man die normale Benutzeroberfläche einer Fortschrittlichen Anlegestelle. Wähle "Lokale Post" aus der Liste. Die Plattform akzeptiert nun nur noch Post-Luftschiff-Routen, die dann nur dort be- und entladen werden, keine "normalen" Waren mehr. Deselektieren der Plattform und nochmaliges Drücken von "Shift+C" führt wieder zur normalen Benutzeroberfläche zurück (Danke an Kurila für die Bereitstellung seiner shared mod "UI Change", damit dieses Feature funktioniert).
+
+</details>
+<details>
     <summary>Patch Notes Version 1.9.2</summary>
 
 * Fixes:
