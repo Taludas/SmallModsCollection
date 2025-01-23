@@ -3,6 +3,7 @@
   "ModID": "Taludas_RemoveKetemasComments",
   "IncompatibleIds": null,
   "ModDependencies": null,
+  "ModioResourceId": 3227432,
   "Category": {
     "Chinese": "Misc",
     "English": "Misc",
@@ -42,7 +43,7 @@
     "Spanish": null,
     "Taiwanese": null
   },
-  "KnownIssues": 
+  "KnownIssues":
   [
     {
       "Chinese": null,

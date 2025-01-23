@@ -1,13 +1,13 @@
 {
   "Version": "1.0.0",
-  "ModID": "Taludas_FixedFanFactory",
+  "ModID": "Taludas_FixedBarFlag",
   "IncompatibleIds": null,
   "ModDependencies": null,
   "DeprecateIds": [
   ],
   "LoadAfterIds": [
   ],
-  "ModioResourceId": 3227780,
+  "ModioResourceId": 4670832,
   "Category": {
     "Chinese": "Fix",
     "English": "Fix",
@@ -22,23 +22,23 @@
     "Taiwanese": "Fix"
   },
   "ModName": {
-    "Chinese": "Fan Factory fixed (Taludas)",
-    "English": "Fan Factory fixed (Taludas)",
-    "French": "Fan Factory fixed (Taludas)",
-    "German": "Fan Factory fixed (Taludas)",
-    "Italian": "Fan Factory fixed (Taludas)",
-    "Japanese": "Fan Factory fixed (Taludas)",
-    "Korean": "Fan Factory fixed (Taludas)",
-    "Polish": "Fan Factory fixed (Taludas)",
-    "Russian": "Fan Factory fixed (Taludas)",
-    "Spanish": "Fan Factory fixed (Taludas)",
-    "Taiwanese": "Fan Factory fixed (Taludas)"
+    "Chinese": "Bar Flag fixed (Taludas)",
+    "English": "Bar Flag fixed (Taludas)",
+    "French": "Bar Flag fixed (Taludas)",
+    "German": "Bar Flag fixed (Taludas)",
+    "Italian": "Bar Flag fixed (Taludas)",
+    "Japanese": "Bar Flag fixed (Taludas)",
+    "Korean": "Bar Flag fixed (Taludas)",
+    "Polish": "Bar Flag fixed (Taludas)",
+    "Russian": "Bar Flag fixed (Taludas)",
+    "Spanish": "Bar Flag fixed (Taludas)",
+    "Taiwanese": "Bar Flag fixed (Taludas)"
   },
   "Description": {
     "Chinese": null,
-    "English": "Fixes the non-clippable Fan Factory by replacing its graphic with a fixed cfg file.",
+    "English": "Fixes the appearance of the deco flag of the Tourism-DLC Bar by replacing the texture with a fixed one not including the meczal icon/text.",
     "French": null,
-    "German": "Behebt das Problem, dass die Ventilatoren-Fabrik nicht clippbar ist, indem die Mod die Grafikfile durch eine gefixte Version ersetzt.",
+    "German": "Korrigiert das Aussehen der Deko-Flagge der Tourismus-DLC Bar, indem die Textur durch eine gefixte ersetzt wird, die das Meczal-Symbol/den Text dazu nicht enthält.",
     "Italian": null,
     "Japanese": null,
     "Korean": null,
@@ -47,7 +47,7 @@
     "Spanish": null,
     "Taiwanese": null
   },
-  "KnownIssues": 
+  "KnownIssues":
   [
     {
       "Chinese": null,
@@ -64,7 +64,10 @@
     }
   ],
   "DLCDependencies": [
-    "NewWorldRising"
+    {
+			"DLC": "NewWorldRising",
+			"Dependant": "required"
+		}
   ],
   "CreatorName": "Taludas",
   "CreatorContact": "https://github.com/Taludas/SmallModsCollection",

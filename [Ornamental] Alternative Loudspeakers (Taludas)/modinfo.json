@@ -3,6 +3,7 @@
   "ModID": "Taludas_AlternativeLoudspeakers",
   "IncompatibleIds": null,
   "ModDependencies": null,
+  "ModioResourceId": 3227389,
   "Category": {
     "Chinese": "Ornamental",
     "English": "Ornamental",
@@ -42,7 +43,7 @@
     "Spanish": null,
     "Taiwanese": null
   },
-  "KnownIssues": 
+  "KnownIssues":
   [
     {
       "Chinese": null,

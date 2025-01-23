@@ -3,6 +3,7 @@
   "ModID": "Taludas_HighlifeIntegration",
   "IncompatibleIds": null,
   "ModDependencies": null,
+  "ModioResourceId": 3227708,
   "Category": {
     "Chinese": "Fix",
     "English": "Fix",
@@ -42,7 +43,7 @@
     "Spanish": null,
     "Taiwanese": null
   },
-  "KnownIssues": 
+  "KnownIssues":
   [
     {
       "Chinese": null,

@@ -3,6 +3,7 @@
   "ModID": "Taludas_MoreArcticScrap",
   "IncompatibleIds": null,
   "ModDependencies": null,
+  "ModioResourceId": 3227580,
   "Category": {
     "Chinese": "Cheat",
     "English": "Cheat",
@@ -42,7 +43,7 @@
     "Spanish": null,
     "Taiwanese": null
   },
-  "KnownIssues": 
+  "KnownIssues":
   [
     {
       "Chinese": null,

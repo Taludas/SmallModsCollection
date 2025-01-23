@@ -13,12 +13,23 @@ Wenn ihr diese Mods mögt und mich unterstützen wollt, könnt ihr sie gerne mit
 - Wenn du die Mod manuell herunterlädst, benutze das Archiv von [GitHub releases](https://github.com/Taludas/SmallModsCollection/releases). Ladet nicht das gesamte Repo herunter!
 - Wählt die relevanten Mods aus und zieht sie in euren 1800 Mod-Ordner oder benutzt den iModYourAnno Mod Manager zur manuellen Installation.
 
-***Diese Mods sind savegame-kompatibel. Sicher zum Installieren/Deinstallieren mit bereits begonnenem Savegame.*** 
+***Diese Mods sind savegame-kompatibel. Sicher zum Installieren/Deinstallieren mit bereits begonnenem Savegame.***
 
 ## Mod-Bilder
 Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
+
+<details>
+    <summary>Patch Notes Version 1.11.0</summary>
+
+* Ergänzung:
+  - Bar Flag Fix mod: behebt das Problem, dass die Bar aus dem Tourismus-DLC die Flagge der Mezcal-Bar aus New World Rising verwendet.
+
+* aktualisierte chinesische Übersetzungen von hanthe2th
+* ModioResourceId zu allen Mods hinzugefügt
+
+</details>
 <details>
     <summary>Patch Notes Version 1.10.0</summary>
 
@@ -104,7 +115,7 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
     <summary>Patch Notes Version 1.7.2</summary>
 
 * Korrekturen:
-  - [Combined Research and Items Mod]: ein kleinen Bug behoben, der das Stacken von CultureItems (wie Zootieren, Museumsexponaten und Pflanzen, etc.) im Schiff verhindert. 
+  - [Combined Research and Items Mod]: ein kleinen Bug behoben, der das Stacken von CultureItems (wie Zootieren, Museumsexponaten und Pflanzen, etc.) im Schiff verhindert.
 
 </details>
 
@@ -203,7 +214,7 @@ Außerdem habe ich den internen Speicher aller Baumschulen von 10 auf 4 reduzier
 ## Adjustments for HighLife Goods
 ![banner](https://user-images.githubusercontent.com/64583643/170511084-4ffd1cde-6662-4b77-939d-f81f2d132bae.png)
 
-Dieser Mod ist nicht wirklich auf Wunsch entstanden, sondern durch eine Idee von [Wiesl](https://discussions.ubisoft.com/user/wuslwiz?lang=de) im Ubisoft Diskussionsforum. Sein [Beitrag](https://discussions.ubisoft.com/topic/106390/wunschliste-fuer-gu13-und-gu14/61?lang=de&page=4) hat mich dazu inspiriert, einige der HighLife-Waren und -Features für eine bessere Integration mit der Touristensaison und anderen DLCs anzupassen.  
+Dieser Mod ist nicht wirklich auf Wunsch entstanden, sondern durch eine Idee von [Wiesl](https://discussions.ubisoft.com/user/wuslwiz?lang=de) im Ubisoft Diskussionsforum. Sein [Beitrag](https://discussions.ubisoft.com/topic/106390/wunschliste-fuer-gu13-und-gu14/61?lang=de&page=4) hat mich dazu inspiriert, einige der HighLife-Waren und -Features für eine bessere Integration mit der Touristensaison und anderen DLCs anzupassen.
 
 <details>
     <summary>Detailed changes:</summary>
@@ -299,7 +310,7 @@ Meiner Meinung nach ist das Billardtisch-Symbol aus dem Highlife-DLC ein wenig u
 ### Mine Slot Unification
 ![Banner](https://user-images.githubusercontent.com/64583643/192851935-eda188f4-2cd9-41a8-976a-3445e1ba52f4.png)
 
-Mit diesem kleinen Mod könnt ihr jede Mine auf jedem verfügbaren Slot bauen. Es gibt einen einheitlichen Slot für alle Minen. Daher kann man Minen nicht mehr direkt durch Anklicken des Slots bauen. Ihr müsst die Mine erst im Baumenü finden! 
+Mit diesem kleinen Mod könnt ihr jede Mine auf jedem verfügbaren Slot bauen. Es gibt einen einheitlichen Slot für alle Minen. Daher kann man Minen nicht mehr direkt durch Anklicken des Slots bauen. Ihr müsst die Mine erst im Baumenü finden!
 
 Das Gleiche gilt für Lehmgruben. Es gibt jetzt einen Slot namens Oberflächliches Rohstoffvorkommen, auf den alle Tagebauminen passen.
 
@@ -314,7 +325,7 @@ Nach DLC12 habe ich alle neuen Minenslots in der Neuen Welt (Bauxit, Helium, Eis
 
 Mrkoekie (Ricky auf Mod-Discord) und Taludas präsentieren: Das Halloween-Deko-Pack!
 
-Eine gespenstische neue Jahreszeit wartet auf eure Bewohner! 
+Eine gespenstische neue Jahreszeit wartet auf eure Bewohner!
 
 Diese Mod fügt 14 Deko-Elemente und ein paar zusätzliche Skins für einige Gebäude hinzu!
 
@@ -326,7 +337,7 @@ Diese Mod fügt 14 Deko-Elemente und ein paar zusätzliche Skins für einige Geb
 * 1x1 Baum-Variante
 * 1x1-Baum-Variante
 * 1x1-Baum-Variante
-* 1x1 Baumvariante 
+* 1x1 Baumvariante
 * 1x3 Straßentor
 * 1x1 Gespensterbrunnen
 * 1x1 Hexenkessel
@@ -353,7 +364,7 @@ In Teamarbeit von Ricky und Taludas erstellt!
 
 Diese Mod kombiniert eines der am meisten erwarteten QoL-Updates seit der Veröffentlichung von Anno 1800 bezüglich des Item-Gameplays - zumindest für mich - kombiniert mit einem vollständig anpassbaren Forschungsinstitut. Diese Mod ist dafür gedacht, über den [iModYourAnno Mod Manager](https://github.com/anno-mods/iModYourAnno) angepasst zu werden. Andernfalls erhältst du Vanilla-Werte für alle Funktionen des Forschungsinstituts.
 
-- Du kannst jetzt jeden Gegenstand im Spiel stapeln, außer Quest-Gegenständen (die normalerweise einzigartig sind), bis zu 99 Stück pro Stapel. Ihr müsst nicht mehr eine ganze Flotte unterhalten, um eine Handvoll Gegenstände von Eli zu kaufen. Das sollte auf lange Sicht eine große Zeitersparnis sein. Kauft einfach ein Stück von jedem Gegenstand, den ihr in Massen kaufen wollt, danach werden alle anderen Gegenstände ausgegraut, weil kein Platz mehr in eurem Schiff ist. Nur die ausgewählten Gegenstände sind kaufbar und lassen sich im Schiff stapeln. 
+- Du kannst jetzt jeden Gegenstand im Spiel stapeln, außer Quest-Gegenständen (die normalerweise einzigartig sind), bis zu 99 Stück pro Stapel. Ihr müsst nicht mehr eine ganze Flotte unterhalten, um eine Handvoll Gegenstände von Eli zu kaufen. Das sollte auf lange Sicht eine große Zeitersparnis sein. Kauft einfach ein Stück von jedem Gegenstand, den ihr in Massen kaufen wollt, danach werden alle anderen Gegenstände ausgegraut, weil kein Platz mehr in eurem Schiff ist. Nur die ausgewählten Gegenstände sind kaufbar und lassen sich im Schiff stapeln.
 - Ihr könnt fast alle Werte des Forschungsinstituts ändern. Von der maximalen Größe der Warteschlange, über die Konfiguration der Forschungszeit und -kosten, das Kostenlimit für die Erforschung von Gegenständen, bis hin zur Anzahl der Genehmigungen, die pro Forschung erteilt werden. Am besten werft ihr einen Blick in iMYA und spielt mit den Zahlen herum, um die volle Erfahrung zu bekommen.
 - Ihr könnt auch das Item-Transfermodul in jeder Session anpassen. Frustriert über das Limit von 24 Gegenständen? Kein Problem, mit dieser Mod könnt ihr die Zahl auf jede beliebige Zahl erhöhen. Ihr könnt auch den Timer abschalten, bis die Items verfügbar sind! Enthält Unterstützung für die Module in der [Arktis](https://www.nexusmods.com/anno1800/mods/446) und [Enbesa](https://www.nexusmods.com/anno1800/mods/450), wenn ihr diese Mods verwendet.
 
@@ -401,3 +412,10 @@ Eine einfache Mod, um die Zeit des Tag-Nacht-Zyklus im Spiel mit der lokalen PC-
 ![banner](https://github.com/Taludas/SmallModsCollection/assets/64583643/e9f99a2e-90b7-473d-bc94-c98cbae0ecc0)
 
 Diese kleine Mod behebt verschiedene Textur-Fehler bei DLC-Fahrzeugen und Bewohner-Feedback-Units, die bei bestimmten Zoomstufen als weiße Texturen sichtbar sind.
+
+-----
+
+### Bar Flag Fixes
+![banner](https://github.com/user-attachments/assets/1dcb0eae-fbb7-44d2-8b18-eab52343f452)
+
+Diese kleine Mod behebt das Problem, dass die Bar aus dem Tourismus-DLC die Flagge der Mezcal-Bar aus New World Rising verwendet.

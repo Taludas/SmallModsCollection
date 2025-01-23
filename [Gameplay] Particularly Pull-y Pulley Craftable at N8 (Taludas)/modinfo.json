@@ -3,6 +3,7 @@
   "ModID": "Taludas_PulleyCraftable",
   "IncompatibleIds": null,
   "ModDependencies": null,
+  "ModioResourceId": 3227556,
   "Category": {
     "Chinese": "Gameplay",
     "English": "Gameplay",
@@ -42,7 +43,7 @@
     "Spanish": null,
     "Taiwanese": null
   },
-  "KnownIssues": 
+  "KnownIssues":
   [
     {
       "Chinese": null,

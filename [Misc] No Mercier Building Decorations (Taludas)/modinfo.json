@@ -3,6 +3,7 @@
   "ModID": "Taludas_NoMercierBuildingDecorations",
   "IncompatibleIds": null,
   "ModDependencies": null,
+  "ModioResourceId": 3227493,
   "Category": {
     "Chinese": "Misc",
     "English": "Misc",
@@ -42,7 +43,7 @@
     "Spanish": null,
     "Taiwanese": null
   },
-  "KnownIssues": 
+  "KnownIssues":
   [
     {
       "Chinese": null,

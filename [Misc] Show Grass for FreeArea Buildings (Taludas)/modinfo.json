@@ -5,6 +5,7 @@
   "ModDependencies": null,
   "LoadAfterIds": [
   ],
+  "ModioResourceId": 3501667,
   "Category": {
     "Chinese": "Misc",
     "English": "Misc",
@@ -44,7 +45,7 @@
     "Spanish": null,
     "Taiwanese": null
   },
-  "KnownIssues": 
+  "KnownIssues":
   [
     {
       "Chinese": null,

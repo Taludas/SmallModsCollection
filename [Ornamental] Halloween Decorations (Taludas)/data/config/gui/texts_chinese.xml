@@ -3,123 +3,123 @@
     <ModOp Type="add" Path="/TextExport/Texts">
         <Text>
             <GUID>1999002340</GUID>
-            <Text>Halloween Gate</Text>
+            <Text>神秘大门</Text>
         </Text>
         <Text>
             <GUID>1999002341</GUID>
-            <Text>Your journey into the world of man-made horror begins here. Be aware of trespassing ghosts!</Text>
+            <Text>你进入人造恐怖世界的旅程从这里开始。要警惕突然冒出来的鬼魂！</Text>
         </Text>
         <Text>
             <GUID>1999002342</GUID>
-            <Text>Large Halloween Tree</Text>
+            <Text>巨型枯树</Text>
         </Text>
         <Text>
             <GUID>1999002343</GUID>
-            <Text>A crippled tree that is many hundreds of years old. A mysterious aura surrounds it after all members of an influential big industrialist family have met their deaths in the shadow of its crown.</Text>
+            <Text>上百年的古树，被施加了魔法，枯而不死。</Text>
         </Text>
         <Text>
             <GUID>1999002344</GUID>
-            <Text>Dead Halloween Tree</Text>
+            <Text>死亡之树</Text>
         </Text>
         <Text>
             <GUID>1999002345</GUID>
-            <Text>Succumbing to the smog of the big city, these trees have been spookily decorated to make them at least somewhat respectable.</Text>
+            <Text>大城市的烟霾怪异地与这棵树相得益彰，让它们有一种神秘光环。</Text>
         </Text>
         <Text>
             <GUID>1999002346</GUID>
-            <Text>Festive Halloween Tree</Text>
+            <Text>节日之树</Text>
         </Text>
         <Text>
             <GUID>1999002347</GUID>
-            <Text>Some residents have taken on these trees to make them shine in the most beautiful splendour for the festival of horror.</Text>
+            <Text>当地居民在这个恐怖的节日里把这些树装扮得绚丽夺目。</Text>
         </Text>
         <Text>
             <GUID>1999002348</GUID>
-            <Text>Halloween Food Stall</Text>
+            <Text>万圣节食品摊位</Text>
         </Text>
         <Text>
             <GUID>1999002349</GUID>
-            <Text>Baked pumpkins, butterbeer and grilled sausages are distributed to hungry visitors here.</Text>
+            <Text>在这里，人们向饥饿的游客分发烤南瓜、黄油啤酒和烤香肠。</Text>
         </Text>
         <Text>
             <GUID>1999002350</GUID>
-            <Text>Halloween Sweets Stall</Text>
+            <Text>万圣节零食摊位</Text>
         </Text>
         <Text>
             <GUID>1999002351</GUID>
-            <Text>Candy canes, roasted almonds and pumpkin biscuits are distributed to the little visitors.</Text>
+            <Text>小游客们得到了棒棒糖、烤杏仁和南瓜饼干。</Text>
         </Text>
         <Text>
             <GUID>1999002352</GUID>
-            <Text>Halloween Cider Stall</Text>
+            <Text>万圣节苹果酒摊位</Text>
         </Text>
         <Text>
             <GUID>1999002353</GUID>
-            <Text>The steam of hot cider hits your nose. A pinch of cinnamon gives it a special aroma. Don't drink too much or you won't find your way home!</Text>
+            <Text>热苹果酒的蒸汽扑鼻而来。一撮肉桂给它一种特殊的香味。别喝太多，否则会迷路的！</Text>
         </Text>
         <Text>
             <GUID>1999002354</GUID>
-            <Text>Halloween Tables</Text>
+            <Text>万圣节环树圆桌</Text>
         </Text>
         <Text>
             <GUID>1999002355</GUID>
-            <Text>Gather around and enjoy seasonal dishes delivered by vampire waitresses and zombie waiters. Sometimes a visitor throws his knife into the bark of the tree in the middle of the tables. This splatters red tree sap onto the surrounding guests.</Text>
+            <Text>聚集在一起，享受由吸血鬼和僵尸服务员提供的万圣节特供食品。有时客人会把刀飞中间的树皮里。红色的树液则会溅到周围的客人身上。</Text>
         </Text>
         <Text>
             <GUID>1999002356</GUID>
-            <Text>Spooky Halloween Well</Text>
+            <Text>阴森的万圣节水井</Text>
         </Text>
         <Text>
             <GUID>1999002357</GUID>
-            <Text>One day a child fell into the well and was never found again. Since then, the water of the well is undrinkable and anyone who gets too close to it is overcome by a cold shiver.</Text>
+            <Text>一天，一个孩子掉进了井里，就再也找不到了。从那时起，这口井里的水就不能喝了，任何靠近它的人都会打寒颤。</Text>
         </Text>
         <Text>
             <GUID>1999002358</GUID>
-            <Text>Halloween Cauldron</Text>
+            <Text>万圣节大煮锅</Text>
         </Text>
         <Text>
             <GUID>1999002359</GUID>
-            <Text>Old witches dance around the cauldron, thick poison slowly bubbles away and foul-smelling vapours rise into the night sky. Stay back or you will become the next ingredient in the potion of the living dead.</Text>
+            <Text>老巫婆围着坩埚跳舞，里面浓稠的毒药慢慢冒出来，蒸发成难闻的蒸汽慢慢飘上夜空。快跑！小心巫婆拿你炼药。</Text>
         </Text>
         <Text>
             <GUID>1999002360</GUID>
-            <Text>Halloween Tree</Text>
+            <Text>万圣节大树</Text>
         </Text>
         <Text>
             <GUID>1999002361</GUID>
-            <Text>An old gnarled tree decorated for the coming Halloween celebration.</Text>
+            <Text>一棵枝丫繁多的老树，为即将到来的万圣节庆祝活动而装扮起来。</Text>
         </Text>
         <Text>
             <GUID>1999002362</GUID>
-            <Text>Halloween Marketplace</Text>
+            <Text>万圣节市场</Text>
         </Text>
         <Text>
             <GUID>1999002363</GUID>
-            <Text>Halloween Marketplace</Text>
+            <Text>万圣节市场</Text>
         </Text>
         <Text>
             <GUID>1999002364</GUID>
-            <Text>The pumpkin season has begun! After the harvest festival, the stalls are richly filled with autumn vegetables, decorations and plants. Ghostly red light spreads an air of mystery. Scarecrows in disguise give visitors a good scare, and tonight the biggest pumpkin in the country will be crowned.</Text>
+            <Text>南瓜季节已经开始了！庆祝过收获节后，摊位上摆满了秋天的蔬菜、饰品和植物。摊位上星星点点的红色幽光，营造出一种神秘的气氛。精心打扮过的稻草人给游客带来了很大的惊吓。今晚，今年种出的最大南瓜将被加冕。</Text>
         </Text>
         <Text>
             <GUID>1999002370</GUID>
-            <Text>Halloween Ornaments</Text>
+            <Text>万圣节装扮</Text>
         </Text>
         <Text>
             <GUID>1999002369</GUID>
-            <Text>Spooky Ornamental Buildings</Text>
+            <Text>吓人的装饰建筑</Text>
         </Text>
         <Text>
             <GUID>1999002365</GUID>
-            <Text>Halloween Church</Text>
+            <Text>万圣节教堂</Text>
         </Text>
         <Text>
             <GUID>1999002366</GUID>
-            <Text>Halloween Church</Text>
+            <Text>万圣节教堂</Text>
         </Text>
         <Text>
             <GUID>1999002367</GUID>
-            <Text>Once upon a time, one of the local priests decided to enter the catacombs beneath this old church. He didn't return from the journey. Ever since, the church's backyard transformed more and more into a spooky, misty graveyard, and some people swear, they saw gravestones and crupts popping up out of nowhere. Nevertheless, some strange cultists have began praying in the church and stenches of blood could be seen at the doorstep. Better to not mess with those folks!</Text>
+            <Text>从前，一位当地的牧师决定进入这座古老教堂下面的地下墓穴。他再也没有回来。自此，教堂的后院逐渐变成了一个阴森的墓地。有些人发誓，他们看到墓碑和腐肉不知从哪里冒出来。不知道什么时候起，一些奇怪的教徒开始在教堂祈祷，门阶上可以看到他们带来的血腥气。最好别惹那些人！</Text>
         </Text>
     </ModOp>
 

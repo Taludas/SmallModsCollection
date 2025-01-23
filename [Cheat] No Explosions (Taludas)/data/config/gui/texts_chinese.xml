@@ -2,11 +2,11 @@
   <ModOp Type="add" Path="/TextExport/Texts">
     <Text>
       <GUID>1999003250</GUID>
-      <Text>Safe Stowage</Text>
+      <Text>安全生产</Text>
     </Text>
     <Text>
       <GUID>1999003251</GUID>
-      <Text>Thorough training on safe stowage in factory warehouses will enable your employees to avoid " happy accidents".</Text>
+      <Text>工厂的全面培训将使你的员工避免“懈怠事故”。</Text>
     </Text>
   </ModOp>
 </ModOps>

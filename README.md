@@ -20,6 +20,17 @@ If you like these mods and want to support me, feel free to share it with your f
 You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
+
+<details>
+    <summary>Patch Notes Version 1.11.0</summary>
+
+* Addition:
+  - add Bar Flag Fix mod: resolves the issue that the bar from the Tourism DLC uses the flag from the mezcal bar in the NW.
+
+* update chinese translations by hanthe2th
+* add ModioResourceId to all mods
+
+</details>
 <details>
     <summary>Patch Notes Version 1.10.0</summary>
 
@@ -401,3 +412,10 @@ A simple mod to synchronize the ingame time of the Day-Night-Cycle to your local
 ![banner](https://github.com/Taludas/SmallModsCollection/assets/64583643/e9f99a2e-90b7-473d-bc94-c98cbae0ecc0)
 
 This small mod fixes various texture bugs with DLC vehicle and inhabitant feedbackunits, visible as white textures on certain zoom levels.
+
+-----
+
+### Bar Flag Fixes
+![banner](https://github.com/user-attachments/assets/1dcb0eae-fbb7-44d2-8b18-eab52343f452)
+
+This small mod fixes the issue that the bar from the Tourism DLC uses the flag from the mezcal bar from New World Rising in the NW.
