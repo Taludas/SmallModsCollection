@@ -22,6 +22,12 @@ You can find a gallery of images from my mod [here](docs/).
 ## Changelog
 
 <details>
+    <summary>Patch Notes Version 1.12.0</summary>
+
+* add compatibility with New Horizons for Mineslot Unification
+
+</details>
+<details>
     <summary>Patch Notes Version 1.11.0</summary>
 
 * Addition:

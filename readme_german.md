@@ -19,7 +19,12 @@ Wenn ihr diese Mods mögt und mich unterstützen wollt, könnt ihr sie gerne mit
 Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
+<details>
+    <summary>Patch Notes Version 1.12.0</summary>
 
+* Kompatibilität mit New Horizons für Mineslot Unification hinzugefügt
+
+</details>
 <details>
     <summary>Patch Notes Version 1.11.0</summary>
 
