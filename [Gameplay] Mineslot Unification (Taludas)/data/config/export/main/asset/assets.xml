@@ -699,4 +699,347 @@
     </Item>
   </ModOp>
 
+  <!-- New Horizons Compatibility -->
+  <Group Condition="#NewHorizons">
+    <ModOp Type="replace" GUID="1447800,1447803" Path="/Values/Object/Variations">
+      <Variations>
+        <Item>
+          <Filename>data/modgraphics/models/blocker_opencast_mine/blocker_opencast_mine.cfg</Filename>
+        </Item>
+      </Variations>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="1447800,1447803" Path="/Values/Standard/IconFilename">
+      <IconFilename>data/ui/2kimages/main/3dicons/consumables/icon_ore_finder_1.png</IconFilename>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="133700001" Path="/Values/Region/SlotBuildings">
+      <SlotBuildings>
+        <Gas>
+            <Building>0</Building>
+        </Gas>
+        <Clay>
+            <Building>0</Building>
+        </Clay>
+        <GoldOre>
+            <Building>0</Building>
+        </GoldOre>
+        <Coal>
+            <Building>0</Building>
+        </Coal>
+        <Iron>
+            <Building>0</Building>
+        </Iron>
+        <Tin>
+            <Building>0</Building>
+        </Tin>
+        <Copper>
+            <Building>0</Building>
+        </Copper>
+        <Cement>
+            <Building>0</Building>
+        </Cement>
+      </SlotBuildings>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="1441237,1441327,1441239,1441214" Path="/Values/Slot/SlotType">
+      <SlotType>Iron</SlotType>
+    </ModOp>
+
+    <ModOp Type="replace" GUID="1441241,1441213" Path="/Values/Slot/SlotType">
+      <SlotType>Clay</SlotType>
+    </ModOp>
+
+    <ModOp Type="addNextSibling" GUID="130248">
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002323</GUID>
+            <Name>Trigger: Change Feldspar slots to Iron</Name>
+          </Standard>
+          <Locked />
+          <Trigger>
+            <TriggerCondition>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <Condition />
+                <ConditionAlwaysTrue />
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionSetObjectGUID</Template>
+                  <Values>
+                    <Action />
+                    <ActionSetObjectGUID>
+                      <NewGUID>1010501</NewGUID>
+                    </ActionSetObjectGUID>
+                    <ObjectFilter>
+                      <ObjectGUID>1447801</ObjectGUID>
+                    </ObjectFilter>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionResetTrigger</Template>
+                  <Values>
+                    <Action />
+                    <ActionResetTrigger />
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup>
+            <AutoRegisterTrigger>1</AutoRegisterTrigger>
+            <UsedBySecondParties>0</UsedBySecondParties>
+          </TriggerSetup>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002324</GUID>
+            <Name>Trigger: Change IronAsia slots to Iron</Name>
+          </Standard>
+          <Locked />
+          <Trigger>
+            <TriggerCondition>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <Condition />
+                <ConditionAlwaysTrue />
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionSetObjectGUID</Template>
+                  <Values>
+                    <Action />
+                    <ActionSetObjectGUID>
+                      <NewGUID>1010501</NewGUID>
+                    </ActionSetObjectGUID>
+                    <ObjectFilter>
+                      <ObjectGUID>1447805</ObjectGUID>
+                    </ObjectFilter>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionResetTrigger</Template>
+                  <Values>
+                    <Action />
+                    <ActionResetTrigger />
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup>
+            <AutoRegisterTrigger>1</AutoRegisterTrigger>
+            <UsedBySecondParties>0</UsedBySecondParties>
+          </TriggerSetup>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002325</GUID>
+            <Name>Trigger: Change Aluminium slots to Iron</Name>
+          </Standard>
+          <Locked />
+          <Trigger>
+            <TriggerCondition>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <Condition />
+                <ConditionAlwaysTrue />
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionSetObjectGUID</Template>
+                  <Values>
+                    <Action />
+                    <ActionSetObjectGUID>
+                      <NewGUID>1010501</NewGUID>
+                    </ActionSetObjectGUID>
+                    <ObjectFilter>
+                      <ObjectGUID>1447807</ObjectGUID>
+                    </ObjectFilter>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionResetTrigger</Template>
+                  <Values>
+                    <Action />
+                    <ActionResetTrigger />
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup>
+            <AutoRegisterTrigger>1</AutoRegisterTrigger>
+            <UsedBySecondParties>0</UsedBySecondParties>
+          </TriggerSetup>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002326</GUID>
+            <Name>Trigger: Change Coal slots to Iron</Name>
+          </Standard>
+          <Locked />
+          <Trigger>
+            <TriggerCondition>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <Condition />
+                <ConditionAlwaysTrue />
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionSetObjectGUID</Template>
+                  <Values>
+                    <Action />
+                    <ActionSetObjectGUID>
+                      <NewGUID>1010501</NewGUID>
+                    </ActionSetObjectGUID>
+                    <ObjectFilter>
+                      <ObjectGUID>1447808</ObjectGUID>
+                    </ObjectFilter>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionResetTrigger</Template>
+                  <Values>
+                    <Action />
+                    <ActionResetTrigger />
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup>
+            <AutoRegisterTrigger>1</AutoRegisterTrigger>
+            <UsedBySecondParties>0</UsedBySecondParties>
+          </TriggerSetup>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002327</GUID>
+            <Name>Trigger: Change ClayAsia slots to Clay</Name>
+          </Standard>
+          <Locked />
+          <Trigger>
+            <TriggerCondition>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <Condition />
+                <ConditionAlwaysTrue />
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionSetObjectGUID</Template>
+                  <Values>
+                    <Action />
+                    <ActionSetObjectGUID>
+                      <NewGUID>101061</NewGUID>
+                    </ActionSetObjectGUID>
+                    <ObjectFilter>
+                      <ObjectGUID>1447803</ObjectGUID>
+                    </ObjectFilter>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionResetTrigger</Template>
+                  <Values>
+                    <Action />
+                    <ActionResetTrigger />
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup>
+            <AutoRegisterTrigger>1</AutoRegisterTrigger>
+            <UsedBySecondParties>0</UsedBySecondParties>
+          </TriggerSetup>
+        </Values>
+      </Asset>
+      <Asset>
+        <Template>Trigger</Template>
+        <Values>
+          <Standard>
+            <GUID>1999002328</GUID>
+            <Name>Trigger: Change Kaolin slots to Clay</Name>
+          </Standard>
+          <Locked />
+          <Trigger>
+            <TriggerCondition>
+              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
+              <Values>
+                <Condition />
+                <ConditionAlwaysTrue />
+              </Values>
+            </TriggerCondition>
+            <TriggerActions>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionSetObjectGUID</Template>
+                  <Values>
+                    <Action />
+                    <ActionSetObjectGUID>
+                      <NewGUID>101061</NewGUID>
+                    </ActionSetObjectGUID>
+                    <ObjectFilter>
+                      <ObjectGUID>1447800</ObjectGUID>
+                    </ObjectFilter>
+                  </Values>
+                </TriggerAction>
+              </Item>
+              <Item>
+                <TriggerAction>
+                  <Template>ActionResetTrigger</Template>
+                  <Values>
+                    <Action />
+                    <ActionResetTrigger />
+                  </Values>
+                </TriggerAction>
+              </Item>
+            </TriggerActions>
+          </Trigger>
+          <TriggerSetup>
+            <AutoRegisterTrigger>1</AutoRegisterTrigger>
+            <UsedBySecondParties>0</UsedBySecondParties>
+          </TriggerSetup>
+        </Values>
+      </Asset>
+    </ModOp>
+  </Group>
+
 </ModOps>

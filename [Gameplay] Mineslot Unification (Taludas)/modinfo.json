@@ -1,9 +1,15 @@
 {
-  "Version": "1.1",
+  "Version": "1.2",
   "ModID": "Taludas_MineSlotUnification",
   "IncompatibleIds": null,
   "ModDependencies": null,
   "ModioResourceId": 3227653,
+  "LoadAfterIds": [
+    "NewHorizons",
+		"new_horizons_fertilities",
+    "new_horizons_factories",
+    "new_horizons_session"
+  ],
   "Category": {
     "Chinese": "Gameplay",
     "English": "Gameplay",
