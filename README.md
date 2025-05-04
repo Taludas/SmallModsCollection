@@ -22,6 +22,12 @@ You can find a gallery of images from my mod [here](docs/).
 ## Changelog
 
 <details>
+    <summary>Patch Notes Version 1.12.1</summary>
+
+* [Mineslot Unification]: Fix issue with vanishing mine slots in Horai if mod is activated before the session is discovered for the first time. NOTE: If you're savegame is already affected by the bug and you have no mine slots in Horai, after installing the new version of Mineslot Unification, you need to return to a savegame prior to Horai's discovery and redo the Expedition (and also possibly everthing you have built inside the session to this point). BIG SORRY for that.
+
+</details>
+<details>
     <summary>Patch Notes Version 1.12.0</summary>
 
 * add compatibility with New Horizons for Mineslot Unification

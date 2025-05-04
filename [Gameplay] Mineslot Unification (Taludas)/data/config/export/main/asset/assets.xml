@@ -33,6 +33,9 @@
       <Item>
         <NewAsset>1010507</NewAsset>
       </Item>
+      <Item>
+        <NewAsset>1447805</NewAsset>
+      </Item>
     </Replacements>
   </ModOp>
 
@@ -713,6 +716,10 @@
       <IconFilename>data/ui/2kimages/main/3dicons/consumables/icon_ore_finder_1.png</IconFilename>
     </ModOp>
 
+    <ModOp Type="replace" GUID="1447805" Path="/Values/Standard/IconFilename">
+      <IconFilename>data/ui/2kimages/main/3dicons/icon_mineral_desposits.png</IconFilename>
+    </ModOp>
+
     <ModOp Type="replace" GUID="133700001" Path="/Values/Region/SlotBuildings">
       <SlotBuildings>
         <Gas>
@@ -755,7 +762,7 @@
         <Template>Trigger</Template>
         <Values>
           <Standard>
-            <GUID>1999002323</GUID>
+            <GUID>1999002319</GUID>
             <Name>Trigger: Change Feldspar slots to Iron</Name>
           </Standard>
           <Locked />
@@ -774,7 +781,7 @@
                   <Values>
                     <Action />
                     <ActionSetObjectGUID>
-                      <NewGUID>1010501</NewGUID>
+                      <NewGUID>1447805</NewGUID>
                     </ActionSetObjectGUID>
                     <ObjectFilter>
                       <ObjectGUID>1447801</ObjectGUID>
@@ -803,55 +810,7 @@
         <Template>Trigger</Template>
         <Values>
           <Standard>
-            <GUID>1999002324</GUID>
-            <Name>Trigger: Change IronAsia slots to Iron</Name>
-          </Standard>
-          <Locked />
-          <Trigger>
-            <TriggerCondition>
-              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-              <Values>
-                <Condition />
-                <ConditionAlwaysTrue />
-              </Values>
-            </TriggerCondition>
-            <TriggerActions>
-              <Item>
-                <TriggerAction>
-                  <Template>ActionSetObjectGUID</Template>
-                  <Values>
-                    <Action />
-                    <ActionSetObjectGUID>
-                      <NewGUID>1010501</NewGUID>
-                    </ActionSetObjectGUID>
-                    <ObjectFilter>
-                      <ObjectGUID>1447805</ObjectGUID>
-                    </ObjectFilter>
-                  </Values>
-                </TriggerAction>
-              </Item>
-              <Item>
-                <TriggerAction>
-                  <Template>ActionResetTrigger</Template>
-                  <Values>
-                    <Action />
-                    <ActionResetTrigger />
-                  </Values>
-                </TriggerAction>
-              </Item>
-            </TriggerActions>
-          </Trigger>
-          <TriggerSetup>
-            <AutoRegisterTrigger>1</AutoRegisterTrigger>
-            <UsedBySecondParties>0</UsedBySecondParties>
-          </TriggerSetup>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>Trigger</Template>
-        <Values>
-          <Standard>
-            <GUID>1999002325</GUID>
+            <GUID>1999002320</GUID>
             <Name>Trigger: Change Aluminium slots to Iron</Name>
           </Standard>
           <Locked />
@@ -870,7 +829,7 @@
                   <Values>
                     <Action />
                     <ActionSetObjectGUID>
-                      <NewGUID>1010501</NewGUID>
+                      <NewGUID>1447805</NewGUID>
                     </ActionSetObjectGUID>
                     <ObjectFilter>
                       <ObjectGUID>1447807</ObjectGUID>
@@ -899,7 +858,7 @@
         <Template>Trigger</Template>
         <Values>
           <Standard>
-            <GUID>1999002326</GUID>
+            <GUID>1999002321</GUID>
             <Name>Trigger: Change Coal slots to Iron</Name>
           </Standard>
           <Locked />
@@ -918,7 +877,7 @@
                   <Values>
                     <Action />
                     <ActionSetObjectGUID>
-                      <NewGUID>1010501</NewGUID>
+                      <NewGUID>1447805</NewGUID>
                     </ActionSetObjectGUID>
                     <ObjectFilter>
                       <ObjectGUID>1447808</ObjectGUID>

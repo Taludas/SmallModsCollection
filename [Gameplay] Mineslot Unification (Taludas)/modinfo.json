@@ -1,5 +1,5 @@
 {
-  "Version": "1.2",
+  "Version": "1.2.1",
   "ModID": "Taludas_MineSlotUnification",
   "IncompatibleIds": null,
   "ModDependencies": null,
@@ -8,7 +8,18 @@
     "NewHorizons",
 		"new_horizons_fertilities",
     "new_horizons_factories",
-    "new_horizons_session"
+    "new_horizons_session",
+    "new_horizons_languages",
+    "new_horizons_text_english",
+    "new_horizons_text_spanish",
+    "new_horizons_text_russian",
+    "new_horizons_text_polish",
+    "new_horizons_text_korean",
+    "new_horizons_text_japanese",
+    "new_horizons_text_german",
+    "new_horizons_text_french",
+    "new_horizons_text_taiwanese",
+    "new_horizons_text_chinese"
   ],
   "Category": {
     "Chinese": "Gameplay",
