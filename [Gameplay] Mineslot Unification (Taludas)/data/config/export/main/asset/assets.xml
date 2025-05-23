@@ -906,54 +906,6 @@
         <Template>Trigger</Template>
         <Values>
           <Standard>
-            <GUID>1999002327</GUID>
-            <Name>Trigger: Change ClayAsia slots to Clay</Name>
-          </Standard>
-          <Locked />
-          <Trigger>
-            <TriggerCondition>
-              <IsBaseAutoCreateAsset>1</IsBaseAutoCreateAsset>
-              <Values>
-                <Condition />
-                <ConditionAlwaysTrue />
-              </Values>
-            </TriggerCondition>
-            <TriggerActions>
-              <Item>
-                <TriggerAction>
-                  <Template>ActionSetObjectGUID</Template>
-                  <Values>
-                    <Action />
-                    <ActionSetObjectGUID>
-                      <NewGUID>101061</NewGUID>
-                    </ActionSetObjectGUID>
-                    <ObjectFilter>
-                      <ObjectGUID>1447803</ObjectGUID>
-                    </ObjectFilter>
-                  </Values>
-                </TriggerAction>
-              </Item>
-              <Item>
-                <TriggerAction>
-                  <Template>ActionResetTrigger</Template>
-                  <Values>
-                    <Action />
-                    <ActionResetTrigger />
-                  </Values>
-                </TriggerAction>
-              </Item>
-            </TriggerActions>
-          </Trigger>
-          <TriggerSetup>
-            <AutoRegisterTrigger>1</AutoRegisterTrigger>
-            <UsedBySecondParties>0</UsedBySecondParties>
-          </TriggerSetup>
-        </Values>
-      </Asset>
-      <Asset>
-        <Template>Trigger</Template>
-        <Values>
-          <Standard>
             <GUID>1999002328</GUID>
             <Name>Trigger: Change Kaolin slots to Clay</Name>
           </Standard>
@@ -973,7 +925,7 @@
                   <Values>
                     <Action />
                     <ActionSetObjectGUID>
-                      <NewGUID>101061</NewGUID>
+                      <NewGUID>1447803</NewGUID>
                     </ActionSetObjectGUID>
                     <ObjectFilter>
                       <ObjectGUID>1447800</ObjectGUID>
@@ -999,6 +951,9 @@
         </Values>
       </Asset>
     </ModOp>
+
+    <!-- Fix for people from v1.2.1 and using NH-->
+    <ModOp Type="add" GUID="101061" Path="/Values/Building/AssociatedRegions">;Mod2</ModOp>
   </Group>
 
 </ModOps>

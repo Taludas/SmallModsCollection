@@ -20,6 +20,12 @@ Du kannst eine Galerie von Bildern von meiner Mod [hier](docs/) finden.
 
 ## Changelog
 <details>
+    <summary>Patch Notes Version 1.12.2</summary>
+
+* [Mineslot Unification]: Kompatibilitätsfix für New Horizons, Behebung eines Problems mit den Oberflächen Rohstoffvorkommen, die in der Horai-Session nicht verschoben werden konnten.
+
+</details>
+<details>
     <summary>Patch Notes Version 1.12.1</summary>
 
 * [Mineslot Unification]: Behebung des Problems mit verschwindenden Minenplätzen in Horai, wenn der Mod aktiviert wird, bevor die Session zum ersten Mal entdeckt wird. HINWEIS: Wenn euer Savegame bereits von dem Fehler betroffen ist und ihr keine Minenplätze in Horai seht, müsst ihr nach der Installation der neuen Version von Mineslot Unification zu einem Savegame VOR der Entdeckung von Horai zurückkehren und die Expedition (und möglicherweise auch alles, was ihr bis zu diesem Zeitpunkt innerhalb der Session gebaut habt) erneut machen. GROßES SORRY dafür.

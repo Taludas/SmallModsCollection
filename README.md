@@ -20,7 +20,12 @@ If you like these mods and want to support me, feel free to share it with your f
 You can find a gallery of images from my mod [here](docs/).
 
 ## Changelog
+<details>
+    <summary>Patch Notes Version 1.12.2</summary>
 
+* [Mineslot Unification]: Compatibility fix for New Horizons, fix an issue with opencast resource deposits that could not be moved in the Horai session.
+
+</details>
 <details>
     <summary>Patch Notes Version 1.12.1</summary>
 
