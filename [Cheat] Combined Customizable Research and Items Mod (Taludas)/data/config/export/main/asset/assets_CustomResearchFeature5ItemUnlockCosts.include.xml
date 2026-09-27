@@ -34,5 +34,10 @@
         </PostProgress>
     </ModOp>
     <ImyaExpose Path="self::PostProgress/ValueIncrease" ModOpID="CustomProgressFollowingSteps" ExposeID="Research Point Cost to Unlock each following Item" Description="Cost Increase for each following Unlock of an Item."></ImyaExpose>
+    <!-- define maximum research point cost for unlocking items -->
+    <ModOp Path="/Values/ProgressBalancing" GUID="123401" Type="add" ModOpID="ItemMaxUnlockCost" Skip="1">
+        <AbsoluteLimit>250000</AbsoluteLimit>
+    </ModOp>
+    <ImyaExpose Path="self::AbsoluteLimit" ModOpID="ItemMaxUnlockCost" ExposeID="Research Point Limit for unlocking items" Description="Sets the maximum research point cost for unlocking the next set of itmes."></ImyaExpose>
 
 </ModOps>
