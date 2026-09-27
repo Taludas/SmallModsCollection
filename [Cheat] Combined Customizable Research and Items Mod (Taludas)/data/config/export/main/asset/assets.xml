@@ -1,12 +1,12 @@
 <ModOps>
     <ImyaTweaks Title="Features of Combined Customizable Research and Items Mod" Description="Use the panels below to turn on or off entire Features of the mod. You can use the value entries to further fine tune your experience." Icon="data/ui/2kimages/main/icons/icon_research_resource.png" />
 
-    <!-- #Items Stackable --> 
+    <!-- #Items Stackable -->
     <Include File="assets_CustomItemStackable.include.xml" />
 
-    <!-- #ItemtransferFeature --> 
+    <!-- #ItemtransferFeature -->
     <Include File="assets_CustomItemTransfer.include.xml" />
-    
+
     <!-- #ResearchFeature -->
     <Include File="assets_CustomResearchFeature0.include.xml" />
 
@@ -19,12 +19,12 @@
 
     <!-- #Godlikes -->
     <Include File="assets_CustomResearchFeature3Godlikes.include.xml" />
-   
+
     <!-- #Scholar Permits -->
     <Include File="assets_CustomResearchFeature4ScholarPermits.include.xml" />
 
     <!-- #Research Cost Config -->
-    <Include File="assets_CustomResearchFeature00ResearchPointsLimit.include.xml" />  
+    <Include File="assets_CustomResearchFeature00ResearchPointsLimit.include.xml" />
 
     <Include File="assets_CustomResearchFeature5ItemUnlockCosts.include.xml" />
 

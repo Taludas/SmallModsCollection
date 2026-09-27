@@ -21,12 +21,12 @@
         </Item>
     </ModOp>
 
-    <ModOp Type="add" GUID="962,963" Path="/Values/Selection">
+    <ModOp Type="add" GUID="962,963,4258" Path="/Values/Selection">
         <UnlockSecondGUI>1500300092</UnlockSecondGUI>
         <SecondGUIType>Pier</SecondGUIType>
     </ModOp>
 
-    <ModOp Type="add" GUID="962,963" Path="/Values/LoadingPier">
+    <ModOp Type="add" GUID="962,963,4258" Path="/Values/LoadingPier">
         <AllowExclusiveTrading>1</AllowExclusiveTrading>
     </ModOp>
 
